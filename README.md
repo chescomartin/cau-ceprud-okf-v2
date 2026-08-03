@@ -4,6 +4,8 @@ okf_version: "0.2"
 
 # Base de conocimiento del CAU del CEPRUD
 
+[![Validar repositorio OKF](https://github.com/chescomartin/cau-ceprud-okf/actions/workflows/validar-okf.yml/badge.svg)](https://github.com/chescomartin/cau-ceprud-okf/actions/workflows/validar-okf.yml)
+
 Este repositorio organiza el conocimiento utilizado para atender y resolver consultas e incidencias del CAU del CEPRUD.
 
 ## Servicios
