@@ -15,6 +15,9 @@
 - Alta de un segundo docente en un EDI
 - Creación manual de un Espacio Docente de Pruebas Personal —EDPP—
 - Gestión de docentes en un Espacio Docente de Prácticas
+- [Solicitud de creación de espacios del alumnado y de TFG](solicitud-creacion-espacios-alumnado-tfg.md)
+
+
 
 ## Usuarios, acceso y participación
 
