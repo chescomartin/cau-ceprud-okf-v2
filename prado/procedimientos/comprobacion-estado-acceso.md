@@ -5,9 +5,12 @@ description: Procedimiento para determinar por qué una persona no puede acceder
 service: PRADO
 audience: personal-cau
 status: draft
-owner: por-definir
+owner: FOL
 usual_ticket_category: Acceso
 language: es
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -93,7 +96,7 @@ Verificar:
 
 ### 3. Comprobar el Proveedor de identidad
 
-Revisar la información disponible en el [Proveedor de identidad —IdP—](../conceptos-y-reglas/proveedor-identidad-idp.md).
+Revisar la información disponible en el [Proveedor de identidad —IdP—](/prado/conceptos-y-reglas/proveedor-identidad-idp.md).
 
 Comprobar:
 
@@ -104,7 +107,7 @@ Comprobar:
 
 ### 4. Consultar el estado en Oficina Virtual
 
-Para el alumnado, revisar la [Consulta de Estado para Acceso a PRADO en Oficina Virtual](../conceptos-y-reglas/consulta-estado-acceso-prado.md).
+Para el alumnado, revisar la [Consulta de Estado para Acceso a PRADO en Oficina Virtual](/prado/conceptos-y-reglas/consulta-estado-acceso-prado.md).
 
 Comprobar:
 
@@ -118,12 +121,12 @@ Comprobar:
 Cuando no exista un bloqueo administrativo:
 
 - para alumnado, revisar la matrícula oficial;
-- para profesorado, revisar el [Plan de Ordenación Docente —POD—](../conceptos-y-reglas/plan-ordenacion-docente.md);
-- utilizar las [vistas de bases de datos](../conceptos-y-reglas/vistas-bases-datos.md) cuando sea necesario.
+- para profesorado, revisar el [Plan de Ordenación Docente —POD—](/prado/conceptos-y-reglas/plan-ordenacion-docente.md);
+- utilizar las [vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md) cuando sea necesario.
 
 ### 6. Comprobar los plazos de actualización
 
-Si la secretaría o el departamento ha realizado una modificación reciente, aplicar los [plazos de sincronización y actualización](../conceptos-y-reglas/plazos-sincronizacion.md).
+Si la secretaría o el departamento ha realizado una modificación reciente, aplicar los [plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md).
 
 ## Árbol de decisión
 
@@ -133,7 +136,7 @@ Si la secretaría o el departamento ha realizado una modificación reciente, apl
 2. indicar el centro responsable;
 3. remitir a la secretaría correspondiente;
 4. no intentar retirar el bloqueo desde PRADO;
-5. clasificar el ticket como [Incidencia administrativa](../iris/incidencia-administrativa.md).
+5. clasificar el ticket como [Incidencia administrativa](/prado/iris/incidencia-administrativa.md).
 
 ### Caso 2. La incidencia administrativa ya se ha retirado
 
@@ -154,8 +157,8 @@ Si la secretaría o el departamento ha realizado una modificación reciente, apl
 
 1. no realizar un alta manual ordinaria;
 2. indicar que debe revisarse la asignación en origen;
-3. aplicar el procedimiento [El docente no ve una asignatura o un grupo](docente-no-ve-asignatura.md);
-4. clasificar el ticket como [Ordenación docente](../iris/ordenacion-docente.md).
+3. aplicar el procedimiento [El docente no ve una asignatura o un grupo](/prado/procedimientos/docente-no-ve-asignatura.md);
+4. clasificar el ticket como [Ordenación docente](/prado/iris/ordenacion-docente.md).
 
 ### Caso 5. La situación administrativa y académica es correcta
 
@@ -163,7 +166,7 @@ Si la secretaría o el departamento ha realizado una modificación reciente, apl
 2. comprobar el mensaje de error;
 3. descartar una cuenta incorrecta o duplicada;
 4. revisar si el problema afecta únicamente a la autenticación;
-5. clasificar el ticket como [Acceso](../iris/acceso.md).
+5. clasificar el ticket como [Acceso](/prado/iris/acceso.md).
 
 ### Caso 6. No se determina la causa
 
@@ -237,22 +240,22 @@ Un saludo.
 
 ## Conceptos relacionados
 
-- [Proveedor de identidad —IdP—](../conceptos-y-reglas/proveedor-identidad-idp.md)
-- [Consulta de Estado para Acceso a PRADO en Oficina Virtual](../conceptos-y-reglas/consulta-estado-acceso-prado.md)
-- [Incidencia administrativa](../conceptos-y-reglas/incidencia-administrativa.md)
-- [Vistas de bases de datos](../conceptos-y-reglas/vistas-bases-datos.md)
-- [Plazos de sincronización y actualización](../conceptos-y-reglas/plazos-sincronizacion.md)
+- [Proveedor de identidad —IdP—](/prado/conceptos-y-reglas/proveedor-identidad-idp.md)
+- [Consulta de Estado para Acceso a PRADO en Oficina Virtual](/prado/conceptos-y-reglas/consulta-estado-acceso-prado.md)
+- [Incidencia administrativa](/prado/conceptos-y-reglas/incidencia-administrativa.md)
+- [Vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
 
 ## Categorías de IRIS relacionadas
 
-- [Acceso](../iris/acceso.md)
-- [Incidencia administrativa](../iris/incidencia-administrativa.md)
-- Matrícula
-- [Ordenación docente](../iris/ordenacion-docente.md)
-- Sin resolver
+- [Acceso](/prado/iris/acceso.md)
+- [Incidencia administrativa](/prado/iris/incidencia-administrativa.md)
+- [Matrícula](/prado/iris/matricula.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
+- [Sin resolver](/prado/iris/sin-resolver.md)
 
 ## Procedimientos relacionados
 
-- Problemas de acceso o verificación en dos pasos
-- [El docente no ve una asignatura o un grupo](docente-no-ve-asignatura.md)
-- [Acceso de un docente externo](acceso-docente-externo.md)
+- [Problemas de acceso o verificación en dos pasos](/prado/procedimientos/problemas-acceso-verificacion-dos-pasos.md)
+- [El docente no ve una asignatura o un grupo](/prado/procedimientos/docente-no-ve-asignatura.md)
+- [Acceso de un docente externo](/prado/procedimientos/acceso-docente-externo.md)

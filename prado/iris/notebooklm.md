@@ -1,10 +1,15 @@
 ---
-type: KnowledgeDocument
+type: TicketCategory
 title: NotebookLM
 description: Tema de ayuda de IRIS para consultas o incidencias relacionadas con NotebookLM.
 service: CEPRUD
-status: draft
+status: placeholder
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - iris
@@ -59,7 +64,7 @@ Debe documentarse:
 
 ## Documentos relacionados
 
-- [Temas de ayuda de IRIS](../temas-de-ayuda/index.md)
-- [Categorías de IRIS](index.md)
-- [Acceso](acceso.md)
-- [INFO: General](info-general.md)
+- [Temas de ayuda de IRIS](/prado/temas-de-ayuda/index.md)
+- [Categorías de IRIS](/prado/iris/index.md)
+- [Acceso](/prado/iris/acceso.md)
+- [INFO: General](/prado/iris/info-general.md)

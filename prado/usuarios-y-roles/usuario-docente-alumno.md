@@ -1,10 +1,15 @@
 ---
-type: KnowledgeDocument
+type: UserType
 title: Usuario con perfil docente y alumno
 description: Definición y particularidades de acceso de una persona que participa en PRADO como docente y como estudiante.
 service: PRADO
 status: draft
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -63,7 +68,7 @@ Debe distinguirse entre:
 
 Consultar:
 
-- [Usuario o rol duplicado](../iris/usuario-rol-duplicado.md)
+- [Usuario/rol duplicado](/prado/iris/usuario-rol-duplicado.md)
 
 ## Comprobaciones habituales
 
@@ -113,7 +118,7 @@ Comprobar si se trata de:
 
 Clasificación habitual:
 
-- [Usuario o rol duplicado](../iris/usuario-rol-duplicado.md)
+- [Usuario/rol duplicado](/prado/iris/usuario-rol-duplicado.md)
 
 ### Tiene dos roles en un mismo espacio
 
@@ -138,20 +143,20 @@ Anotar:
 
 ## Conceptos relacionados
 
-- [Proveedor de identidad —IdP—](../conceptos-y-reglas/proveedor-identidad-idp.md)
-- [Altas automáticas desde bases de datos oficiales](../conceptos-y-reglas/altas-automaticas.md)
-- [Plazos de sincronización y actualización](../conceptos-y-reglas/plazos-sincronizacion.md)
-- [Vistas de bases de datos](../conceptos-y-reglas/vistas-bases-datos.md)
+- [Proveedor de identidad —IdP—](/prado/conceptos-y-reglas/proveedor-identidad-idp.md)
+- [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
+- [Vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md)
 
 ## Perfiles relacionados
 
-- [Alumno oficial](alumno-oficial.md)
-- [Docente oficial de teoría](docente-oficial-teoria.md)
-- [Docente con solo créditos prácticos](docente-creditos-practicos.md)
+- [Alumno oficial](/prado/usuarios-y-roles/alumno-oficial.md)
+- [Docente oficial de teoría](/prado/usuarios-y-roles/docente-oficial-teoria.md)
+- [Docente con solo créditos prácticos](/prado/usuarios-y-roles/docente-creditos-practicos.md)
 
 ## Categorías de IRIS relacionadas
 
-- [Acceso](../iris/acceso.md)
-- [Matrícula](../iris/matricula.md)
-- [Ordenación docente](../iris/ordenacion-docente.md)
-- [Usuario o rol duplicado](../iris/usuario-rol-duplicado.md)
+- [Acceso](/prado/iris/acceso.md)
+- [Matrícula](/prado/iris/matricula.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
+- [Usuario/rol duplicado](/prado/iris/usuario-rol-duplicado.md)

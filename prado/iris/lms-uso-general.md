@@ -1,10 +1,15 @@
 ---
-type: KnowledgeDocument
+type: TicketCategory
 title: "LMS: Uso general"
 description: Criterio de clasificación en IRIS para incidencias generales del LMS que no encajan en una categoría más específica.
 service: PRADO
 status: draft
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -13,7 +18,6 @@ tags:
   - uso-general
   - ecampus
   - abierta-ugr
-  - multimedia-ugr
 ---
 
 # LMS: Uso general
@@ -80,12 +84,12 @@ Esta ficha deberá ampliarse cuando exista información operativa suficiente.
 
 ## Documentos relacionados
 
-- [Temas de ayuda de IRIS](../temas-de-ayuda/index.md)
-- [Categorías de IRIS](index.md)
-- [LMS: Calificaciones](lms-calificaciones.md)
-- [LMS: Copias .mbz](lms-copias-mbz.md)
-- [LMS: Cuestionarios](lms-cuestionarios.md)
-- [LMS: LaTeX y marcas](lms-latex-y-marcas.md)
-- [LMS: Leganto](lms-leganto.md)
-- [LMS: Mensajería y foros](lms-mensajeria-y-foros.md)
-- [LMS: Turnitin](lms-turnitin.md)
+- [Temas de ayuda de IRIS](/prado/temas-de-ayuda/index.md)
+- [Categorías de IRIS](/prado/iris/index.md)
+- [LMS: Calificaciones](/prado/iris/lms-calificaciones.md)
+- [LMS: Copias .mbz](/prado/iris/lms-copias-mbz.md)
+- [LMS: Cuestionarios](/prado/iris/lms-cuestionarios.md)
+- [LMS: LaTeX y marcas](/prado/iris/lms-latex-y-marcas.md)
+- [LMS: Leganto](/prado/iris/lms-leganto.md)
+- [LMS: Mensajería y foros](/prado/iris/lms-mensajeria-y-foros.md)
+- [LMS: Turnitin](/prado/iris/lms-turnitin.md)

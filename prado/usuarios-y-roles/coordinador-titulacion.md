@@ -1,10 +1,15 @@
 ---
-type: KnowledgeDocument
+type: UserType
 title: Coordinador o coordinadora de titulación
 description: Definición, procedencia y funciones del perfil de coordinación de una titulación en PRADO.
 service: PRADO
 status: draft
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -43,10 +48,10 @@ Este rol le permite gestionar el espacio y, cuando proceda, incorporar manualmen
 
 La coordinación se incorpora en espacios de gestión como:
 
-- [Espacio Docente del Alumnado —EDAlum—](../espacios-docentes/espacio-docente-alumnado.md);
-- [Espacio Docente del Profesorado —EDProf—](../espacios-docentes/espacio-docente-profesorado.md);
-- [Espacio Docente de Prácticas —EDPrac—](../espacios-docentes/espacio-docente-practicas.md);
-- [Espacio Docente de TFG y TFM —EDTFG/EDTFM—](../espacios-docentes/espacio-docente-tfg-tfm.md).
+- [Espacio Docente del Alumnado —EDAlum—](/prado/espacios-docentes/espacio-docente-alumnado.md);
+- [Espacio Docente del Profesorado —EDProf—](/prado/espacios-docentes/espacio-docente-profesorado.md);
+- [Espacio Docente de Prácticas —EDPrac—](/prado/espacios-docentes/espacio-docente-practicas.md);
+- [Espacio Docente de TFG y TFM —EDTFG/EDTFM—](/prado/espacios-docentes/espacio-docente-tfg-tfm.md).
 
 La presencia concreta depende de la configuración y de los datos oficiales de cada espacio.
 
@@ -89,8 +94,8 @@ Comprobar:
 
 Clasificación habitual:
 
-- [Ordenación docente](../iris/ordenacion-docente.md)
-- [Espacios docentes](../iris/espacios-docentes.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
+- [Espacios docentes](/prado/iris/espacios-docentes.md)
 
 ### Aparece con un rol incorrecto
 
@@ -105,7 +110,7 @@ Debe comprobarse si:
 
 Clasificación habitual:
 
-- [Usuario o rol duplicado](../iris/usuario-rol-duplicado.md)
+- [Usuario/rol duplicado](/prado/iris/usuario-rol-duplicado.md)
 
 ### La coordinación solicita incorporar a otra persona
 
@@ -120,7 +125,7 @@ Comprobar:
 
 Clasificación habitual:
 
-- [Gestión manual](../iris/gestion-manual.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
 
 ### La persona afirma ser coordinadora, pero no consta oficialmente
 
@@ -145,14 +150,14 @@ Anotar:
 
 ## Conceptos relacionados
 
-- [Plan de Ordenación Docente —POD—](../conceptos-y-reglas/plan-ordenacion-docente.md)
-- [Vistas de bases de datos](../conceptos-y-reglas/vistas-bases-datos.md)
-- [Altas automáticas desde bases de datos oficiales](../conceptos-y-reglas/altas-automaticas.md)
-- [Plazos de sincronización y actualización](../conceptos-y-reglas/plazos-sincronizacion.md)
+- [Plan de Ordenación Docente —POD—](/prado/conceptos-y-reglas/plan-ordenacion-docente.md)
+- [Vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md)
+- [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
 
 ## Categorías de IRIS relacionadas
 
-- [Ordenación docente](../iris/ordenacion-docente.md)
-- [Espacios docentes](../iris/espacios-docentes.md)
-- [Gestión manual](../iris/gestion-manual.md)
-- [Usuario o rol duplicado](../iris/usuario-rol-duplicado.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
+- [Espacios docentes](/prado/iris/espacios-docentes.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
+- [Usuario/rol duplicado](/prado/iris/usuario-rol-duplicado.md)

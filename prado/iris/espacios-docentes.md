@@ -1,13 +1,19 @@
 ---
 type: TicketCategory
-title: Espacios docentes
+title: "IRIS: Espacios docentes"
 description: Tema de ayuda para incidencias y solicitudes relacionadas con espacios docentes de gestión en PRADO.
+regla_aplicable: /prado/espacios-docentes/index.md
 service: PRADO
 platforms:
   - PRADO Grado
   - PRADO Posgrado
 status: draft
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - iris
@@ -17,7 +23,13 @@ tags:
   - prado
 ---
 
-# Espacios docentes
+# IRIS: Espacios docentes
+
+> **Alcance de esta ficha: únicamente la clasificación del ticket.**
+>
+> Qué es el fenómeno y por qué se produce: [Tipos de espacios docentes de PRADO](/prado/espacios-docentes/index.md).
+> Qué se le escribe a la persona usuaria: [respuestas tipo](/respuestas-tipo/index.md).
+
 
 ## Definición
 
@@ -228,16 +240,16 @@ Un saludo.
 
 ## Conceptos relacionados
 
-- [Tipos de espacios docentes de PRADO](../espacios-docentes/index.md)
-- [Altas automáticas desde bases de datos oficiales](../conceptos-y-reglas/altas-automaticas.md)
-- [Bajas automáticas y calendario de ejecución](../conceptos-y-reglas/bajas-automaticas.md)
-- [Plazos de sincronización y actualización](../conceptos-y-reglas/plazos-sincronizacion.md)
+- [Tipos de espacios docentes de PRADO](/prado/espacios-docentes/index.md)
+- [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md)
+- [Bajas automáticas y calendario de ejecución](/prado/conceptos-y-reglas/bajas-automaticas.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
 
 ## Categorías relacionadas
 
-- [Ordenación docente](ordenacion-docente.md)
-- [Matrícula](matricula.md)
-- [Gestión manual](gestion-manual.md)
-- [Visibilidad](visibilidad.md)
-- [Acceso](acceso.md)
-- [Baja de usuario](baja-usuario.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
+- [Matrícula](/prado/iris/matricula.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
+- [Visibilidad](/prado/iris/visibilidad.md)
+- [Acceso](/prado/iris/acceso.md)
+- [Baja de usuario](/prado/iris/baja-usuario.md)

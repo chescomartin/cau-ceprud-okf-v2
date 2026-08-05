@@ -5,9 +5,12 @@ description: Procedimiento para incorporar manualmente a un docente con crédito
 service: PRADO
 audience: personal-cau
 status: draft
-owner: chesco
+owner: FOL
 usual_ticket_category: Gestión manual
 language: es
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -73,9 +76,9 @@ Comprobar que la cuenta corresponde a la persona docente indicada y que no exist
 
 Verificar que la persona:
 
-- figura en el [Plan de Ordenación Docente —POD—](../conceptos-y-reglas/plan-ordenacion-docente.md);
+- figura en el [Plan de Ordenación Docente —POD—](/prado/conceptos-y-reglas/plan-ordenacion-docente.md);
 - tiene créditos prácticos asignados;
-- aparece como [grupo SG —Sin Grupo—](../conceptos-y-reglas/grupo-sg.md) o sin un grupo concreto.
+- aparece como [grupo SG —Sin Grupo—](/prado/conceptos-y-reglas/grupo-sg.md) o sin un grupo concreto.
 
 ### 3. Identificar el grupo de destino
 
@@ -95,7 +98,7 @@ La solicitud y su justificación deben quedar registradas en el ticket.
 
 ### 5. Descartar un retraso de sincronización
 
-Aplicar los [plazos de sincronización y actualización](../conceptos-y-reglas/plazos-sincronizacion.md).
+Aplicar los [plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md).
 
 El transcurso del plazo no resolverá automáticamente un caso `SG` cuando el sistema no dispone de un grupo concreto, pero debe descartarse que exista una modificación reciente todavía no procesada.
 
@@ -110,7 +113,7 @@ Si la información oficial es correcta:
 3. realizar el alta manual;
 4. asignar el rol adecuado;
 5. registrar la actuación;
-6. clasificar el ticket como [Gestión manual](../iris/gestion-manual.md).
+6. clasificar el ticket como [Gestión manual](/prado/iris/gestion-manual.md).
 
 ### Caso 2. No figura en la asignación docente oficial
 
@@ -119,7 +122,7 @@ Si la persona no aparece en el POD:
 1. no realizar el alta manual ordinaria;
 2. informar de que la asignación debe corregirse en origen;
 3. remitir a la secretaría del departamento o unidad competente;
-4. clasificar el ticket como [Ordenación docente](../iris/ordenacion-docente.md).
+4. clasificar el ticket como [Ordenación docente](/prado/iris/ordenacion-docente.md).
 
 ### Caso 3. Figura oficialmente, pero no tiene créditos prácticos
 
@@ -182,7 +185,7 @@ La persona docente debe:
 
 La categoría habitual es:
 
-- [Gestión manual](../iris/gestion-manual.md).
+- [Gestión manual](/prado/iris/gestion-manual.md).
 
 Utilizar `Ordenación docente` cuando la causa real sea una ausencia o un error en la asignación oficial.
 
@@ -228,18 +231,18 @@ Un saludo.
 
 ## Conceptos relacionados
 
-- [Grupo SG —Sin Grupo—](../conceptos-y-reglas/grupo-sg.md)
-- [Plan de Ordenación Docente —POD—](../conceptos-y-reglas/plan-ordenacion-docente.md)
-- [Altas automáticas desde bases de datos oficiales](../conceptos-y-reglas/altas-automaticas.md)
-- [Plazos de sincronización y actualización](../conceptos-y-reglas/plazos-sincronizacion.md)
+- [Grupo SG —Sin Grupo—](/prado/conceptos-y-reglas/grupo-sg.md)
+- [Plan de Ordenación Docente —POD—](/prado/conceptos-y-reglas/plan-ordenacion-docente.md)
+- [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
 
 ## Categorías de IRIS relacionadas
 
-- [Gestión manual](../iris/gestion-manual.md)
-- [Ordenación docente](../iris/ordenacion-docente.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
 
 ## Procedimientos relacionados
 
-- [El docente no ve una asignatura o un grupo](docente-no-ve-asignatura.md)
-- Alta manual de un docente con autorización de Ordenación Académica
+- [El docente no ve una asignatura o un grupo](/prado/procedimientos/docente-no-ve-asignatura.md)
+- [Alta manual de un docente con autorización de Ordenación Académica](/prado/procedimientos/alta-manual-autorizacion-ordenacion-academica.md)
 - Docente que figura como SG y necesita asociarse a un grupo

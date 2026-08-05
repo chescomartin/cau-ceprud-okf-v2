@@ -1,17 +1,21 @@
 ---
-type: KnowledgeDocument
+type: TicketCategory
 title: "LMS: LaTeX y marcas"
 description: Criterio de clasificación en IRIS para incidencias relacionadas con la funcionalidad LaTeX y el uso de marcas.
 service: PRADO
 status: draft
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
   - iris
   - lms
   - latex
-  - marcas
   - ecampus
   - abierta-ugr
 ---
@@ -75,6 +79,6 @@ Esta ficha deberá ampliarse cuando exista información operativa suficiente.
 
 ## Documentos relacionados
 
-- [Temas de ayuda de IRIS](../temas-de-ayuda/index.md)
-- [Categorías de IRIS](index.md)
-- [LMS: Cuestionarios](lms-cuestionarios.md)
+- [Temas de ayuda de IRIS](/prado/temas-de-ayuda/index.md)
+- [Categorías de IRIS](/prado/iris/index.md)
+- [LMS: Cuestionarios](/prado/iris/lms-cuestionarios.md)

@@ -1,10 +1,15 @@
 ---
-type: KnowledgeDocument
+type: TicketCategory
 title: "DPM: Peticiones"
 description: Tema de ayuda de IRIS pendiente de definición para solicitudes relacionadas con DPM.
 service: CEPRUD
-status: draft
+status: placeholder
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - iris
@@ -37,8 +42,8 @@ Hasta que exista una definición institucional, debe utilizarse únicamente cuan
 
 Antes de seleccionarlo, debe comprobarse que el ticket no corresponde mejor a:
 
-- [DPM: Error](dpm-error.md), cuando exista un fallo;
-- [INFO: General](info-general.md), cuando sea una consulta informativa;
+- [DPM: Error](/prado/iris/dpm-error.md), cuando exista un fallo;
+- [INFO: General](/prado/iris/info-general.md), cuando sea una consulta informativa;
 - o una categoría específica de la plataforma afectada.
 
 ## Información mínima del ticket
@@ -68,6 +73,6 @@ Debe documentarse:
 
 ## Documentos relacionados
 
-- [Temas de ayuda de IRIS](../temas-de-ayuda/index.md)
-- [Categorías de IRIS](index.md)
-- [DPM: Error](dpm-error.md)
+- [Temas de ayuda de IRIS](/prado/temas-de-ayuda/index.md)
+- [Categorías de IRIS](/prado/iris/index.md)
+- [DPM: Error](/prado/iris/dpm-error.md)

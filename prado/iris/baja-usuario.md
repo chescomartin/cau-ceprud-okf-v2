@@ -1,7 +1,8 @@
 ---
 type: TicketCategory
-title: Baja de usuario
+title: "IRIS: Baja de usuario"
 description: Tema de ayuda para incidencias relacionadas con bajas, cambios de grupo o participaciones que continúan apareciendo temporalmente en PRADO.
+regla_aplicable: /prado/conceptos-y-reglas/bajas-automaticas.md
 service: PRADO
 platforms:
   - PRADO Grado
@@ -9,7 +10,12 @@ platforms:
   - E-CAMPUS
   - ABIERTA UGR
 status: draft
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - iris
@@ -20,13 +26,19 @@ tags:
   - sincronizacion
 ---
 
-# Baja de usuario
+# IRIS: Baja de usuario
+
+> **Alcance de esta ficha: únicamente la clasificación del ticket.**
+>
+> Qué es el fenómeno y por qué se produce: [Bajas automáticas y calendario de ejecución](/prado/conceptos-y-reglas/bajas-automaticas.md).
+> Qué se le escribe a la persona usuaria: [respuestas tipo](/respuestas-tipo/index.md).
+
 
 ## Definición
 
 Utilizar esta categoría cuando la incidencia está relacionada con una baja oficial, una desmatriculación, un cambio de grupo o una participación que continúa apareciendo en PRADO mientras se ejecutan los procesos automáticos de actualización.
 
-En PRADO, una baja procedente de las bases de datos oficiales puede hacer que la participación quede marcada como [suspendida](../usuarios-y-roles/participacion-suspendida.md).
+En PRADO, una baja procedente de las bases de datos oficiales puede hacer que la participación quede marcada como [suspendida](/prado/usuarios-y-roles/participacion-suspendida.md).
 
 ## Cuándo utilizar esta categoría
 
@@ -63,9 +75,9 @@ Antes de clasificar el ticket:
 5. revisar la fuente oficial correspondiente:
    - matrícula del alumnado;
    - asignación docente del profesorado;
-6. consultar las [vistas de bases de datos](../conceptos-y-reglas/vistas-bases-datos.md);
+6. consultar las [vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md);
 7. comprobar la fecha en la que se registró la baja o el cambio;
-8. revisar los [plazos de sincronización y actualización](../conceptos-y-reglas/plazos-sincronizacion.md);
+8. revisar los [plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md);
 9. comprobar el estado de la participación:
    - activa;
    - suspendida;
@@ -139,10 +151,8 @@ Categoría:
 
 ## Calendario de bajas automáticas
 
-Según la planificación interna vigente en la fecha de revisión:
-
-- PRADO Grado: martes y viernes;
-- PRADO Posgrado: lunes y jueves.
+Los días de ejecución se consultan en el
+[calendario de ejecución de las bajas automáticas](/prado/parametros-operativos.md).
 
 Estos días deben revisarse cuando cambien los procesos técnicos.
 
@@ -199,60 +209,33 @@ No debe:
 - realizarse una matrícula manual para compensar una baja oficial;
 - prometer una actualización inmediata fuera del calendario previsto.
 
-## Plantillas de respuesta
+## Respuestas al usuario
 
-### Plantilla 1. Baja pendiente de ejecución
-
-Estimada/o [nombre]:
-
-La baja ya consta en la información oficial, pero su reflejo en PRADO depende del siguiente proceso automático de actualización.
-
-Las bajas no se ejecutan de forma inmediata. Revisaremos el resultado después de la próxima actualización prevista.
-
-Un saludo.
-
----
-
-### Plantilla 2. Participación suspendida
-
-Estimada/o [nombre]:
-
-La participación aparece como suspendida porque la matrícula o asignación correspondiente ha dejado de llegar desde la fuente oficial.
-
-Una participación suspendida no permite acceder al curso ni recibir sus notificaciones. Debe comprobarse con la unidad responsable si la baja es correcta.
-
-Un saludo.
-
----
-
-### Plantilla 3. Cambio de grupo
-
-Estimada/o [nombre]:
-
-El cambio de grupo ya consta oficialmente, pero la baja del grupo anterior todavía está pendiente de actualización en PRADO.
-
-No es necesario realizar una modificación manual mientras no haya transcurrido el siguiente proceso automático.
-
-Un saludo.
+| Situación | Respuesta tipo |
+|---|---|
+| La baja consta y falta ejecutarla | [RT-004 · Baja pendiente de ejecución](/respuestas-tipo/prado/rt-004-baja-pendiente-de-ejecucion.md) |
+| La participación figura como suspendida | [RT-005 · Participación suspendida](/respuestas-tipo/prado/rt-005-participacion-suspendida.md) |
+| La baja no consta en origen | [RT-006 · Baja no registrada en origen](/respuestas-tipo/prado/rt-006-baja-no-registrada-en-origen.md) |
+| Cambio de grupo con la baja anterior pendiente | [RT-004 · Baja pendiente de ejecución](/respuestas-tipo/prado/rt-004-baja-pendiente-de-ejecucion.md) |
 
 ## Conceptos relacionados
 
-- [Participación suspendida](../usuarios-y-roles/participacion-suspendida.md)
-- [Bajas automáticas y calendario de ejecución](../conceptos-y-reglas/bajas-automaticas.md)
-- [Participación no activa](../usuarios-y-roles/participacion-no-activa.md)
-- [Vistas de bases de datos](../conceptos-y-reglas/vistas-bases-datos.md)
-- [Plazos de sincronización y actualización](../conceptos-y-reglas/plazos-sincronizacion.md)
-- [Altas automáticas desde bases de datos oficiales](../conceptos-y-reglas/altas-automaticas.md)
-- [Matrícula manual](../conceptos-y-reglas/matricula-manual.md)
-- [Plan de Ordenación Docente —POD—](../conceptos-y-reglas/plan-ordenacion-docente.md)
+- [Participación suspendida](/prado/usuarios-y-roles/participacion-suspendida.md)
+- [Bajas automáticas y calendario de ejecución](/prado/conceptos-y-reglas/bajas-automaticas.md)
+- [Participación no activa](/prado/usuarios-y-roles/participacion-no-activa.md)
+- [Vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
+- [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md)
+- [Matrícula manual](/prado/conceptos-y-reglas/matricula-manual.md)
+- [Plan de Ordenación Docente —POD—](/prado/conceptos-y-reglas/plan-ordenacion-docente.md)
 
 ## Categorías relacionadas
 
-- [Matrícula](matricula.md)
-- [Ordenación docente](ordenacion-docente.md)
-- [Gestión manual](gestion-manual.md)
-- [Acceso](acceso.md)
-- [Incidencia administrativa](incidencia-administrativa.md)
-- [El alumnado está matriculado, pero no puede ver el curso](../procedimientos/alumnado-matriculado-no-ve-curso.md)
-- [Visibilidad](visibilidad.md)
-- Sin resolver
+- [Matrícula](/prado/iris/matricula.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
+- [Acceso](/prado/iris/acceso.md)
+- [Incidencia administrativa](/prado/iris/incidencia-administrativa.md)
+- [El alumnado está matriculado, pero no puede ver el curso](/prado/procedimientos/alumnado-matriculado-no-ve-curso.md)
+- [Visibilidad](/prado/iris/visibilidad.md)
+- [Sin resolver](/prado/iris/sin-resolver.md)

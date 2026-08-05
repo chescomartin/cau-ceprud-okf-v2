@@ -7,7 +7,12 @@ platforms:
   - PRADO Grado
   - PRADO Posgrado
 status: draft
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -59,7 +64,7 @@ Comprobar primero:
 
 > ¿El estudiante puede entrar en PRADO y lo único que falta es una asignatura o curso concreto?
 
-- Si no puede entrar en la plataforma, aplicar [Comprobación del estado de acceso](comprobacion-estado-acceso.md).
+- Si no puede entrar en la plataforma, aplicar [Comprobación del estado de acceso](/prado/procedimientos/comprobacion-estado-acceso.md).
 - Si puede entrar, continuar con la revisión de matrícula, participación y visibilidad.
 
 ## Procedimiento
@@ -68,11 +73,11 @@ Comprobar primero:
 
 En PRADO Grado, revisar la:
 
-- [Consulta de Estado para Acceso a PRADO en Oficina Virtual](../conceptos-y-reglas/consulta-estado-acceso-prado.md).
+- [Consulta de Estado para Acceso a PRADO en Oficina Virtual](/prado/conceptos-y-reglas/consulta-estado-acceso-prado.md).
 
 En PRADO Posgrado, consultar las:
 
-- [Vistas de bases de datos](../conceptos-y-reglas/vistas-bases-datos.md).
+- [Vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md).
 
 Comprobar:
 
@@ -86,13 +91,13 @@ Comprobar:
 
 #### La asignatura no consta oficialmente
 
-No debe realizarse una [matrícula manual](../conceptos-y-reglas/matricula-manual.md) como solución ordinaria.
+No debe realizarse una [matrícula manual](/prado/conceptos-y-reglas/matricula-manual.md) como solución ordinaria.
 
 Actuación:
 
 1. informar de que PRADO recibe la matrícula desde las fuentes oficiales;
 2. remitir al estudiante a la secretaría de su centro;
-3. clasificar el ticket como [Matrícula](../iris/matricula.md).
+3. clasificar el ticket como [Matrícula](/prado/iris/matricula.md).
 
 #### La asignatura consta correctamente
 
@@ -109,7 +114,7 @@ Revisar cuándo se registró:
 
 Aplicar los:
 
-- [Plazos de sincronización y actualización](../conceptos-y-reglas/plazos-sincronizacion.md).
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md).
 
 Si la modificación es reciente, debe esperarse a que los automatismos procesen la información.
 
@@ -118,8 +123,8 @@ Si la modificación es reciente, debe esperarse a que los automatismos procesen 
 Buscar al estudiante en la relación de participantes del espacio y comprobar si aparece como:
 
 - activo;
-- [participación suspendida](../usuarios-y-roles/participacion-suspendida.md);
-- [participación no activa](../usuarios-y-roles/participacion-no-activa.md);
+- [participación suspendida](/prado/usuarios-y-roles/participacion-suspendida.md);
+- [participación no activa](/prado/usuarios-y-roles/participacion-no-activa.md);
 - incorporado manualmente;
 - ausente.
 
@@ -132,7 +137,7 @@ Comprobar:
 - si se produjo una baja;
 - si hubo un cambio de grupo;
 - si existe una participación activa en otro espacio;
-- si está pendiente una [baja automática](../conceptos-y-reglas/bajas-automaticas.md).
+- si está pendiente una [baja automática](/prado/conceptos-y-reglas/bajas-automaticas.md).
 
 No debe reactivarse manualmente sin comprobar el origen.
 
@@ -164,8 +169,8 @@ Debe tenerse en cuenta que:
 
 Consultar, cuando proceda:
 
-- [Asimilación docente](../conceptos-y-reglas/asimilacion-docente.md);
-- [Código de asignatura](../conceptos-y-reglas/codigo-asignatura.md).
+- [Asimilación docente](/prado/conceptos-y-reglas/asimilacion-docente.md);
+- [Código de asignatura](/prado/conceptos-y-reglas/codigo-asignatura.md).
 
 ### Paso 6. Comprobar la visibilidad del curso
 
@@ -193,13 +198,13 @@ Revisar si el curso aparece en otra clasificación temporal, como futuros o en p
 
 Seleccionar la categoría según la causa comprobada:
 
-- [Matrícula](../iris/matricula.md): la matrícula falta, es incorrecta o no se ha reflejado;
-- [Baja de usuario](../iris/baja-usuario.md): existe una baja o cambio de grupo pendiente;
-- [Gestión manual](../iris/gestion-manual.md): la incidencia deriva de una incorporación manual;
-- [Asimilaciones docentes](../iris/asimilaciones-docentes.md): la causa es una asimilación;
+- [Matrícula](/prado/iris/matricula.md): la matrícula falta, es incorrecta o no se ha reflejado;
+- [Baja de usuario](/prado/iris/baja-usuario.md): existe una baja o cambio de grupo pendiente;
+- [Gestión manual](/prado/iris/gestion-manual.md): la incidencia deriva de una incorporación manual;
+- [Asimilaciones docentes](/prado/iris/asimilaciones-docentes.md): la causa es una asimilación;
 - `Visibilidad`: la participación es correcta, pero el curso está oculto;
-- [Acceso](../iris/acceso.md): el estudiante no puede entrar en PRADO;
-- [Incidencia administrativa](../iris/incidencia-administrativa.md): existe un bloqueo administrativo;
+- [Acceso](/prado/iris/acceso.md): el estudiante no puede entrar en PRADO;
+- [Incidencia administrativa](/prado/iris/incidencia-administrativa.md): existe un bloqueo administrativo;
 - `Sin resolver`: no se identifica la causa después de las comprobaciones.
 
 ## Árbol de decisión resumido
@@ -208,7 +213,7 @@ Seleccionar la categoría según la causa comprobada:
 
 Aplicar:
 
-- [Comprobación del estado de acceso](comprobacion-estado-acceso.md).
+- [Comprobación del estado de acceso](/prado/procedimientos/comprobacion-estado-acceso.md).
 
 ### Puede entrar, pero la asignatura no consta en matrícula
 
@@ -317,28 +322,28 @@ Un saludo.
 
 ## Conceptos relacionados
 
-- [Matrícula manual](../conceptos-y-reglas/matricula-manual.md)
-- [Altas automáticas desde bases de datos oficiales](../conceptos-y-reglas/altas-automaticas.md)
-- [Bajas automáticas y calendario de ejecución](../conceptos-y-reglas/bajas-automaticas.md)
-- [Vistas de bases de datos](../conceptos-y-reglas/vistas-bases-datos.md)
-- [Plazos de sincronización y actualización](../conceptos-y-reglas/plazos-sincronizacion.md)
-- [Consulta de Estado para Acceso a PRADO en Oficina Virtual](../conceptos-y-reglas/consulta-estado-acceso-prado.md)
-- [Asimilación docente](../conceptos-y-reglas/asimilacion-docente.md)
-- [Código de asignatura](../conceptos-y-reglas/codigo-asignatura.md)
-- [Transferencia de tickets en IRIS](../conceptos-y-reglas/transferencia-tickets-iris.md)
+- [Matrícula manual](/prado/conceptos-y-reglas/matricula-manual.md)
+- [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md)
+- [Bajas automáticas y calendario de ejecución](/prado/conceptos-y-reglas/bajas-automaticas.md)
+- [Vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
+- [Consulta de Estado para Acceso a PRADO en Oficina Virtual](/prado/conceptos-y-reglas/consulta-estado-acceso-prado.md)
+- [Asimilación docente](/prado/conceptos-y-reglas/asimilacion-docente.md)
+- [Código de asignatura](/prado/conceptos-y-reglas/codigo-asignatura.md)
+- [Transferencia de tickets en IRIS](/prado/conceptos-y-reglas/transferencia-tickets-iris.md)
 
 ## Estados relacionados
 
-- [Participación suspendida](../usuarios-y-roles/participacion-suspendida.md)
-- [Participación no activa](../usuarios-y-roles/participacion-no-activa.md)
+- [Participación suspendida](/prado/usuarios-y-roles/participacion-suspendida.md)
+- [Participación no activa](/prado/usuarios-y-roles/participacion-no-activa.md)
 
 ## Categorías de IRIS relacionadas
 
-- [Matrícula](../iris/matricula.md)
-- [Baja de usuario](../iris/baja-usuario.md)
-- [Gestión manual](../iris/gestion-manual.md)
-- [Asimilaciones docentes](../iris/asimilaciones-docentes.md)
-- [Acceso](../iris/acceso.md)
-- [Incidencia administrativa](../iris/incidencia-administrativa.md)
-- [Visibilidad](../iris/visibilidad.md)
-- Sin resolver
+- [Matrícula](/prado/iris/matricula.md)
+- [Baja de usuario](/prado/iris/baja-usuario.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
+- [Asimilaciones docentes](/prado/iris/asimilaciones-docentes.md)
+- [Acceso](/prado/iris/acceso.md)
+- [Incidencia administrativa](/prado/iris/incidencia-administrativa.md)
+- [Visibilidad](/prado/iris/visibilidad.md)
+- [Sin resolver](/prado/iris/sin-resolver.md)

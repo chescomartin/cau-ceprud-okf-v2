@@ -5,8 +5,11 @@ description: Regla que explica cómo PRADO incorpora automáticamente a estudian
 service: PRADO
 audience: personal-cau
 status: draft
-owner: por-definir
+owner: FOL
 language: es
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-09-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -35,7 +38,7 @@ Los automatismos se utilizan, entre otros casos, para:
 Las altas automáticas dependen de la información registrada en origen, especialmente de:
 
 - la matrícula oficial del alumnado;
-- el [Plan de Ordenación Docente —POD—](plan-ordenacion-docente.md);
+- el [Plan de Ordenación Docente —POD—](/prado/conceptos-y-reglas/plan-ordenacion-docente.md);
 - los datos identificativos de las personas usuarias;
 - los grupos y créditos asignados;
 - los estados administrativos necesarios para acceder a la plataforma.
@@ -93,7 +96,7 @@ Las altas manuales no deben utilizarse como procedimiento ordinario para sustitu
 
 Solo deben valorarse en situaciones excepcionales, por ejemplo:
 
-- profesorado con créditos prácticos que figura como [grupo SG —Sin Grupo—](grupo-sg.md);
+- profesorado con créditos prácticos que figura como [grupo SG —Sin Grupo—](/prado/conceptos-y-reglas/grupo-sg.md);
 - autorización expresa de Ordenación Académica;
 - otros casos reconocidos por los procedimientos internos.
 
@@ -103,22 +106,22 @@ La justificación y la actuación realizada deben quedar registradas en el ticke
 
 La categoría debe elegirse según la causa comprobada:
 
-- [Ordenación docente](../iris/ordenacion-docente.md): la asignación oficial del profesorado falta o es incorrecta.
-- [Matrícula](../iris/matricula.md): la matrícula oficial del alumnado falta o es incorrecta.
-- [Gestión manual](../iris/gestion-manual.md): procede una actuación manual excepcional.
-- [Acceso](../iris/acceso.md): la persona está correctamente incorporada, pero no puede autenticarse.
+- [Ordenación docente](/prado/iris/ordenacion-docente.md): la asignación oficial del profesorado falta o es incorrecta.
+- [Matrícula](/prado/iris/matricula.md): la matrícula oficial del alumnado falta o es incorrecta.
+- [Gestión manual](/prado/iris/gestion-manual.md): procede una actuación manual excepcional.
+- [Acceso](/prado/iris/acceso.md): la persona está correctamente incorporada, pero no puede autenticarse.
 - `Sin resolver`: no se ha podido determinar la causa después de las comprobaciones.
 
 ## Conceptos relacionados
 
-- [Plan de Ordenación Docente —POD—](plan-ordenacion-docente.md)
-- [Grupo SG —Sin Grupo—](grupo-sg.md)
-- [Plazos de sincronización y actualización](plazos-sincronizacion.md)
-- [Matrícula manual](matricula-manual.md)
-- [Bajas automáticas y calendario de ejecución](bajas-automaticas.md)
+- [Plan de Ordenación Docente —POD—](/prado/conceptos-y-reglas/plan-ordenacion-docente.md)
+- [Grupo SG —Sin Grupo—](/prado/conceptos-y-reglas/grupo-sg.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
+- [Matrícula manual](/prado/conceptos-y-reglas/matricula-manual.md)
+- [Bajas automáticas y calendario de ejecución](/prado/conceptos-y-reglas/bajas-automaticas.md)
 
 ## Procedimientos relacionados
 
-- [El docente no ve una asignatura o un grupo](../procedimientos/docente-no-ve-asignatura.md)
-- [El alumnado está matriculado, pero no puede ver el curso](../procedimientos/alumnado-matriculado-no-ve-curso.md)
-- [Alta manual de un docente con créditos prácticos](../procedimientos/alta-manual-docente-creditos-practicos.md)
+- [El docente no ve una asignatura o un grupo](/prado/procedimientos/docente-no-ve-asignatura.md)
+- [El alumnado está matriculado, pero no puede ver el curso](/prado/procedimientos/alumnado-matriculado-no-ve-curso.md)
+- [Alta manual de un docente con créditos prácticos](/prado/procedimientos/alta-manual-docente-creditos-practicos.md)

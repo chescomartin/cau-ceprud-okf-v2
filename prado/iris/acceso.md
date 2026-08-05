@@ -1,13 +1,19 @@
 ---
 type: TicketCategory
-title: Acceso
+title: "IRIS: Acceso"
 description: Tema de ayuda para tickets en los que una persona no puede autenticarse o entrar en PRADO.
+regla_aplicable: /prado/conceptos-y-reglas/consulta-estado-acceso-prado.md
 service: PRADO
 platforms:
   - PRADO Grado
   - PRADO Posgrado
 status: draft
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - iris
@@ -17,7 +23,13 @@ tags:
   - cuenta-institucional
 ---
 
-# Acceso
+# IRIS: Acceso
+
+> **Alcance de esta ficha: únicamente la clasificación del ticket.**
+>
+> Qué es el fenómeno y por qué se produce: [Consulta de Estado para Acceso a PRADO en Oficina Virtual](/prado/conceptos-y-reglas/consulta-estado-acceso-prado.md).
+> Qué se le escribe a la persona usuaria: [respuestas tipo](/respuestas-tipo/index.md).
+
 
 ## Definición
 
@@ -31,7 +43,7 @@ Utilizar `Acceso` cuando:
 
 - la persona no puede entrar en PRADO;
 - las credenciales o la cuenta institucional no permiten completar la autenticación;
-- existe un problema relacionado con el [Proveedor de identidad —IdP—](../conceptos-y-reglas/proveedor-identidad-idp.md);
+- existe un problema relacionado con el [Proveedor de identidad —IdP—](/prado/conceptos-y-reglas/proveedor-identidad-idp.md);
 - se consulta un olvido de contraseña;
 - un docente externo no consigue acceder con la cuenta institucional habilitada;
 - la matrícula o asignación son correctas, pero el acceso a la plataforma continúa fallando;
@@ -41,7 +53,7 @@ Utilizar `Acceso` cuando:
 
 No utilizar `Acceso` cuando:
 
-- existe una [incidencia administrativa](incidencia-administrativa.md);
+- existe una [incidencia administrativa](/prado/iris/incidencia-administrativa.md);
 - el estudiante no consta oficialmente matriculado;
 - el docente entra en PRADO, pero no ve una asignatura o grupo;
 - el espacio existe, pero está oculto;
@@ -60,7 +72,7 @@ Antes de clasificar el ticket:
 3. solicitar el mensaje de error exacto;
 4. comprobar si la cuenta funciona en otros servicios institucionales;
 5. revisar la información disponible en el IdP;
-6. consultar el estado administrativo mediante la [Consulta de Estado para Acceso a PRADO en Oficina Virtual](../conceptos-y-reglas/consulta-estado-acceso-prado.md);
+6. consultar el estado administrativo mediante la [Consulta de Estado para Acceso a PRADO en Oficina Virtual](/prado/conceptos-y-reglas/consulta-estado-acceso-prado.md);
 7. comprobar la matrícula o asignación oficial cuando corresponda;
 8. distinguir entre un problema para entrar en la plataforma y un problema para ver un curso.
 
@@ -82,7 +94,7 @@ Antes de elegir esta categoría, comprobar:
 
 Categoría:
 
-- [Incidencia administrativa](incidencia-administrativa.md).
+- [Incidencia administrativa](/prado/iris/incidencia-administrativa.md).
 
 ### No puede entrar y no consta la matrícula
 
@@ -100,7 +112,7 @@ Categoría:
 
 Categoría:
 
-- [Ordenación docente](ordenacion-docente.md), si afecta al profesorado.
+- [Ordenación docente](/prado/iris/ordenacion-docente.md), si afecta al profesorado.
 - `Matrícula`, si afecta al alumnado.
 
 ### Puede entrar, pero el curso está oculto
@@ -171,25 +183,25 @@ Un saludo.
 
 ## Conceptos relacionados
 
-- [Proveedor de identidad —IdP—](../conceptos-y-reglas/proveedor-identidad-idp.md)
-- [Consulta de Estado para Acceso a PRADO en Oficina Virtual](../conceptos-y-reglas/consulta-estado-acceso-prado.md)
-- [Incidencia administrativa](../conceptos-y-reglas/incidencia-administrativa.md)
-- [Vistas de bases de datos](../conceptos-y-reglas/vistas-bases-datos.md)
-- [Plazos de sincronización y actualización](../conceptos-y-reglas/plazos-sincronizacion.md)
-- [Docente externo](../usuarios-y-roles/docente-externo.md)
+- [Proveedor de identidad —IdP—](/prado/conceptos-y-reglas/proveedor-identidad-idp.md)
+- [Consulta de Estado para Acceso a PRADO en Oficina Virtual](/prado/conceptos-y-reglas/consulta-estado-acceso-prado.md)
+- [Incidencia administrativa](/prado/conceptos-y-reglas/incidencia-administrativa.md)
+- [Vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
+- [Docente externo](/prado/usuarios-y-roles/docente-externo.md)
 
 ## Procedimientos relacionados
 
-- [Comprobación del estado de acceso](../procedimientos/comprobacion-estado-acceso.md)
-- [Problemas de acceso o verificación en dos pasos](../procedimientos/problemas-acceso-verificacion-dos-pasos.md)
-- [Acceso de un docente externo](../procedimientos/acceso-docente-externo.md)
-- [El alumnado está matriculado, pero no puede ver el curso](../procedimientos/alumnado-matriculado-no-ve-curso.md)
+- [Comprobación del estado de acceso](/prado/procedimientos/comprobacion-estado-acceso.md)
+- [Problemas de acceso o verificación en dos pasos](/prado/procedimientos/problemas-acceso-verificacion-dos-pasos.md)
+- [Acceso de un docente externo](/prado/procedimientos/acceso-docente-externo.md)
+- [El alumnado está matriculado, pero no puede ver el curso](/prado/procedimientos/alumnado-matriculado-no-ve-curso.md)
 
 ## Categorías relacionadas
 
-- [Incidencia administrativa](incidencia-administrativa.md)
-- [Matrícula](../iris/matricula.md)
-- [Ordenación docente](ordenacion-docente.md)
-- [Visibilidad](visibilidad.md)
-- [Usuario/rol duplicado](usuario-rol-duplicado.md)
-- Sin resolver
+- [Incidencia administrativa](/prado/iris/incidencia-administrativa.md)
+- [Matrícula](/prado/iris/matricula.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
+- [Visibilidad](/prado/iris/visibilidad.md)
+- [Usuario/rol duplicado](/prado/iris/usuario-rol-duplicado.md)
+- [Sin resolver](/prado/iris/sin-resolver.md)

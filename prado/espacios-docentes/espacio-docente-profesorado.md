@@ -1,10 +1,16 @@
 ---
-type: KnowledgeDocument
+type: SpaceType
 title: Espacio Docente del Profesorado —EDProf—
 description: Definición y reglas de composición y uso del Espacio Docente del Profesorado en PRADO.
+abbreviation: EDProf
 service: PRADO
 status: draft
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -85,7 +91,7 @@ Comprobar:
 
 Clasificación habitual:
 
-- [Ordenación docente](../iris/ordenacion-docente.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
 
 ### Aparece profesorado que ya no corresponde
 
@@ -97,7 +103,7 @@ Comprobar:
 
 Clasificación habitual:
 
-- [Baja de usuario](../iris/baja-usuario.md)
+- [Baja de usuario](/prado/iris/baja-usuario.md)
 
 ### La coordinación solicita añadir a otra persona
 
@@ -111,7 +117,7 @@ Comprobar:
 
 Clasificación habitual:
 
-- [Gestión manual](../iris/gestion-manual.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
 
 ### El espacio no es visible
 
@@ -123,7 +129,7 @@ Comprobar:
 
 Clasificación habitual:
 
-- [Visibilidad](../iris/visibilidad.md)
+- [Visibilidad](/prado/iris/visibilidad.md)
 
 ## Información que debe registrarse
 
@@ -143,16 +149,16 @@ Anotar:
 
 ## Conceptos relacionados
 
-- [Plan de Ordenación Docente —POD—](../conceptos-y-reglas/plan-ordenacion-docente.md)
-- [Altas automáticas desde bases de datos oficiales](../conceptos-y-reglas/altas-automaticas.md)
-- [Bajas automáticas y calendario de ejecución](../conceptos-y-reglas/bajas-automaticas.md)
-- [Plazos de sincronización y actualización](../conceptos-y-reglas/plazos-sincronizacion.md)
-- [Vistas de bases de datos](../conceptos-y-reglas/vistas-bases-datos.md)
+- [Plan de Ordenación Docente —POD—](/prado/conceptos-y-reglas/plan-ordenacion-docente.md)
+- [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md)
+- [Bajas automáticas y calendario de ejecución](/prado/conceptos-y-reglas/bajas-automaticas.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
+- [Vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md)
 
 ## Categorías de IRIS relacionadas
 
-- [Espacios docentes](../iris/espacios-docentes.md)
-- [Ordenación docente](../iris/ordenacion-docente.md)
-- [Gestión manual](../iris/gestion-manual.md)
-- [Baja de usuario](../iris/baja-usuario.md)
-- [Visibilidad](../iris/visibilidad.md)
+- [Espacios docentes](/prado/iris/espacios-docentes.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
+- [Baja de usuario](/prado/iris/baja-usuario.md)
+- [Visibilidad](/prado/iris/visibilidad.md)

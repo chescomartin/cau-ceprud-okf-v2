@@ -5,9 +5,12 @@ description: Procedimiento para atender incidencias relacionadas con la configur
 service: PRADO
 audience: personal-cau
 status: draft
-owner: por-definir
+owner: FOL
 usual_ticket_category: Acceso
 language: es
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -182,7 +185,7 @@ Cuando se confirme:
 2. comprobar la plataforma y el correo;
 3. confirmar la hora automática;
 4. verificar que no utiliza un registro anterior de la aplicación;
-5. revisar el caso como una incidencia de [Acceso](../iris/acceso.md).
+5. revisar el caso como una incidencia de [Acceso](/prado/iris/acceso.md).
 
 ## Actuación técnica
 
@@ -214,7 +217,7 @@ La persona debe poder:
 
 La categoría habitual es:
 
-- [Acceso](../iris/acceso.md).
+- [Acceso](/prado/iris/acceso.md).
 
 No utilizar `Incidencia administrativa` salvo que se compruebe que el expediente está bloqueado por una causa administrativa.
 
@@ -302,15 +305,15 @@ Un saludo.
 
 ## Conceptos relacionados
 
-- [Proveedor de identidad —IdP—](../conceptos-y-reglas/proveedor-identidad-idp.md)
-- [Consulta de Estado para Acceso a PRADO en Oficina Virtual](../conceptos-y-reglas/consulta-estado-acceso-prado.md)
+- [Proveedor de identidad —IdP—](/prado/conceptos-y-reglas/proveedor-identidad-idp.md)
+- [Consulta de Estado para Acceso a PRADO en Oficina Virtual](/prado/conceptos-y-reglas/consulta-estado-acceso-prado.md)
 
 ## Categorías de IRIS relacionadas
 
-- [Acceso](../iris/acceso.md)
-- [Incidencia administrativa](../iris/incidencia-administrativa.md)
+- [Acceso](/prado/iris/acceso.md)
+- [Incidencia administrativa](/prado/iris/incidencia-administrativa.md)
 
 ## Procedimientos relacionados
 
-- [Comprobación del estado de acceso](comprobacion-estado-acceso.md)
-- [Acceso de un docente externo](acceso-docente-externo.md)
+- [Comprobación del estado de acceso](/prado/procedimientos/comprobacion-estado-acceso.md)
+- [Acceso de un docente externo](/prado/procedimientos/acceso-docente-externo.md)

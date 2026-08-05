@@ -1,9 +1,15 @@
 ---
-type: KnowledgeDocument
+type: Governance
 title: Guía de revisión y mantenimiento
 description: Criterios para revisar, validar y mantener actualizada la base de conocimiento del CAU CEPRUD.
+service: TRANSVERSAL
 status: draft
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - mantenimiento
@@ -93,6 +99,20 @@ Antes de crear una ficha nueva, revisar si el contenido ya aparece en:
 
 Cuando dos fichas estén relacionadas, deben enlazarse entre sí en lugar de repetir todo el contenido.
 
+## Valores volátiles: plazos y calendarios
+
+Los plazos, calendarios y ventanas de ejecución **no deben escribirse en más de un sitio**.
+Su fuente única es:
+
+- [Parámetros operativos de PRADO](/prado/parametros-operativos.md)
+
+Antes de escribir un valor numérico o un día de la semana en cualquier documento,
+compruebe si ya está en ese documento y, en su caso, enlácelo en lugar de copiarlo.
+
+**Única excepción**: las plantillas de respuesta dirigidas a personas usuarias, donde el
+valor debe figurar literalmente porque el texto se envía tal cual. Cuando un parámetro
+cambie, deben revisarse también esas plantillas.
+
 ## Fechas
 
 El campo:
@@ -109,7 +129,7 @@ No debe modificarse únicamente por cambios tipográficos que no alteren la info
 
 Los apartados incompletos deben figurar en:
 
-- [Pendientes de documentación](pendientes-documentacion.md)
+- [Pendientes de documentación](/pendientes-documentacion.md)
 
 Cuando un pendiente se complete:
 

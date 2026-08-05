@@ -1,20 +1,23 @@
 ---
-type: KnowledgeDocument
+type: TicketCategory
 title: "LMS: Cuestionarios"
 description: Criterio de clasificación en IRIS para incidencias relacionadas con la herramienta de cuestionarios y el banco de preguntas.
 service: PRADO
 status: draft
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
   - iris
   - lms
   - cuestionarios
-  - banco-preguntas
   - ecampus
   - abierta-ugr
-  - multimedia-ugr
 ---
 
 # LMS: Cuestionarios
@@ -96,7 +99,7 @@ Esta ficha deberá ampliarse cuando exista información operativa suficiente.
 
 ## Documentos relacionados
 
-- [Temas de ayuda de IRIS](../temas-de-ayuda/index.md)
-- [Categorías de IRIS](index.md)
-- [LMS: Calificaciones](lms-calificaciones.md)
-- [LMS: Copias .mbz](lms-copias-mbz.md)
+- [Temas de ayuda de IRIS](/prado/temas-de-ayuda/index.md)
+- [Categorías de IRIS](/prado/iris/index.md)
+- [LMS: Calificaciones](/prado/iris/lms-calificaciones.md)
+- [LMS: Copias .mbz](/prado/iris/lms-copias-mbz.md)

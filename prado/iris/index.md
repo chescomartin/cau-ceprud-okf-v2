@@ -4,47 +4,48 @@ En IRIS solo puede seleccionarse un tema de ayuda por ticket. La categoría debe
 
 ## Usuarios y acceso
 
-- [Acceso](acceso.md)
-- [Incidencia administrativa](incidencia-administrativa.md)
-- [Usuario/rol duplicado](usuario-rol-duplicado.md)
-- [Baja de usuario](baja-usuario.md)
+- [Acceso](/prado/iris/acceso.md)
+- [Incidencia administrativa](/prado/iris/incidencia-administrativa.md)
+- [Usuario/rol duplicado](/prado/iris/usuario-rol-duplicado.md)
+- [Baja de usuario](/prado/iris/baja-usuario.md)
+
 ## Docencia y matrícula
 
-- [Ordenación docente](ordenacion-docente.md)
-- [Matrícula](matricula.md)
-- [Gestión manual](gestion-manual.md)
-- [Asimilaciones docentes](asimilaciones-docentes.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
+- [Matrícula](/prado/iris/matricula.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
+- [Asimilaciones docentes](/prado/iris/asimilaciones-docentes.md)
 
 ## Espacios y visibilidad
 
-- [Espacios docentes](espacios-docentes.md)
-- [Visibilidad](visibilidad.md)
+- [Espacios docentes](/prado/iris/espacios-docentes.md)
+- [Visibilidad](/prado/iris/visibilidad.md)
 
 ## Herramientas de Moodle
 
-- [LMS: Calificaciones](lms-calificaciones.md)
-- [LMS: Copias .mbz](lms-copias-mbz.md)
-- [LMS: Cuestionarios](lms-cuestionarios.md)
-- [LMS: LaTeX y marcas](lms-latex-y-marcas.md)
-- [LMS: Leganto](lms-leganto.md)
-- [LMS: Mensajería y foros](lms-mensajeria-y-foros.md)
-- [LMS: Turnitin](lms-turnitin.md)
-- [LMS: Uso general](lms-uso-general.md)
-- [Mejoras de usabilidad](mejoras-usabilidad.md)
+- [LMS: Calificaciones](/prado/iris/lms-calificaciones.md)
+- [LMS: Copias .mbz](/prado/iris/lms-copias-mbz.md)
+- [LMS: Cuestionarios](/prado/iris/lms-cuestionarios.md)
+- [LMS: LaTeX y marcas](/prado/iris/lms-latex-y-marcas.md)
+- [LMS: Leganto](/prado/iris/lms-leganto.md)
+- [LMS: Mensajería y foros](/prado/iris/lms-mensajeria-y-foros.md)
+- [LMS: Turnitin](/prado/iris/lms-turnitin.md)
+- [LMS: Uso general](/prado/iris/lms-uso-general.md)
+- [Mejoras de usabilidad](/prado/iris/mejoras-usabilidad.md)
 
 ## Otros temas
 
-- [Certificados](certificados.md)
-- [Exención](exencion.md)
-- [PRADO appUGR](prado-appugr.md)
-- [Sugerencias](sugerencias.md)
-- [Sin resolver](sin-resolver.md)
-- [INFO: General](info-general.md)
-- [INFO: Reconocimiento de créditos](info-reconocimiento-creditos.md)
-- [NotebookLM](notebooklm.md)
-- [TPV: Certificado](tpv-certificado.md)
-- [TPV: Error](tpv-error.md)
-- [TPV: General](tpv-general.md)
-- [DPM: Error](dpm-error.md)
-- [DPM: Peticiones](dpm-peticiones.md)
+- [Certificados](/prado/iris/certificados.md)
+- [Exención](/prado/iris/exencion.md)
+- [PRADO appUGR](/prado/iris/prado-appugr.md)
+- [Sugerencias](/prado/iris/sugerencias.md)
+- [Sin resolver](/prado/iris/sin-resolver.md)
+- [INFO: General](/prado/iris/info-general.md)
+- [INFO: Reconocimiento de créditos](/prado/iris/info-reconocimiento-creditos.md)
+- [NotebookLM](/prado/iris/notebooklm.md)
+- [TPV: Certificado](/prado/iris/tpv-certificado.md)
+- [TPV: Error](/prado/iris/tpv-error.md)
+- [TPV: General](/prado/iris/tpv-general.md)
+- [DPM: Error](/prado/iris/dpm-error.md)
+- [DPM: Peticiones](/prado/iris/dpm-peticiones.md)
 

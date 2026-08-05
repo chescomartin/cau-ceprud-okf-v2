@@ -1,10 +1,15 @@
 ---
-type: KnowledgeDocument
+type: Role
 title: Rol Editingteacher
 description: Definición y limitación documentada del rol Editingteacher en PRADO.
 service: PRADO
 status: draft
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -28,7 +33,7 @@ La documentación interna consultada únicamente especifica una limitación conc
 
 No debe confundirse con el rol:
 
-- [Manageteacher](rol-manageteacher.md)
+- [Manageteacher](/prado/usuarios-y-roles/rol-manageteacher.md)
 
 La diferencia documentada es:
 
@@ -71,7 +76,7 @@ La condición declarada de coordinador o coordinadora de asignatura no implica a
 
 Consultar:
 
-- [Coordinador o coordinadora de asignatura](coordinador-asignatura.md)
+- [Coordinador o coordinadora de asignatura](/prado/usuarios-y-roles/coordinador-asignatura.md)
 
 ## Información que debe registrarse
 
@@ -90,15 +95,15 @@ Anotar:
 
 ## Procedimientos relacionados
 
-- [Alta manual de docente con créditos prácticos](../procedimientos/alta-manual-docente-creditos-practicos.md)
-- [Alta manual con autorización de Ordenación Académica](../procedimientos/alta-manual-autorizacion-ordenacion-academica.md)
-- [Docente no ve una asignatura](../procedimientos/docente-no-ve-asignatura.md)
+- [Alta manual de un docente con créditos prácticos](/prado/procedimientos/alta-manual-docente-creditos-practicos.md)
+- [Alta manual con autorización de Ordenación Académica](/prado/procedimientos/alta-manual-autorizacion-ordenacion-academica.md)
+- [Docente no ve una asignatura](/prado/procedimientos/docente-no-ve-asignatura.md)
 
 ## Categorías de IRIS relacionadas
 
-- [Gestión manual](../iris/gestion-manual.md)
-- [Ordenación docente](../iris/ordenacion-docente.md)
-- [Usuario o rol duplicado](../iris/usuario-rol-duplicado.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
+- [Usuario/rol duplicado](/prado/iris/usuario-rol-duplicado.md)
 
 ## Alcance de esta ficha
 

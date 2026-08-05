@@ -21,5 +21,11 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Ejecutar validador
-        run: python validar_repositorio_okf.py
+      - name: Instalar dependencias
+        run: pip install pyyaml
+
+      - name: Ejecutar validador (conformidad OKF)
+        run: python herramientas/validar_repositorio_okf.py
+
+      - name: Ejecutar validador ampliado (conformidad y calidad)
+        run: python herramientas/validar_repositorio_okf_v2.py

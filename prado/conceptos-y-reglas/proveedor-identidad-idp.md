@@ -6,8 +6,11 @@ description: Concepto que explica el sistema institucional de autenticación uti
 service: PRADO
 audience: personal-cau
 status: draft
-owner: por-definir
+owner: FOL
 language: es
+confidentiality: restringido
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -83,9 +86,9 @@ La persona puede entrar en PRADO, pero no aparece en una asignatura o grupo.
 En este caso, la causa suele estar relacionada con:
 
 - la matrícula oficial;
-- el [Plan de Ordenación Docente —POD—](plan-ordenacion-docente.md);
-- las [altas automáticas desde bases de datos oficiales](altas-automaticas.md);
-- los [plazos de sincronización y actualización](plazos-sincronizacion.md);
+- el [Plan de Ordenación Docente —POD—](/prado/conceptos-y-reglas/plan-ordenacion-docente.md);
+- las [altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md);
+- los [plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md);
 - una actuación manual excepcional.
 
 ## Comprobaciones del CAU
@@ -112,20 +115,20 @@ La categoría habitual es:
 Utilizar otra categoría cuando la causa comprobada sea diferente:
 
 - `Incidencia administrativa`: existe un bloqueo administrativo que impide el acceso.
-- [Ordenación docente](../iris/ordenacion-docente.md): el docente entra en PRADO, pero no aparece en su asignatura.
+- [Ordenación docente](/prado/iris/ordenacion-docente.md): el docente entra en PRADO, pero no aparece en su asignatura.
 - `Matrícula`: el estudiante entra en PRADO, pero no consta correctamente en una asignatura.
 - `Usuario/rol duplicado`: existe una duplicidad de identidad o participación.
 
 ## Conceptos relacionados
 
-- [Consulta de Estado para Acceso a PRADO en Oficina Virtual](consulta-estado-acceso-prado.md)
-- [Vistas de bases de datos](vistas-bases-datos.md)
-- [Altas automáticas desde bases de datos oficiales](altas-automaticas.md)
-- [Plazos de sincronización y actualización](plazos-sincronizacion.md)
+- [Consulta de Estado para Acceso a PRADO en Oficina Virtual](/prado/conceptos-y-reglas/consulta-estado-acceso-prado.md)
+- [Vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md)
+- [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
 
 ## Procedimientos relacionados
 
-- [Problemas de acceso o verificación en dos pasos](../procedimientos/problemas-acceso-verificacion-dos-pasos.md)
-- Comprobación del estado de acceso
-- [El docente no ve una asignatura o un grupo](../procedimientos/docente-no-ve-asignatura.md)
-- [Acceso de un docente externo](../procedimientos/acceso-docente-externo.md)
+- [Problemas de acceso o verificación en dos pasos](/prado/procedimientos/problemas-acceso-verificacion-dos-pasos.md)
+- [Comprobación del estado de acceso](/prado/procedimientos/comprobacion-estado-acceso.md)
+- [El docente no ve una asignatura o un grupo](/prado/procedimientos/docente-no-ve-asignatura.md)
+- [Acceso de un docente externo](/prado/procedimientos/acceso-docente-externo.md)

@@ -1,13 +1,19 @@
 ---
 type: TicketCategory
-title: Matrícula
+title: "IRIS: Matrícula"
 description: Tema de ayuda para incidencias relacionadas con la matrícula oficial del alumnado y su reflejo en PRADO.
+regla_aplicable: /prado/conceptos-y-reglas/matricula-manual.md
 service: PRADO
 platforms:
   - PRADO Grado
   - PRADO Posgrado
 status: draft
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - iris
@@ -18,7 +24,13 @@ tags:
   - sincronizacion
 ---
 
-# Matrícula
+# IRIS: Matrícula
+
+> **Alcance de esta ficha: únicamente la clasificación del ticket.**
+>
+> Qué es el fenómeno y por qué se produce: [Matrícula manual](/prado/conceptos-y-reglas/matricula-manual.md).
+> Qué se le escribe a la persona usuaria: [respuestas tipo](/respuestas-tipo/index.md).
+
 
 ## Definición
 
@@ -71,16 +83,16 @@ Antes de clasificar el ticket:
    - código, cuando se conozca;
    - grupo;
 5. comprobar la matrícula oficial;
-6. revisar las [vistas de bases de datos](../conceptos-y-reglas/vistas-bases-datos.md);
-7. consultar, en Grado, la [Consulta de Estado para Acceso a PRADO en Oficina Virtual](../conceptos-y-reglas/consulta-estado-acceso-prado.md);
-8. comprobar si existe una [incidencia administrativa](../conceptos-y-reglas/incidencia-administrativa.md);
-9. revisar los [plazos de sincronización y actualización](../conceptos-y-reglas/plazos-sincronizacion.md);
+6. revisar las [vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md);
+7. consultar, en Grado, la [Consulta de Estado para Acceso a PRADO en Oficina Virtual](/prado/conceptos-y-reglas/consulta-estado-acceso-prado.md);
+8. comprobar si existe una [incidencia administrativa](/prado/conceptos-y-reglas/incidencia-administrativa.md);
+9. revisar los [plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md);
 10. comprobar si existe una participación:
     - activa;
     - suspendida;
     - no activa;
     - manual;
-11. revisar si existe una [asimilación docente](../conceptos-y-reglas/asimilacion-docente.md) que explique la diferencia.
+11. revisar si existe una [asimilación docente](/prado/conceptos-y-reglas/asimilacion-docente.md) que explique la diferencia.
 
 ## Pregunta de control
 
@@ -107,7 +119,7 @@ Actuación:
 
 1. informar de que PRADO se alimenta de la matrícula oficial;
 2. remitir a la secretaría del centro;
-3. no realizar una [matrícula manual](../conceptos-y-reglas/matricula-manual.md) como solución ordinaria.
+3. no realizar una [matrícula manual](/prado/conceptos-y-reglas/matricula-manual.md) como solución ordinaria.
 
 ### Consta oficialmente matriculado, pero no aparece en PRADO
 
@@ -140,13 +152,13 @@ Categoría:
 
 Categoría:
 
-- [Incidencia administrativa](incidencia-administrativa.md).
+- [Incidencia administrativa](/prado/iris/incidencia-administrativa.md).
 
 ### La matrícula es correcta, pero no puede entrar en la plataforma
 
 Categoría:
 
-- [Acceso](acceso.md).
+- [Acceso](/prado/iris/acceso.md).
 
 ### La matrícula es correcta, pero el curso está oculto
 
@@ -158,14 +170,14 @@ Categoría:
 
 Categoría:
 
-- [Gestión manual](gestion-manual.md), cuando la causa sea la incorporación manual.
+- [Gestión manual](/prado/iris/gestion-manual.md), cuando la causa sea la incorporación manual.
 - `Matrícula`, cuando el problema real sea la ausencia o incorrección de la matrícula oficial.
 
 ### Existe una asimilación registrada o pendiente
 
 Categoría:
 
-- [Asimilaciones docentes](asimilaciones-docentes.md).
+- [Asimilaciones docentes](/prado/iris/asimilaciones-docentes.md).
 
 ## Casos de ejemplo
 
@@ -268,30 +280,30 @@ Un saludo.
 
 ## Conceptos relacionados
 
-- [Matrícula manual](../conceptos-y-reglas/matricula-manual.md)
-- [Altas automáticas desde bases de datos oficiales](../conceptos-y-reglas/altas-automaticas.md)
-- [Vistas de bases de datos](../conceptos-y-reglas/vistas-bases-datos.md)
-- [Plazos de sincronización y actualización](../conceptos-y-reglas/plazos-sincronizacion.md)
-- [Consulta de Estado para Acceso a PRADO en Oficina Virtual](../conceptos-y-reglas/consulta-estado-acceso-prado.md)
-- [Incidencia administrativa](../conceptos-y-reglas/incidencia-administrativa.md)
-- [Asimilación docente](../conceptos-y-reglas/asimilacion-docente.md)
-- [Participación suspendida](../usuarios-y-roles/participacion-suspendida.md)
-- [Participación no activa](../usuarios-y-roles/participacion-no-activa.md)
+- [Matrícula manual](/prado/conceptos-y-reglas/matricula-manual.md)
+- [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md)
+- [Vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
+- [Consulta de Estado para Acceso a PRADO en Oficina Virtual](/prado/conceptos-y-reglas/consulta-estado-acceso-prado.md)
+- [Incidencia administrativa](/prado/conceptos-y-reglas/incidencia-administrativa.md)
+- [Asimilación docente](/prado/conceptos-y-reglas/asimilacion-docente.md)
+- [Participación suspendida](/prado/usuarios-y-roles/participacion-suspendida.md)
+- [Participación no activa](/prado/usuarios-y-roles/participacion-no-activa.md)
 
 ## Procedimientos relacionados
 
-- [Comprobación del estado de acceso](../procedimientos/comprobacion-estado-acceso.md)
-- [El alumnado está matriculado, pero no puede ver el curso](../procedimientos/alumnado-matriculado-no-ve-curso.md)
-- [Tramitación de una asimilación docente](../procedimientos/tramitacion-asimilacion-docente.md)
+- [Comprobación del estado de acceso](/prado/procedimientos/comprobacion-estado-acceso.md)
+- [El alumnado está matriculado, pero no puede ver el curso](/prado/procedimientos/alumnado-matriculado-no-ve-curso.md)
+- [Tramitación de una asimilación docente](/prado/procedimientos/tramitacion-asimilacion-docente.md)
 
 ## Categorías relacionadas
 
-- [Acceso](acceso.md)
-- [Incidencia administrativa](incidencia-administrativa.md)
-- [Ordenación docente](ordenacion-docente.md)
-- [Baja de usuario](baja-usuario.md)
-- [Gestión manual](gestion-manual.md)
-- [Asimilaciones docentes](asimilaciones-docentes.md)
-- [Visibilidad](visibilidad.md)
-- [Transferencia de tickets en IRIS](../conceptos-y-reglas/transferencia-tickets-iris.md)
-- Sin resolver
+- [Acceso](/prado/iris/acceso.md)
+- [Incidencia administrativa](/prado/iris/incidencia-administrativa.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
+- [Baja de usuario](/prado/iris/baja-usuario.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
+- [Asimilaciones docentes](/prado/iris/asimilaciones-docentes.md)
+- [Visibilidad](/prado/iris/visibilidad.md)
+- [Transferencia de tickets en IRIS](/prado/conceptos-y-reglas/transferencia-tickets-iris.md)
+- [Sin resolver](/prado/iris/sin-resolver.md)

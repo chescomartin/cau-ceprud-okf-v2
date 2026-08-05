@@ -1,7 +1,8 @@
 ---
 type: TicketCategory
-title: Usuario/rol duplicado
+title: "IRIS: Usuario/rol duplicado"
 description: Tema de ayuda para incidencias en las que una misma persona aparece con dos perfiles, dos identificaciones o una combinación de roles que provoca problemas en PRADO.
+regla_aplicable: /prado/usuarios-y-roles/usuario-duplicado-cambio-identificacion.md
 service: PRADO
 platforms:
   - PRADO Grado
@@ -9,7 +10,12 @@ platforms:
   - E-CAMPUS
   - ABIERTA UGR
 status: draft
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-09-05
 last_reviewed: 2026-08-03
 tags:
   - iris
@@ -18,10 +24,15 @@ tags:
   - identificacion
   - pasaporte
   - nie
-  - perfiles
 ---
 
-# Usuario/rol duplicado
+# IRIS: Usuario/rol duplicado
+
+> **Alcance de esta ficha: únicamente la clasificación del ticket.**
+>
+> Qué es el fenómeno y por qué se produce: [Usuario duplicado por cambio de identificación](/prado/usuarios-y-roles/usuario-duplicado-cambio-identificacion.md).
+> Qué se le escribe a la persona usuaria: [respuestas tipo](/respuestas-tipo/index.md).
+
 
 ## Definición
 
@@ -73,7 +84,9 @@ El resultado esperado es:
 
 ## Plazo específico
 
-La documentación interna establece para este cambio un plazo de hasta **48 horas** desde que la modificación se hace efectiva en la secretaría.
+Este cambio tiene un plazo propio, distinto del general de sincronización. Se consulta en
+[Parámetros operativos de PRADO](/prado/parametros-operativos.md), que es la fuente única del
+valor.
 
 Este plazo es específico para el cambio de identificación y no debe confundirse con el plazo general de 24 horas utilizado en otras sincronizaciones.
 
@@ -165,11 +178,11 @@ Utilizar esta categoría únicamente cuando la combinación de roles sea la caus
 
 Clasificar según corresponda:
 
-- [Matrícula](matricula.md): falta o es incorrecta la matrícula oficial;
-- [Ordenación docente](ordenacion-docente.md): falta o es incorrecta la asignación docente;
-- [Acceso](acceso.md): no puede autenticarse y no existe duplicidad;
-- [Incidencia administrativa](incidencia-administrativa.md): existe un bloqueo administrativo;
-- [Gestión manual](gestion-manual.md): la duplicidad procede de una actuación manual;
+- [Matrícula](/prado/iris/matricula.md): falta o es incorrecta la matrícula oficial;
+- [Ordenación docente](/prado/iris/ordenacion-docente.md): falta o es incorrecta la asignación docente;
+- [Acceso](/prado/iris/acceso.md): no puede autenticarse y no existe duplicidad;
+- [Incidencia administrativa](/prado/iris/incidencia-administrativa.md): existe un bloqueo administrativo;
+- [Gestión manual](/prado/iris/gestion-manual.md): la duplicidad procede de una actuación manual;
 - `Sin resolver`: no puede determinarse la causa.
 
 ## Qué no debe hacerse
@@ -236,21 +249,21 @@ Un saludo.
 
 ## Conceptos relacionados
 
-- [Proveedor de identidad —IdP—](../conceptos-y-reglas/proveedor-identidad-idp.md)
-- [Vistas de bases de datos](../conceptos-y-reglas/vistas-bases-datos.md)
-- [Plazos de sincronización y actualización](../conceptos-y-reglas/plazos-sincronizacion.md)
-- [Altas automáticas desde bases de datos oficiales](../conceptos-y-reglas/altas-automaticas.md)
+- [Proveedor de identidad —IdP—](/prado/conceptos-y-reglas/proveedor-identidad-idp.md)
+- [Vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
+- [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md)
 
 ## Estados relacionados
 
-- [Participación suspendida](../usuarios-y-roles/participacion-suspendida.md)
-- [Participación no activa](../usuarios-y-roles/participacion-no-activa.md)
+- [Participación suspendida](/prado/usuarios-y-roles/participacion-suspendida.md)
+- [Participación no activa](/prado/usuarios-y-roles/participacion-no-activa.md)
 
 ## Categorías relacionadas
 
-- [Acceso](acceso.md)
-- [Matrícula](matricula.md)
-- [Ordenación docente](ordenacion-docente.md)
-- [Gestión manual](gestion-manual.md)
-- [Incidencia administrativa](incidencia-administrativa.md)
-- Sin resolver
+- [Acceso](/prado/iris/acceso.md)
+- [Matrícula](/prado/iris/matricula.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
+- [Incidencia administrativa](/prado/iris/incidencia-administrativa.md)
+- [Sin resolver](/prado/iris/sin-resolver.md)

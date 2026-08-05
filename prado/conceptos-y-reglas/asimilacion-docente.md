@@ -5,8 +5,11 @@ description: Concepto que explica la unificación oficial de grupos o asignatura
 service: PRADO
 audience: personal-cau
 status: draft
-owner: chesco
+owner: FOL
 language: es
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -122,25 +125,25 @@ Ante una consulta relacionada con posibles asimilaciones, comprobar:
 
 La categoría habitual es:
 
-- [Asimilaciones docentes](../iris/asimilaciones-docentes.md).
+- [Asimilaciones docentes](/prado/iris/asimilaciones-docentes.md).
 
 Cuando la causa real sea otra, utilizar la categoría correspondiente:
 
-- [Ordenación docente](../iris/ordenacion-docente.md): error o ausencia en la asignación oficial del profesorado.
-- [Gestión manual](../iris/gestion-manual.md): actuación manual excepcional autorizada.
+- [Ordenación docente](/prado/iris/ordenacion-docente.md): error o ausencia en la asignación oficial del profesorado.
+- [Gestión manual](/prado/iris/gestion-manual.md): actuación manual excepcional autorizada.
 - `Matrícula`: problema con la matrícula oficial del alumnado.
 - `Espacios docentes`: incidencia centrada en la creación o configuración del espacio.
 
 ## Conceptos relacionados
 
-- [Plan de Ordenación Docente —POD—](plan-ordenacion-docente.md)
-- [Altas automáticas desde bases de datos oficiales](altas-automaticas.md)
-- [Plazos de sincronización y actualización](plazos-sincronizacion.md)
-- [Código de asignatura](codigo-asignatura.md)
-- [Matrícula manual](../conceptos-y-reglas/matricula-manual.md)
+- [Plan de Ordenación Docente —POD—](/prado/conceptos-y-reglas/plan-ordenacion-docente.md)
+- [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
+- [Código de asignatura](/prado/conceptos-y-reglas/codigo-asignatura.md)
+- [Matrícula manual](/prado/conceptos-y-reglas/matricula-manual.md)
 
 ## Procedimientos relacionados
 
-- [Tramitación de una asimilación docente](../procedimientos/tramitacion-asimilacion-docente.md)
-- El alumnado está matriculado, pero no puede ver el curso
-- [El docente no ve una asignatura o un grupo](../procedimientos/docente-no-ve-asignatura.md)
+- [Tramitación de una asimilación docente](/prado/procedimientos/tramitacion-asimilacion-docente.md)
+- [El alumnado está matriculado, pero no puede ver el curso](/prado/procedimientos/alumnado-matriculado-no-ve-curso.md)
+- [El docente no ve una asignatura o un grupo](/prado/procedimientos/docente-no-ve-asignatura.md)

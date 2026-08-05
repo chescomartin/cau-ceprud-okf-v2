@@ -5,8 +5,11 @@ description: Concepto que explica las vistas institucionales utilizadas por el C
 service: PRADO
 audience: personal-cau
 status: draft
-owner: por-definir
+owner: FOL
 language: es
+confidentiality: restringido
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-09-05
 last_reviewed: 2026-08-03
 source_schedule_reviewed: 2025-11-25
 tags:
@@ -16,7 +19,6 @@ tags:
   - automatismos
   - altas
   - bajas
-  - csirc
 ---
 
 # Vistas de bases de datos
@@ -63,10 +65,10 @@ Las vistas no sustituyen a los sistemas de origen ni permiten corregir directame
 Ante una incidencia, el personal del CAU puede utilizar las vistas para comprobar:
 
 - si una persona está matriculada oficialmente;
-- si un docente figura en el [Plan de Ordenación Docente —POD—](plan-ordenacion-docente.md);
+- si un docente figura en el [Plan de Ordenación Docente —POD—](/prado/conceptos-y-reglas/plan-ordenacion-docente.md);
 - la asignatura y el grupo registrados;
 - los créditos docentes;
-- si una persona aparece como [grupo SG —Sin Grupo—](grupo-sg.md);
+- si una persona aparece como [grupo SG —Sin Grupo—](/prado/conceptos-y-reglas/grupo-sg.md);
 - si una alta o baja consta en origen;
 - si los datos oficiales coinciden con la situación mostrada en PRADO.
 
@@ -86,7 +88,7 @@ Cuando el dato no consta:
 Cuando el dato consta, pero todavía no se refleja en PRADO:
 
 1. comprobar la fecha de actualización;
-2. aplicar los [plazos de sincronización y actualización](plazos-sincronizacion.md);
+2. aplicar los [plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md);
 3. revisar nuevamente la plataforma;
 4. escalar la incidencia si el automatismo no procesa la información correcta.
 
@@ -102,12 +104,13 @@ Cuando existe una discrepancia:
 
 ## Bajas automáticas
 
-La base de conocimiento recoge el siguiente calendario interno, actualizado el **25 de noviembre de 2025**:
+Al comparar las vistas con la situación en PRADO debe tenerse en cuenta el
+[calendario de ejecución de las bajas automáticas](/prado/parametros-operativos.md): un dato
+puede constar correctamente en las vistas y no haberse aplicado todavía porque aún no ha
+llegado el día de ejecución previsto.
 
-- bajas de Grado: martes y viernes;
-- bajas de Posgrado: lunes y jueves.
-
-Este calendario debe revisarse periódicamente antes de considerarlo una regla vigente, ya que puede cambiar.
+La regla completa está en
+[Bajas automáticas y calendario de ejecución](/prado/conceptos-y-reglas/bajas-automaticas.md).
 
 ## Limitaciones y precauciones
 
@@ -122,23 +125,23 @@ Este calendario debe revisarse periódicamente antes de considerarlo una regla v
 
 La categoría depende del dato comprobado:
 
-- [Ordenación docente](../iris/ordenacion-docente.md): error o ausencia en la asignación oficial del profesorado.
-- [Matrícula](../iris/matricula.md): error o ausencia en la matrícula oficial del alumnado.
-- [Gestión manual](../iris/gestion-manual.md): actuación manual excepcional autorizada.
-- [Baja de usuario](../iris/baja-usuario.md): una baja consta, pero todavía no se ha aplicado.
+- [Ordenación docente](/prado/iris/ordenacion-docente.md): error o ausencia en la asignación oficial del profesorado.
+- [Matrícula](/prado/iris/matricula.md): error o ausencia en la matrícula oficial del alumnado.
+- [Gestión manual](/prado/iris/gestion-manual.md): actuación manual excepcional autorizada.
+- [Baja de usuario](/prado/iris/baja-usuario.md): una baja consta, pero todavía no se ha aplicado.
 - `Sin resolver`: no se identifica la causa después de las comprobaciones.
 
 ## Conceptos relacionados
 
-- [Plan de Ordenación Docente —POD—](plan-ordenacion-docente.md)
-- [Altas automáticas desde bases de datos oficiales](altas-automaticas.md)
-- [Plazos de sincronización y actualización](plazos-sincronizacion.md)
-- [Grupo SG —Sin Grupo—](grupo-sg.md)
-- [Bajas automáticas y calendario de ejecución](bajas-automaticas.md)
+- [Plan de Ordenación Docente —POD—](/prado/conceptos-y-reglas/plan-ordenacion-docente.md)
+- [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
+- [Grupo SG —Sin Grupo—](/prado/conceptos-y-reglas/grupo-sg.md)
+- [Bajas automáticas y calendario de ejecución](/prado/conceptos-y-reglas/bajas-automaticas.md)
 
 ## Procedimientos relacionados
 
-- [El docente no ve una asignatura o un grupo](../procedimientos/docente-no-ve-asignatura.md)
-- [Alta manual de un docente con créditos prácticos](../procedimientos/alta-manual-docente-creditos-practicos.md)
-- [Tramitación de una asimilación docente](../procedimientos/tramitacion-asimilacion-docente.md)
-- [El alumnado está matriculado, pero no puede ver el curso](../procedimientos/alumnado-matriculado-no-ve-curso.md)
+- [El docente no ve una asignatura o un grupo](/prado/procedimientos/docente-no-ve-asignatura.md)
+- [Alta manual de un docente con créditos prácticos](/prado/procedimientos/alta-manual-docente-creditos-practicos.md)
+- [Tramitación de una asimilación docente](/prado/procedimientos/tramitacion-asimilacion-docente.md)
+- [El alumnado está matriculado, pero no puede ver el curso](/prado/procedimientos/alumnado-matriculado-no-ve-curso.md)

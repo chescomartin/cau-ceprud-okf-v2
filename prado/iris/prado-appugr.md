@@ -1,10 +1,15 @@
 ---
-type: KnowledgeDocument
+type: TicketCategory
 title: PRADO appUGR
 description: Tema de ayuda de IRIS para incidencias relacionadas con la visualización o integración de PRADO en appUGR.
 service: PRADO
 status: draft
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -67,8 +72,8 @@ Esta ficha deberá ampliarse cuando exista información operativa suficiente.
 
 ## Documentos relacionados
 
-- [Temas de ayuda de IRIS](../temas-de-ayuda/index.md)
-- [Categorías de IRIS](index.md)
-- [Acceso](acceso.md)
-- [Visibilidad](visibilidad.md)
-- [Mejoras de usabilidad](mejoras-usabilidad.md)
+- [Temas de ayuda de IRIS](/prado/temas-de-ayuda/index.md)
+- [Categorías de IRIS](/prado/iris/index.md)
+- [Acceso](/prado/iris/acceso.md)
+- [Visibilidad](/prado/iris/visibilidad.md)
+- [Mejoras de usabilidad](/prado/iris/mejoras-usabilidad.md)

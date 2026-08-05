@@ -1,10 +1,15 @@
 ---
-type: KnowledgeDocument
+type: Procedure
 title: Atención N1 de ABIERTA UGR
 description: Ficha provisional del protocolo de atención de primer nivel para incidencias de ABIERTA UGR.
 service: ABIERTA UGR
-status: draft
+status: placeholder
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - cau
@@ -40,4 +45,4 @@ Hasta que se incorpore el protocolo específico, esta ficha no debe utilizarse p
 
 ## Documentos relacionados
 
-- [CAU de ABIERTA UGR](index.md)
+- [CAU de ABIERTA UGR](/abierta/index.md)

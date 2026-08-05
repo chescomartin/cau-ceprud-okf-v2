@@ -1,10 +1,15 @@
 ---
-type: KnowledgeDocument
+type: Concept
 title: Doctorado
 description: Estado provisional de la información documentada sobre los espacios de Doctorado en PRADO.
 service: PRADO
 status: draft
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -94,18 +99,18 @@ Anotar:
 
 ## Conceptos relacionados
 
-- [PRADO Posgrado](prado-posgrado.md)
-- [Código de asignatura](codigo-asignatura.md)
-- [Proveedor de identidad —IdP—](proveedor-identidad-idp.md)
-- [Vistas de bases de datos](vistas-bases-datos.md)
-- [Plazos de sincronización y actualización](plazos-sincronizacion.md)
+- [PRADO Posgrado](/prado/conceptos-y-reglas/prado-posgrado.md)
+- [Código de asignatura](/prado/conceptos-y-reglas/codigo-asignatura.md)
+- [Proveedor de identidad —IdP—](/prado/conceptos-y-reglas/proveedor-identidad-idp.md)
+- [Vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
 
 ## Categorías de IRIS relacionadas
 
-- [Espacios docentes](../iris/espacios-docentes.md)
-- [Matrícula](../iris/matricula.md)
-- [Acceso](../iris/acceso.md)
-- [Gestión manual](../iris/gestion-manual.md)
+- [Espacios docentes](/prado/iris/espacios-docentes.md)
+- [Matrícula](/prado/iris/matricula.md)
+- [Acceso](/prado/iris/acceso.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
 
 ## Pendiente de completar
 

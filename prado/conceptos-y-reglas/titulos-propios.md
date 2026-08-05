@@ -1,10 +1,15 @@
 ---
-type: KnowledgeDocument
+type: Concept
 title: Títulos propios
 description: Estado de la información documentada sobre la identificación de los títulos propios en PRADO.
 service: PRADO
 status: draft
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -65,22 +70,22 @@ La documentación interna sí recoge algunos casos vinculados con títulos propi
 
 Consultar:
 
-- [Docente externo](../usuarios-y-roles/docente-externo.md)
-- [Espacio Docente del Alumnado —EDAlum—](../espacios-docentes/espacio-docente-alumnado.md)
+- [Docente externo](/prado/usuarios-y-roles/docente-externo.md)
+- [Espacio Docente del Alumnado —EDAlum—](/prado/espacios-docentes/espacio-docente-alumnado.md)
 
 ## Conceptos relacionados
 
-- [Código de asignatura](codigo-asignatura.md)
-- [PRADO Posgrado](prado-posgrado.md)
-- [Proveedor de identidad —IdP—](proveedor-identidad-idp.md)
-- [Vistas de bases de datos](vistas-bases-datos.md)
+- [Código de asignatura](/prado/conceptos-y-reglas/codigo-asignatura.md)
+- [PRADO Posgrado](/prado/conceptos-y-reglas/prado-posgrado.md)
+- [Proveedor de identidad —IdP—](/prado/conceptos-y-reglas/proveedor-identidad-idp.md)
+- [Vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md)
 
 ## Categorías de IRIS relacionadas
 
-- [Acceso](../iris/acceso.md)
-- [Matrícula](../iris/matricula.md)
-- [Gestión manual](../iris/gestion-manual.md)
-- [Espacios docentes](../iris/espacios-docentes.md)
+- [Acceso](/prado/iris/acceso.md)
+- [Matrícula](/prado/iris/matricula.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
+- [Espacios docentes](/prado/iris/espacios-docentes.md)
 
 ## Pendiente de completar
 

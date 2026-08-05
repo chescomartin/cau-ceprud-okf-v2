@@ -4,8 +4,12 @@ title: Bajas automáticas y calendario de ejecución
 description: Regla sobre la aplicación automática de bajas en PRADO a partir de las bases de datos oficiales.
 service: PRADO
 status: draft
-owner: por-definir
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-09-05
 last_reviewed: 2026-08-03
 source_schedule_reviewed: 2025-11-25
 tags:
@@ -42,18 +46,19 @@ PRADO no genera una baja oficial por una simple petición realizada en un ticket
 
 ## Calendario interno de ejecución
 
-La documentación interna recoge el siguiente calendario, revisado el **25 de noviembre de 2025**:
+Los días de ejecución de las bajas automáticas se consultan en el
+[calendario de ejecución de las bajas automáticas](/prado/parametros-operativos.md), que es
+la fuente única de este dato.
 
-- PRADO Grado: martes y viernes;
-- PRADO Posgrado: lunes y jueves.
-
-Este calendario debe revisarse periódicamente, ya que puede cambiar.
+> **No reproduzca aquí los días de ejecución.** El calendario puede cambiar y, si el
+> valor está escrito en varios documentos, se actualiza uno y los demás pasan a comunicar
+> información incorrecta.
 
 ## Efecto habitual
 
 Cuando una persona deja de llegar desde la fuente oficial, su participación puede quedar como:
 
-- [participación suspendida](../usuarios-y-roles/participacion-suspendida.md).
+- [participación suspendida](/prado/usuarios-y-roles/participacion-suspendida.md).
 
 En ese estado:
 
@@ -91,7 +96,7 @@ Ante una consulta sobre una baja pendiente, comprobar:
 5. si afecta a alumnado o profesorado;
 6. si la baja consta en la fuente oficial;
 7. la fecha del cambio;
-8. las [vistas de bases de datos](vistas-bases-datos.md);
+8. las [vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md);
 9. el calendario de ejecución;
 10. el estado actual de la participación;
 11. si existe una participación activa en otro grupo o espacio;
@@ -121,7 +126,7 @@ Actuación:
 
 Categoría de IRIS:
 
-- [Baja de usuario](../iris/baja-usuario.md).
+- [Baja de usuario](/prado/iris/baja-usuario.md).
 
 ### La baja consta y ya ha pasado el día de ejecución
 
@@ -164,56 +169,29 @@ Al finalizar la revisión debe quedar identificado:
 - qué categoría de IRIS corresponde;
 - y si debe escalarse la incidencia.
 
-## Plantillas de respuesta
+## Respuestas al usuario
 
-### Plantilla 1. Baja pendiente
+Los textos que se envían a la persona usuaria están en las respuestas tipo, que son su
+única versión:
 
-Estimada/o [nombre]:
-
-La baja ya consta en la información oficial, pero su reflejo en PRADO depende del siguiente proceso automático de actualización.
-
-Las bajas no se aplican de forma inmediata. Revisaremos el resultado después de la próxima ejecución prevista.
-
-Un saludo.
-
----
-
-### Plantilla 2. Baja no registrada
-
-Estimada/o [nombre]:
-
-La baja indicada todavía no consta en la información oficial que recibe PRADO.
-
-Debe solicitar la modificación a [secretaría/departamento/unidad responsable]. Cuando quede registrada en origen, PRADO la procesará mediante sus automatismos.
-
-Un saludo.
-
----
-
-### Plantilla 3. Baja no aplicada tras el calendario
-
-Estimada/o [nombre]:
-
-La baja consta correctamente en la fuente oficial y ya ha transcurrido el proceso de actualización previsto.
-
-Vamos a revisar por qué el automatismo no la ha aplicado todavía.
-
-Un saludo.
+- [RT-004 · Baja pendiente de ejecución](/respuestas-tipo/prado/rt-004-baja-pendiente-de-ejecucion.md)
+- [RT-005 · Participación suspendida](/respuestas-tipo/prado/rt-005-participacion-suspendida.md)
+- [RT-006 · Baja no registrada en origen](/respuestas-tipo/prado/rt-006-baja-no-registrada-en-origen.md)
 
 ## Categorías de IRIS relacionadas
 
-- [Baja de usuario](../iris/baja-usuario.md)
-- [Matrícula](../iris/matricula.md)
-- [Ordenación docente](../iris/ordenacion-docente.md)
-- [Gestión manual](../iris/gestion-manual.md)
-- Sin resolver
+- [Baja de usuario](/prado/iris/baja-usuario.md)
+- [Matrícula](/prado/iris/matricula.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
+- [Sin resolver](/prado/iris/sin-resolver.md)
 
 ## Conceptos relacionados
 
-- [Vistas de bases de datos](vistas-bases-datos.md)
-- [Plazos de sincronización y actualización](plazos-sincronizacion.md)
-- [Altas automáticas desde bases de datos oficiales](altas-automaticas.md)
-- [Matrícula manual](matricula-manual.md)
-- [Plan de Ordenación Docente —POD—](plan-ordenacion-docente.md)
-- [Participación suspendida](../usuarios-y-roles/participacion-suspendida.md)
-- [Participación no activa](../usuarios-y-roles/participacion-no-activa.md)
+- [Vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
+- [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md)
+- [Matrícula manual](/prado/conceptos-y-reglas/matricula-manual.md)
+- [Plan de Ordenación Docente —POD—](/prado/conceptos-y-reglas/plan-ordenacion-docente.md)
+- [Participación suspendida](/prado/usuarios-y-roles/participacion-suspendida.md)
+- [Participación no activa](/prado/usuarios-y-roles/participacion-no-activa.md)

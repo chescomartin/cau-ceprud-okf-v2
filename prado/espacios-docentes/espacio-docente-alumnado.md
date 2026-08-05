@@ -1,10 +1,16 @@
 ---
-type: KnowledgeDocument
+type: SpaceType
 title: Espacio Docente del Alumnado —EDAlum—
 description: Definición y reglas de composición y uso del Espacio Docente del Alumnado en PRADO.
+abbreviation: EDAlum
 service: PRADO
 status: draft
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -62,7 +68,7 @@ Cuando el espacio existe y las personas están correctamente incorporadas, pero 
 
 Consultar:
 
-- [Visibilidad](../iris/visibilidad.md)
+- [Visibilidad](/prado/iris/visibilidad.md)
 
 ## Código del espacio
 
@@ -116,7 +122,7 @@ Comprobar:
 
 Clasificación habitual:
 
-- [Matrícula](../iris/matricula.md)
+- [Matrícula](/prado/iris/matricula.md)
 
 ### Aparece alumnado que ya no corresponde
 
@@ -128,7 +134,7 @@ Comprobar:
 
 Clasificación habitual:
 
-- [Baja de usuario](../iris/baja-usuario.md)
+- [Baja de usuario](/prado/iris/baja-usuario.md)
 
 ### El espacio no es visible
 
@@ -140,7 +146,7 @@ Comprobar:
 
 Clasificación habitual:
 
-- [Visibilidad](../iris/visibilidad.md)
+- [Visibilidad](/prado/iris/visibilidad.md)
 
 ### La coordinación solicita añadir a otra persona
 
@@ -154,7 +160,7 @@ Comprobar:
 
 Clasificación habitual:
 
-- [Gestión manual](../iris/gestion-manual.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
 
 ## Información que debe registrarse
 
@@ -174,16 +180,16 @@ Anotar:
 
 ## Conceptos relacionados
 
-- [Altas automáticas desde bases de datos oficiales](../conceptos-y-reglas/altas-automaticas.md)
-- [Bajas automáticas y calendario de ejecución](../conceptos-y-reglas/bajas-automaticas.md)
-- [Plazos de sincronización y actualización](../conceptos-y-reglas/plazos-sincronizacion.md)
-- [Vistas de bases de datos](../conceptos-y-reglas/vistas-bases-datos.md)
-- [Matrícula manual](../conceptos-y-reglas/matricula-manual.md)
+- [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md)
+- [Bajas automáticas y calendario de ejecución](/prado/conceptos-y-reglas/bajas-automaticas.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
+- [Vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md)
+- [Matrícula manual](/prado/conceptos-y-reglas/matricula-manual.md)
 
 ## Categorías de IRIS relacionadas
 
-- [Espacios docentes](../iris/espacios-docentes.md)
-- [Matrícula](../iris/matricula.md)
-- [Gestión manual](../iris/gestion-manual.md)
-- [Baja de usuario](../iris/baja-usuario.md)
-- [Visibilidad](../iris/visibilidad.md)
+- [Espacios docentes](/prado/iris/espacios-docentes.md)
+- [Matrícula](/prado/iris/matricula.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
+- [Baja de usuario](/prado/iris/baja-usuario.md)
+- [Visibilidad](/prado/iris/visibilidad.md)

@@ -1,10 +1,16 @@
 ---
-type: KnowledgeDocument
+type: SpaceType
 title: Espacio Docente de Prácticas —EDPrac—
 description: Definición y reglas de composición y gestión del Espacio Docente de Prácticas en PRADO.
+abbreviation: EDPrac
 service: PRADO
 status: draft
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -87,13 +93,13 @@ Estas incorporaciones deben comprobarse y documentarse como actuaciones manuales
 
 Consultar:
 
-- [Gestión manual](../iris/gestion-manual.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
 
 ## Espacios Docentes Individuales
 
 Los espacios de prácticas que funcionen como espacios de gestión no entran en las solicitudes ordinarias de:
 
-- [Espacio Docente Individual —EDI—](espacio-docente-individual.md)
+- [Espacio Docente Individual —EDI—](/prado/espacios-docentes/espacio-docente-individual.md)
 
 Cuando el espacio dispone de docencia oficial y deja de ser un espacio de gestión, puede valorarse como una asignatura ordinaria.
 
@@ -137,7 +143,7 @@ Comprobar:
 
 Clasificación habitual:
 
-- [Matrícula](../iris/matricula.md)
+- [Matrícula](/prado/iris/matricula.md)
 
 ### Falta la persona coordinadora
 
@@ -149,8 +155,8 @@ Comprobar:
 
 Clasificación habitual:
 
-- [Espacios docentes](../iris/espacios-docentes.md)
-- [Gestión manual](../iris/gestion-manual.md)
+- [Espacios docentes](/prado/iris/espacios-docentes.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
 
 ### Falta un supervisor-coordinador
 
@@ -163,8 +169,8 @@ Comprobar:
 
 Clasificación habitual:
 
-- [Ordenación docente](../iris/ordenacion-docente.md)
-- [Gestión manual](../iris/gestion-manual.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
 
 ### El espacio está oculto
 
@@ -175,7 +181,7 @@ Comprobar:
 
 Clasificación habitual:
 
-- [Visibilidad](../iris/visibilidad.md)
+- [Visibilidad](/prado/iris/visibilidad.md)
 
 ### Se solicita un EDI
 
@@ -203,16 +209,16 @@ Anotar:
 
 ## Conceptos relacionados
 
-- [Plan de Ordenación Docente —POD—](../conceptos-y-reglas/plan-ordenacion-docente.md)
-- [Altas automáticas desde bases de datos oficiales](../conceptos-y-reglas/altas-automaticas.md)
-- [Bajas automáticas y calendario de ejecución](../conceptos-y-reglas/bajas-automaticas.md)
-- [Plazos de sincronización y actualización](../conceptos-y-reglas/plazos-sincronizacion.md)
-- [Vistas de bases de datos](../conceptos-y-reglas/vistas-bases-datos.md)
+- [Plan de Ordenación Docente —POD—](/prado/conceptos-y-reglas/plan-ordenacion-docente.md)
+- [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md)
+- [Bajas automáticas y calendario de ejecución](/prado/conceptos-y-reglas/bajas-automaticas.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
+- [Vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md)
 
 ## Categorías de IRIS relacionadas
 
-- [Espacios docentes](../iris/espacios-docentes.md)
-- [Matrícula](../iris/matricula.md)
-- [Ordenación docente](../iris/ordenacion-docente.md)
-- [Gestión manual](../iris/gestion-manual.md)
-- [Visibilidad](../iris/visibilidad.md)
+- [Espacios docentes](/prado/iris/espacios-docentes.md)
+- [Matrícula](/prado/iris/matricula.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
+- [Visibilidad](/prado/iris/visibilidad.md)

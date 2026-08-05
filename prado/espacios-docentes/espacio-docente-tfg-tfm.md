@@ -1,10 +1,16 @@
 ---
-type: KnowledgeDocument
+type: SpaceType
 title: Espacio Docente de TFG y TFM —EDTFG/EDTFM—
 description: Definición y reglas de composición y gestión de los espacios docentes de Trabajo Fin de Grado y Trabajo Fin de Máster en PRADO.
+abbreviation: EDTFG/EDTFM
 service: PRADO
 status: draft
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -50,7 +56,7 @@ La incorporación depende de que la secretaría del centro haya registrado a la 
 
 Los espacios de TFG y TFM que funcionan como espacios de gestión no entran en las solicitudes ordinarias de:
 
-- [Espacio Docente Individual —EDI—](espacio-docente-individual.md)
+- [Espacio Docente Individual —EDI—](/prado/espacios-docentes/espacio-docente-individual.md)
 
 ## Código del espacio
 
@@ -99,7 +105,7 @@ Comprobar:
 
 Clasificación habitual:
 
-- [Matrícula](../iris/matricula.md)
+- [Matrícula](/prado/iris/matricula.md)
 
 ### Falta la persona coordinadora
 
@@ -111,8 +117,8 @@ Comprobar:
 
 Clasificación habitual:
 
-- [Espacios docentes](../iris/espacios-docentes.md)
-- [Ordenación docente](../iris/ordenacion-docente.md)
+- [Espacios docentes](/prado/iris/espacios-docentes.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
 
 ### Se solicita incorporar a otra persona
 
@@ -126,7 +132,7 @@ Comprobar:
 
 Clasificación habitual:
 
-- [Gestión manual](../iris/gestion-manual.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
 
 ### El espacio está oculto
 
@@ -137,7 +143,7 @@ Comprobar:
 
 Clasificación habitual:
 
-- [Visibilidad](../iris/visibilidad.md)
+- [Visibilidad](/prado/iris/visibilidad.md)
 
 ### Se solicita un EDI
 
@@ -162,16 +168,16 @@ Anotar:
 
 ## Conceptos relacionados
 
-- [Altas automáticas desde bases de datos oficiales](../conceptos-y-reglas/altas-automaticas.md)
-- [Bajas automáticas y calendario de ejecución](../conceptos-y-reglas/bajas-automaticas.md)
-- [Plazos de sincronización y actualización](../conceptos-y-reglas/plazos-sincronizacion.md)
-- [Vistas de bases de datos](../conceptos-y-reglas/vistas-bases-datos.md)
-- [Matrícula manual](../conceptos-y-reglas/matricula-manual.md)
+- [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md)
+- [Bajas automáticas y calendario de ejecución](/prado/conceptos-y-reglas/bajas-automaticas.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
+- [Vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md)
+- [Matrícula manual](/prado/conceptos-y-reglas/matricula-manual.md)
 
 ## Categorías de IRIS relacionadas
 
-- [Espacios docentes](../iris/espacios-docentes.md)
-- [Matrícula](../iris/matricula.md)
-- [Ordenación docente](../iris/ordenacion-docente.md)
-- [Gestión manual](../iris/gestion-manual.md)
-- [Visibilidad](../iris/visibilidad.md)
+- [Espacios docentes](/prado/iris/espacios-docentes.md)
+- [Matrícula](/prado/iris/matricula.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
+- [Visibilidad](/prado/iris/visibilidad.md)

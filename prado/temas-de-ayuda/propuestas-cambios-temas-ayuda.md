@@ -1,10 +1,15 @@
 ---
-type: KnowledgeDocument
+type: Governance
 title: Propuestas de cambios en los Temas de ayuda
 description: Registro de las propuestas de alta, supresión y cambio de nombre de categorías de IRIS recogidas en la documentación interna.
 service: CEPRUD
 status: draft
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-09-05
 last_reviewed: 2026-08-03
 tags:
   - iris
@@ -26,15 +31,15 @@ Esta ficha registra literalmente su estructura general sin asumir que todas las 
 
 La fuente propone añadir los siguientes Temas de ayuda:
 
-- [INFO: General](../iris/info-general.md)
-- [INFO: Reconocimiento de créditos](../iris/info-reconocimiento-creditos.md)
-- [TPV: Error](../iris/tpv-error.md)
-- [TPV: General](../iris/tpv-general.md)
-- [TPV: Certificado](../iris/tpv-certificado.md)
-- [Sin resolver](../iris/sin-resolver.md)
-- [DPM: Peticiones](../iris/dpm-peticiones.md)
-- [DPM: Error](../iris/dpm-error.md)
-- [NotebookLM](../iris/notebooklm.md)
+- [INFO: General](/prado/iris/info-general.md)
+- [INFO: Reconocimiento de créditos](/prado/iris/info-reconocimiento-creditos.md)
+- [TPV: Error](/prado/iris/tpv-error.md)
+- [TPV: General](/prado/iris/tpv-general.md)
+- [TPV: Certificado](/prado/iris/tpv-certificado.md)
+- [Sin resolver](/prado/iris/sin-resolver.md)
+- [DPM: Peticiones](/prado/iris/dpm-peticiones.md)
+- [DPM: Error](/prado/iris/dpm-error.md)
+- [NotebookLM](/prado/iris/notebooklm.md)
 
 ## Propuestas de supresión
 
@@ -81,5 +86,5 @@ Antes de modificar el catálogo real de IRIS debe comprobarse:
 
 ## Documentos relacionados
 
-- [Temas de ayuda de IRIS](index.md)
-- [Categorías de IRIS](../iris/index.md)
+- [Temas de ayuda de IRIS](/prado/temas-de-ayuda/index.md)
+- [Categorías de IRIS](/prado/iris/index.md)

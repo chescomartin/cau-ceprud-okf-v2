@@ -1,10 +1,15 @@
 ---
-type: KnowledgeDocument
+type: Concept
 title: PRADO Posgrado
 description: Convenciones documentadas de identificación, acceso y consulta para PRADO Posgrado.
 service: PRADO
 status: draft
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -79,7 +84,7 @@ tanto para su participación docente como para su participación como alumno.
 
 Consultar:
 
-- [Usuario con perfil docente y alumno](../usuarios-y-roles/usuario-docente-alumno.md)
+- [Usuario con perfil docente y alumno](/prado/usuarios-y-roles/usuario-docente-alumno.md)
 
 ## Consulta de matrícula
 
@@ -95,8 +100,8 @@ La documentación interna indica que, para Posgrado, la matrícula debe comproba
 
 Consultar:
 
-- [Vistas de bases de datos](vistas-bases-datos.md)
-- [Consulta de Estado para Acceso a PRADO en Oficina Virtual](consulta-estado-acceso-prado.md)
+- [Vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md)
+- [Consulta de Estado para Acceso a PRADO en Oficina Virtual](/prado/conceptos-y-reglas/consulta-estado-acceso-prado.md)
 
 ## Comprobaciones habituales
 
@@ -115,18 +120,18 @@ Ante una incidencia en PRADO Posgrado, comprobar:
 
 ## Conceptos relacionados
 
-- [Código de asignatura](codigo-asignatura.md)
-- [Proveedor de identidad —IdP—](proveedor-identidad-idp.md)
-- [Vistas de bases de datos](vistas-bases-datos.md)
-- [Plazos de sincronización y actualización](plazos-sincronizacion.md)
-- [Incidencia administrativa](incidencia-administrativa.md)
+- [Código de asignatura](/prado/conceptos-y-reglas/codigo-asignatura.md)
+- [Proveedor de identidad —IdP—](/prado/conceptos-y-reglas/proveedor-identidad-idp.md)
+- [Vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
+- [Incidencia administrativa](/prado/conceptos-y-reglas/incidencia-administrativa.md)
 
 ## Categorías de IRIS relacionadas
 
-- [Acceso](../iris/acceso.md)
-- [Matrícula](../iris/matricula.md)
-- [Ordenación docente](../iris/ordenacion-docente.md)
-- [Incidencia administrativa](../iris/incidencia-administrativa.md)
+- [Acceso](/prado/iris/acceso.md)
+- [Matrícula](/prado/iris/matricula.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
+- [Incidencia administrativa](/prado/iris/incidencia-administrativa.md)
 
 ## Alcance de esta ficha
 

@@ -1,10 +1,15 @@
 ---
-type: KnowledgeDocument
+type: TicketCategory
 title: "TPV: General"
 description: Tema de ayuda de IRIS para consultas generales relacionadas con pagos mediante TPV que no sean errores ni certificados.
 service: CEPRUD
-status: draft
+status: placeholder
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - iris
@@ -26,8 +31,8 @@ La fuente no aporta todavía una definición completa, plataformas asociadas, ej
 
 Hasta que exista una definición institucional más precisa, debe utilizarse para consultas generales relacionadas con pagos mediante TPV que no correspondan a:
 
-- [TPV: Error](tpv-error.md);
-- [TPV: Certificado](tpv-certificado.md);
+- [TPV: Error](/prado/iris/tpv-error.md);
+- [TPV: Certificado](/prado/iris/tpv-certificado.md);
 - una exención;
 - o una incidencia de matrícula.
 
@@ -56,8 +61,8 @@ Debe documentarse:
 
 ## Documentos relacionados
 
-- [Temas de ayuda de IRIS](../temas-de-ayuda/index.md)
-- [Categorías de IRIS](index.md)
-- [TPV: Error](tpv-error.md)
-- [TPV: Certificado](tpv-certificado.md)
-- [Exención](exencion.md)
+- [Temas de ayuda de IRIS](/prado/temas-de-ayuda/index.md)
+- [Categorías de IRIS](/prado/iris/index.md)
+- [TPV: Error](/prado/iris/tpv-error.md)
+- [TPV: Certificado](/prado/iris/tpv-certificado.md)
+- [Exención](/prado/iris/exencion.md)

@@ -5,9 +5,12 @@ description: Procedimiento para realizar una incorporación manual en PRADO cuan
 service: PRADO
 audience: personal-cau
 status: draft
-owner: chesco
+owner: FOL
 usual_ticket_category: Gestión manual
 language: es
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -106,10 +109,10 @@ No asignar permisos superiores a los solicitados o autorizados.
 
 Consultar, cuando sea necesario:
 
-- el [Plan de Ordenación Docente —POD—](../conceptos-y-reglas/plan-ordenacion-docente.md);
+- el [Plan de Ordenación Docente —POD—](/prado/conceptos-y-reglas/plan-ordenacion-docente.md);
 - los datos disponibles en las vistas de bases de datos;
 - la situación actual de la persona en PRADO;
-- los [plazos de sincronización y actualización](../conceptos-y-reglas/plazos-sincronizacion.md).
+- los [plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md).
 
 La autorización permite realizar la actuación manual, pero no debe ocultar una posible incidencia que también deba corregirse en origen.
 
@@ -123,7 +126,7 @@ La autorización permite realizar la actuación manual, pero no debe ocultar una
 4. asignar el grupo y el rol autorizados;
 5. verificar el resultado;
 6. registrar la actuación en el ticket;
-7. clasificar como [Gestión manual](../iris/gestion-manual.md).
+7. clasificar como [Gestión manual](/prado/iris/gestion-manual.md).
 
 ### Caso 2. Existe autorización, pero faltan datos
 
@@ -197,7 +200,7 @@ El docente debe:
 
 La categoría habitual es:
 
-- [Gestión manual](../iris/gestion-manual.md).
+- [Gestión manual](/prado/iris/gestion-manual.md).
 
 No utilizar `Ordenación docente` como categoría principal cuando la resolución efectiva del ticket haya consistido en una actuación manual autorizada.
 
@@ -257,17 +260,17 @@ Un saludo.
 
 ## Conceptos relacionados
 
-- [Plan de Ordenación Docente —POD—](../conceptos-y-reglas/plan-ordenacion-docente.md)
-- [Altas automáticas desde bases de datos oficiales](../conceptos-y-reglas/altas-automaticas.md)
-- [Plazos de sincronización y actualización](../conceptos-y-reglas/plazos-sincronizacion.md)
+- [Plan de Ordenación Docente —POD—](/prado/conceptos-y-reglas/plan-ordenacion-docente.md)
+- [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
 
 ## Categorías de IRIS relacionadas
 
-- [Gestión manual](../iris/gestion-manual.md)
-- [Ordenación docente](../iris/ordenacion-docente.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
 
 ## Procedimientos relacionados
 
-- [Alta manual de un docente con créditos prácticos](alta-manual-docente-creditos-practicos.md)
-- [El docente no ve una asignatura o un grupo](docente-no-ve-asignatura.md)
-- [Transferencia de tickets en IRIS](../conceptos-y-reglas/transferencia-tickets-iris.md)
+- [Alta manual de un docente con créditos prácticos](/prado/procedimientos/alta-manual-docente-creditos-practicos.md)
+- [El docente no ve una asignatura o un grupo](/prado/procedimientos/docente-no-ve-asignatura.md)
+- [Transferencia de tickets en IRIS](/prado/conceptos-y-reglas/transferencia-tickets-iris.md)

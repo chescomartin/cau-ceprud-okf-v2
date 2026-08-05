@@ -1,13 +1,19 @@
 ---
 type: TicketCategory
-title: Asimilaciones docentes
+title: "IRIS: Asimilaciones docentes"
 description: Tema de ayuda para incidencias relacionadas con la unificación oficial de asignaturas o grupos con docencia equivalente.
+regla_aplicable: /prado/conceptos-y-reglas/asimilacion-docente.md
 service: PRADO
 platforms:
   - PRADO Grado
   - PRADO Posgrado
 status: draft
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - iris
@@ -18,7 +24,13 @@ tags:
   - espacios-docentes
 ---
 
-# Asimilaciones docentes
+# IRIS: Asimilaciones docentes
+
+> **Alcance de esta ficha: únicamente la clasificación del ticket.**
+>
+> Qué es el fenómeno y por qué se produce: [Asimilación docente](/prado/conceptos-y-reglas/asimilacion-docente.md).
+> Qué se le escribe a la persona usuaria: [respuestas tipo](/respuestas-tipo/index.md).
+
 
 ## Definición
 
@@ -143,19 +155,19 @@ Un saludo.
 
 ## Conceptos relacionados
 
-- [Asimilación docente](../conceptos-y-reglas/asimilacion-docente.md)
-- [Plan de Ordenación Docente —POD—](../conceptos-y-reglas/plan-ordenacion-docente.md)
-- [Altas automáticas desde bases de datos oficiales](../conceptos-y-reglas/altas-automaticas.md)
-- [Plazos de sincronización y actualización](../conceptos-y-reglas/plazos-sincronizacion.md)
+- [Asimilación docente](/prado/conceptos-y-reglas/asimilacion-docente.md)
+- [Plan de Ordenación Docente —POD—](/prado/conceptos-y-reglas/plan-ordenacion-docente.md)
+- [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
 
 ## Procedimientos relacionados
 
-- [Tramitación de una asimilación docente](../procedimientos/tramitacion-asimilacion-docente.md)
-- [El docente no ve una asignatura o un grupo](../procedimientos/docente-no-ve-asignatura.md)
+- [Tramitación de una asimilación docente](/prado/procedimientos/tramitacion-asimilacion-docente.md)
+- [El docente no ve una asignatura o un grupo](/prado/procedimientos/docente-no-ve-asignatura.md)
 
 ## Categorías relacionadas
 
-- [Ordenación docente](ordenacion-docente.md)
-- [Gestión manual](gestion-manual.md)
-- Matrícula
-- Espacios docentes
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
+- [Matrícula](/prado/iris/matricula.md)
+- [Espacios docentes](/prado/iris/espacios-docentes.md)

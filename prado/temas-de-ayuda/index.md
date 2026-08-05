@@ -21,16 +21,16 @@ Debe evitarse confundir:
 
 ## Temas documentados en el repositorio
 
-- [Acceso](../iris/acceso.md)
-- [Asimilaciones docentes](../iris/asimilaciones-docentes.md)
-- [Baja de usuario](../iris/baja-usuario.md)
-- [Espacios docentes](../iris/espacios-docentes.md)
-- [Gestión manual](../iris/gestion-manual.md)
-- [Incidencia administrativa](../iris/incidencia-administrativa.md)
-- [Matrícula](../iris/matricula.md)
-- [Ordenación docente](../iris/ordenacion-docente.md)
-- [Usuario o rol duplicado](../iris/usuario-rol-duplicado.md)
-- [Visibilidad](../iris/visibilidad.md)
+- [Acceso](/prado/iris/acceso.md)
+- [Asimilaciones docentes](/prado/iris/asimilaciones-docentes.md)
+- [Baja de usuario](/prado/iris/baja-usuario.md)
+- [Espacios docentes](/prado/iris/espacios-docentes.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
+- [Incidencia administrativa](/prado/iris/incidencia-administrativa.md)
+- [Matrícula](/prado/iris/matricula.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
+- [Usuario/rol duplicado](/prado/iris/usuario-rol-duplicado.md)
+- [Visibilidad](/prado/iris/visibilidad.md)
 
 ## Otros temas presentes en la documentación interna
 
@@ -65,7 +65,7 @@ Antes de elegir el Tema de ayuda:
 
 ## Documentos relacionados
 
-- [Propuestas de cambios en los Temas de ayuda](propuestas-cambios-temas-ayuda.md)
-- [Categorías de IRIS](../iris/index.md)
-- [Flujo general de resolución de incidencias de PRADO](../arquitectura-y-procesos/flujo-general-resolucion-incidencias.md)
-- [Árbol general de decisión para incidencias de PRADO](../arquitectura-y-procesos/arbol-decision-general-prado.md)
+- [Propuestas de cambios en los Temas de ayuda](/prado/temas-de-ayuda/propuestas-cambios-temas-ayuda.md)
+- [Categorías de IRIS](/prado/iris/index.md)
+- [Flujo general de resolución de incidencias de PRADO](/prado/arquitectura-y-procesos/flujo-general-resolucion-incidencias.md)
+- [Árbol general de decisión para incidencias de PRADO](/prado/arquitectura-y-procesos/arbol-decision-general-prado.md)

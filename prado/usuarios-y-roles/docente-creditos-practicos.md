@@ -1,10 +1,15 @@
 ---
-type: KnowledgeDocument
+type: UserType
 title: Docente con solo créditos prácticos
 description: Definición, procedencia y particularidades del profesorado con asignación exclusivamente práctica en PRADO.
 service: PRADO
 status: draft
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -71,7 +76,7 @@ Cuando se crea un EDI para un docente que solo dispone de créditos prácticos:
 
 Consultar:
 
-- [Espacio Docente Individual —EDI—](../espacios-docentes/espacio-docente-individual.md)
+- [Espacio Docente Individual —EDI—](/prado/espacios-docentes/espacio-docente-individual.md)
 
 ## Comprobaciones habituales
 
@@ -103,7 +108,7 @@ Comprobar:
 
 Consultar:
 
-- [Docente no ve una asignatura](../procedimientos/docente-no-ve-asignatura.md)
+- [Docente no ve una asignatura](/prado/procedimientos/docente-no-ve-asignatura.md)
 
 ### Necesita un alta manual
 
@@ -111,7 +116,7 @@ Puede ser necesario cuando la información oficial no permite asociarlo correcta
 
 Consultar:
 
-- [Alta manual de docente con créditos prácticos](../procedimientos/alta-manual-docente-creditos-practicos.md)
+- [Alta manual de un docente con créditos prácticos](/prado/procedimientos/alta-manual-docente-creditos-practicos.md)
 
 ### Solicita un EDI
 
@@ -143,14 +148,14 @@ Anotar:
 
 ## Conceptos relacionados
 
-- [Grupo SG —Sin Grupo—](../conceptos-y-reglas/grupo-sg.md)
-- [Plan de Ordenación Docente —POD—](../conceptos-y-reglas/plan-ordenacion-docente.md)
-- [Altas automáticas desde bases de datos oficiales](../conceptos-y-reglas/altas-automaticas.md)
-- [Plazos de sincronización y actualización](../conceptos-y-reglas/plazos-sincronizacion.md)
-- [Vistas de bases de datos](../conceptos-y-reglas/vistas-bases-datos.md)
+- [Grupo SG —Sin Grupo—](/prado/conceptos-y-reglas/grupo-sg.md)
+- [Plan de Ordenación Docente —POD—](/prado/conceptos-y-reglas/plan-ordenacion-docente.md)
+- [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
+- [Vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md)
 
 ## Categorías de IRIS relacionadas
 
-- [Ordenación docente](../iris/ordenacion-docente.md)
-- [Gestión manual](../iris/gestion-manual.md)
-- [Espacios docentes](../iris/espacios-docentes.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
+- [Espacios docentes](/prado/iris/espacios-docentes.md)

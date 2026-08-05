@@ -1,10 +1,15 @@
 ---
-type: KnowledgeDocument
+type: Role
 title: Rol Manageteacher
 description: Definición y capacidad documentada del rol Manageteacher en PRADO.
 service: PRADO
 status: draft
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -28,7 +33,7 @@ La capacidad expresamente documentada de este rol es:
 
 No debe confundirse con:
 
-- [Rol Editingteacher](rol-editingteacher.md)
+- [Rol Editingteacher](/prado/usuarios-y-roles/rol-editingteacher.md)
 
 La diferencia documentada es:
 
@@ -101,7 +106,7 @@ Comprobar que la persona figura oficialmente como coordinadora y que el espacio 
 
 Consultar:
 
-- [Coordinador o coordinadora de titulación](coordinador-titulacion.md)
+- [Coordinador o coordinadora de titulación](/prado/usuarios-y-roles/coordinador-titulacion.md)
 
 ### Una persona afirma coordinar una asignatura
 
@@ -109,7 +114,7 @@ La condición declarada de coordinador o coordinadora de asignatura no implica a
 
 Consultar:
 
-- [Coordinador o coordinadora de asignatura](coordinador-asignatura.md)
+- [Coordinador o coordinadora de asignatura](/prado/usuarios-y-roles/coordinador-asignatura.md)
 
 ## Información que debe registrarse
 
@@ -129,18 +134,18 @@ Anotar:
 
 ## Espacios relacionados
 
-- [Espacio Docente del Profesorado —EDProf—](../espacios-docentes/espacio-docente-profesorado.md)
-- [Espacio Docente del Alumnado —EDAlum—](../espacios-docentes/espacio-docente-alumnado.md)
-- [Espacio Docente de Prácticas —EDPrac—](../espacios-docentes/espacio-docente-practicas.md)
-- [Espacio Docente de TFG y TFM —EDTFG/EDTFM—](../espacios-docentes/espacio-docente-tfg-tfm.md)
-- [Espacio Docente de Pruebas Personal —EDPP—](../espacios-docentes/espacio-docente-pruebas-personal.md)
-- [Espacio Docente de Coordinación EIP —EDEIP—](../espacios-docentes/espacio-docente-coordinacion-eip.md)
+- [Espacio Docente del Profesorado —EDProf—](/prado/espacios-docentes/espacio-docente-profesorado.md)
+- [Espacio Docente del Alumnado —EDAlum—](/prado/espacios-docentes/espacio-docente-alumnado.md)
+- [Espacio Docente de Prácticas —EDPrac—](/prado/espacios-docentes/espacio-docente-practicas.md)
+- [Espacio Docente de TFG y TFM —EDTFG/EDTFM—](/prado/espacios-docentes/espacio-docente-tfg-tfm.md)
+- [Espacio Docente de Pruebas Personal —EDPP—](/prado/espacios-docentes/espacio-docente-pruebas-personal.md)
+- [Espacio Docente de Coordinación EIP —EDEIP—](/prado/espacios-docentes/espacio-docente-coordinacion-eip.md)
 
 ## Categorías de IRIS relacionadas
 
-- [Gestión manual](../iris/gestion-manual.md)
-- [Espacios docentes](../iris/espacios-docentes.md)
-- [Usuario o rol duplicado](../iris/usuario-rol-duplicado.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
+- [Espacios docentes](/prado/iris/espacios-docentes.md)
+- [Usuario/rol duplicado](/prado/iris/usuario-rol-duplicado.md)
 
 ## Alcance de esta ficha
 

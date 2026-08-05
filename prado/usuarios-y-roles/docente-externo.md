@@ -7,8 +7,12 @@ platforms:
   - PRADO Posgrado
   - Títulos Propios
 status: draft
-owner: por-definir
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -78,13 +82,13 @@ La persona no puede autenticarse ni entrar en PRADO.
 
 Categoría habitual:
 
-- [Acceso](../iris/acceso.md).
+- [Acceso](/prado/iris/acceso.md).
 
 Procedimientos relacionados:
 
-- [Acceso de un docente externo](../procedimientos/acceso-docente-externo.md)
-- [Comprobación del estado de acceso](../procedimientos/comprobacion-estado-acceso.md)
-- [Problemas de acceso o verificación en dos pasos](../procedimientos/problemas-acceso-verificacion-dos-pasos.md)
+- [Acceso de un docente externo](/prado/procedimientos/acceso-docente-externo.md)
+- [Comprobación del estado de acceso](/prado/procedimientos/comprobacion-estado-acceso.md)
+- [Problemas de acceso o verificación en dos pasos](/prado/procedimientos/problemas-acceso-verificacion-dos-pasos.md)
 
 ### Problema de participación
 
@@ -110,7 +114,7 @@ Debe completarse el trámite en Oficina Virtual utilizando el PIN proporcionado 
 
 Debe aplicarse el procedimiento:
 
-- [Acceso de un docente externo](../procedimientos/acceso-docente-externo.md).
+- [Acceso de un docente externo](/prado/procedimientos/acceso-docente-externo.md).
 
 ### Puede entrar, pero no ve la asignatura
 
@@ -138,21 +142,21 @@ No debe pedirse que la persona comunique:
 
 ## Categorías de IRIS relacionadas
 
-- [Acceso](../iris/acceso.md)
-- [Ordenación docente](../iris/ordenacion-docente.md)
-- [Gestión manual](../iris/gestion-manual.md)
-- Sin resolver
+- [Acceso](/prado/iris/acceso.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
+- [Sin resolver](/prado/iris/sin-resolver.md)
 
 ## Conceptos relacionados
 
-- [Proveedor de identidad —IdP—](../conceptos-y-reglas/proveedor-identidad-idp.md)
-- [Participación suspendida](participacion-suspendida.md)
-- [Participación no activa](participacion-no-activa.md)
-- Usuario manual
+- [Proveedor de identidad —IdP—](/prado/conceptos-y-reglas/proveedor-identidad-idp.md)
+- [Participación suspendida](/prado/usuarios-y-roles/participacion-suspendida.md)
+- [Participación no activa](/prado/usuarios-y-roles/participacion-no-activa.md)
+- [Usuario manual](/prado/usuarios-y-roles/usuario-manual.md)
 
 ## Procedimientos relacionados
 
-- [Acceso de un docente externo](../procedimientos/acceso-docente-externo.md)
-- [Comprobación del estado de acceso](../procedimientos/comprobacion-estado-acceso.md)
-- [Problemas de acceso o verificación en dos pasos](../procedimientos/problemas-acceso-verificacion-dos-pasos.md)
-- [El docente no ve una asignatura o un grupo](../procedimientos/docente-no-ve-asignatura.md)
+- [Acceso de un docente externo](/prado/procedimientos/acceso-docente-externo.md)
+- [Comprobación del estado de acceso](/prado/procedimientos/comprobacion-estado-acceso.md)
+- [Problemas de acceso o verificación en dos pasos](/prado/procedimientos/problemas-acceso-verificacion-dos-pasos.md)
+- [El docente no ve una asignatura o un grupo](/prado/procedimientos/docente-no-ve-asignatura.md)

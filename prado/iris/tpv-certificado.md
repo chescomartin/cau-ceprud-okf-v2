@@ -1,10 +1,15 @@
 ---
-type: KnowledgeDocument
+type: TicketCategory
 title: "TPV: Certificado"
 description: Tema de ayuda de IRIS pendiente de definición para asuntos relacionados con certificados y TPV.
 service: CEPRUD
-status: draft
+status: placeholder
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - iris
@@ -34,8 +39,8 @@ Hasta que exista una definición institucional, no debe suponerse qué tipos de 
 
 Antes de seleccionarla, debe comprobarse si el ticket encaja mejor en:
 
-- [Certificados](certificados.md);
-- [TPV: Error](tpv-error.md), cuando exista un fallo de pago;
+- [Certificados](/prado/iris/certificados.md);
+- [TPV: Error](/prado/iris/tpv-error.md), cuando exista un fallo de pago;
 - o una categoría específica de la plataforma afectada.
 
 ## Información pendiente
@@ -52,6 +57,6 @@ Debe documentarse:
 
 ## Documentos relacionados
 
-- [Temas de ayuda de IRIS](../temas-de-ayuda/index.md)
-- [Categorías de IRIS](index.md)
-- [Certificados](certificados.md)
+- [Temas de ayuda de IRIS](/prado/temas-de-ayuda/index.md)
+- [Categorías de IRIS](/prado/iris/index.md)
+- [Certificados](/prado/iris/certificados.md)

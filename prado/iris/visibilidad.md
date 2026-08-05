@@ -1,7 +1,8 @@
 ---
 type: TicketCategory
-title: Visibilidad
+title: "IRIS: Visibilidad"
 description: Tema de ayuda para incidencias en las que un curso o asignatura existe y la inscripción es correcta, pero no está disponible para el alumnado por su configuración de visibilidad.
+regla_aplicable: /prado/conceptos-y-reglas/altas-automaticas.md
 service: PRADO
 platforms:
   - PRADO Grado
@@ -9,7 +10,12 @@ platforms:
   - E-CAMPUS
   - ABIERTA UGR
 status: draft
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - iris
@@ -20,7 +26,13 @@ tags:
   - configuracion-curso
 ---
 
-# Visibilidad
+# IRIS: Visibilidad
+
+> **Alcance de esta ficha: únicamente la clasificación del ticket.**
+>
+> Qué es el fenómeno y por qué se produce: [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md).
+> Qué se le escribe a la persona usuaria: [respuestas tipo](/respuestas-tipo/index.md).
+
 
 ## Definición
 
@@ -103,7 +115,7 @@ Actuación:
 
 Categoría:
 
-- [Matrícula](matricula.md).
+- [Matrícula](/prado/iris/matricula.md).
 
 No debe utilizarse `Visibilidad` aunque el estudiante manifieste simplemente que «no ve la asignatura».
 
@@ -111,7 +123,7 @@ No debe utilizarse `Visibilidad` aunque el estudiante manifieste simplemente que
 
 Categoría:
 
-- [Ordenación docente](ordenacion-docente.md), cuando la causa sea la ausencia de asignación oficial del profesorado.
+- [Ordenación docente](/prado/iris/ordenacion-docente.md), cuando la causa sea la ausencia de asignación oficial del profesorado.
 
 La ausencia del curso no debe atribuirse a la visibilidad si el espacio todavía no se ha creado o no dispone de docencia asignada.
 
@@ -130,13 +142,13 @@ Cuando la causa sea únicamente la configuración personal de la vista, orientar
 
 Categoría:
 
-- [Incidencia administrativa](incidencia-administrativa.md).
+- [Incidencia administrativa](/prado/iris/incidencia-administrativa.md).
 
 ### No puede entrar en PRADO
 
 Categoría:
 
-- [Acceso](acceso.md).
+- [Acceso](/prado/iris/acceso.md).
 
 ## Actuación del docente
 
@@ -212,20 +224,20 @@ Un saludo.
 
 ## Conceptos relacionados
 
-- [Vistas de bases de datos](../conceptos-y-reglas/vistas-bases-datos.md)
-- [Altas automáticas desde bases de datos oficiales](../conceptos-y-reglas/altas-automaticas.md)
-- [Plazos de sincronización y actualización](../conceptos-y-reglas/plazos-sincronizacion.md)
-- [Consulta de Estado para Acceso a PRADO en Oficina Virtual](../conceptos-y-reglas/consulta-estado-acceso-prado.md)
+- [Vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md)
+- [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
+- [Consulta de Estado para Acceso a PRADO en Oficina Virtual](/prado/conceptos-y-reglas/consulta-estado-acceso-prado.md)
 
 ## Procedimientos relacionados
 
-- [El alumnado está matriculado, pero no puede ver el curso](../procedimientos/alumnado-matriculado-no-ve-curso.md)
-- [Comprobación del estado de acceso](../procedimientos/comprobacion-estado-acceso.md)
+- [El alumnado está matriculado, pero no puede ver el curso](/prado/procedimientos/alumnado-matriculado-no-ve-curso.md)
+- [Comprobación del estado de acceso](/prado/procedimientos/comprobacion-estado-acceso.md)
 
 ## Categorías relacionadas
 
-- [Matrícula](matricula.md)
-- [Ordenación docente](ordenacion-docente.md)
-- [Acceso](acceso.md)
-- [Incidencia administrativa](incidencia-administrativa.md)
-- Sin resolver
+- [Matrícula](/prado/iris/matricula.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
+- [Acceso](/prado/iris/acceso.md)
+- [Incidencia administrativa](/prado/iris/incidencia-administrativa.md)
+- [Sin resolver](/prado/iris/sin-resolver.md)

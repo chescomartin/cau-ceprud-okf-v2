@@ -1,10 +1,15 @@
 ---
-type: KnowledgeDocument
+type: Concept
 title: Usuario duplicado o cambio de número de identificación
 description: Definición y tratamiento documentado de las cuentas duplicadas originadas por un cambio de documento identificativo en PRADO.
 service: PRADO
 status: draft
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-09-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -38,11 +43,9 @@ Cuando funciona correctamente:
 
 ## Plazo de actualización
 
-El cambio puede tardar:
-
-- hasta 48 horas desde que se hace efectivo en la secretaría.
-
-No debe informarse de un plazo de solo 24 horas.
+El plazo aplicable a este cambio se consulta en
+[Parámetros operativos de PRADO](/prado/parametros-operativos.md). Es un plazo **específico**
+y no debe informarse del plazo general de sincronización.
 
 ## Comprobaciones habituales
 
@@ -79,7 +82,7 @@ Comprobar:
 
 Clasificación habitual:
 
-- [Usuario o rol duplicado](../iris/usuario-rol-duplicado.md)
+- [Usuario/rol duplicado](/prado/iris/usuario-rol-duplicado.md)
 
 ### El automatismo ha fallado
 
@@ -116,16 +119,16 @@ Anotar:
 
 ## Conceptos relacionados
 
-- [Proveedor de identidad —IdP—](../conceptos-y-reglas/proveedor-identidad-idp.md)
-- [Vistas de bases de datos](../conceptos-y-reglas/vistas-bases-datos.md)
-- [Plazos de sincronización y actualización](../conceptos-y-reglas/plazos-sincronizacion.md)
+- [Proveedor de identidad —IdP—](/prado/conceptos-y-reglas/proveedor-identidad-idp.md)
+- [Vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
 
 ## Perfiles relacionados
 
-- [Alumno oficial](alumno-oficial.md)
-- [Docente oficial de teoría](docente-oficial-teoria.md)
-- [Usuario con perfil docente y alumno](usuario-docente-alumno.md)
+- [Alumno oficial](/prado/usuarios-y-roles/alumno-oficial.md)
+- [Docente oficial de teoría](/prado/usuarios-y-roles/docente-oficial-teoria.md)
+- [Usuario con perfil docente y alumno](/prado/usuarios-y-roles/usuario-docente-alumno.md)
 
 ## Categoría de IRIS relacionada
 
-- [Usuario o rol duplicado](../iris/usuario-rol-duplicado.md)
+- [Usuario/rol duplicado](/prado/iris/usuario-rol-duplicado.md)

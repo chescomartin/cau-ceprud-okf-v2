@@ -6,7 +6,11 @@ service: PRADO
 system: IRIS
 audience: personal-cau
 status: draft
+owner: FOL
 language: es
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - iris
@@ -70,11 +74,11 @@ Puede valorarse la transferencia cuando:
 
 Antes de transferir deben revisarse:
 
-- [Consulta de Estado para Acceso a PRADO en Oficina Virtual](consulta-estado-acceso-prado.md), en Grado;
-- [Vistas de bases de datos](vistas-bases-datos.md);
-- [Plazos de sincronización y actualización](plazos-sincronizacion.md);
-- [Matrícula](../iris/matricula.md);
-- [Incidencia administrativa](../iris/incidencia-administrativa.md).
+- [Consulta de Estado para Acceso a PRADO en Oficina Virtual](/prado/conceptos-y-reglas/consulta-estado-acceso-prado.md), en Grado;
+- [Vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md);
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md);
+- [Matrícula](/prado/iris/matricula.md);
+- [Incidencia administrativa](/prado/iris/incidencia-administrativa.md).
 
 ### Ordenación docente
 
@@ -90,9 +94,9 @@ Antes de transferir deben comprobarse:
 
 Consultar:
 
-- [Plan de Ordenación Docente —POD—](plan-ordenacion-docente.md);
-- [Ordenación docente](../iris/ordenacion-docente.md);
-- [El docente no ve una asignatura o un grupo](../procedimientos/docente-no-ve-asignatura.md).
+- [Plan de Ordenación Docente —POD—](/prado/conceptos-y-reglas/plan-ordenacion-docente.md);
+- [Ordenación docente](/prado/iris/ordenacion-docente.md);
+- [El docente no ve una asignatura o un grupo](/prado/procedimientos/docente-no-ve-asignatura.md).
 
 ### Solicitud de autorización a Ordenación Académica
 
@@ -105,8 +109,8 @@ Cuando una actuación manual requiere el visto bueno de Ordenación Académica:
 
 Consultar:
 
-- [Alta manual de un docente con autorización de Ordenación Académica](../procedimientos/alta-manual-autorizacion-ordenacion-academica.md);
-- [Gestión manual](../iris/gestion-manual.md).
+- [Alta manual de un docente con autorización de Ordenación Académica](/prado/procedimientos/alta-manual-autorizacion-ordenacion-academica.md);
+- [Gestión manual](/prado/iris/gestion-manual.md).
 
 ## Comprobaciones antes de transferir
 
@@ -222,22 +226,22 @@ Un saludo.
 
 ## Conceptos relacionados
 
-- [Vistas de bases de datos](vistas-bases-datos.md)
-- [Plazos de sincronización y actualización](plazos-sincronizacion.md)
-- [Consulta de Estado para Acceso a PRADO en Oficina Virtual](consulta-estado-acceso-prado.md)
-- [Plan de Ordenación Docente —POD—](plan-ordenacion-docente.md)
-- [Matrícula manual](matricula-manual.md)
+- [Vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
+- [Consulta de Estado para Acceso a PRADO en Oficina Virtual](/prado/conceptos-y-reglas/consulta-estado-acceso-prado.md)
+- [Plan de Ordenación Docente —POD—](/prado/conceptos-y-reglas/plan-ordenacion-docente.md)
+- [Matrícula manual](/prado/conceptos-y-reglas/matricula-manual.md)
 
 ## Procedimientos relacionados
 
-- [El alumnado está matriculado, pero no puede ver el curso](../procedimientos/alumnado-matriculado-no-ve-curso.md)
-- [El docente no ve una asignatura o un grupo](../procedimientos/docente-no-ve-asignatura.md)
-- [Alta manual de un docente con autorización de Ordenación Académica](../procedimientos/alta-manual-autorizacion-ordenacion-academica.md)
+- [El alumnado está matriculado, pero no puede ver el curso](/prado/procedimientos/alumnado-matriculado-no-ve-curso.md)
+- [El docente no ve una asignatura o un grupo](/prado/procedimientos/docente-no-ve-asignatura.md)
+- [Alta manual de un docente con autorización de Ordenación Académica](/prado/procedimientos/alta-manual-autorizacion-ordenacion-academica.md)
 
 ## Categorías de IRIS relacionadas
 
-- [Matrícula](../iris/matricula.md)
-- [Ordenación docente](../iris/ordenacion-docente.md)
-- [Gestión manual](../iris/gestion-manual.md)
-- [Incidencia administrativa](../iris/incidencia-administrativa.md)
-- Sin resolver
+- [Matrícula](/prado/iris/matricula.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
+- [Incidencia administrativa](/prado/iris/incidencia-administrativa.md)
+- [Sin resolver](/prado/iris/sin-resolver.md)

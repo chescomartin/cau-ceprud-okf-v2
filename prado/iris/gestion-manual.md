@@ -1,13 +1,19 @@
 ---
 type: TicketCategory
-title: Gestión manual
+title: "IRIS: Gestión manual"
 description: Tema de ayuda para actuaciones excepcionales realizadas manualmente en PRADO cuando los automatismos no pueden resolver el caso.
+regla_aplicable: /prado/conceptos-y-reglas/matricula-manual.md
 service: PRADO
 platforms:
   - PRADO Grado
   - PRADO Posgrado
 status: draft
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - iris
@@ -17,7 +23,13 @@ tags:
   - excepciones
 ---
 
-# Gestión manual
+# IRIS: Gestión manual
+
+> **Alcance de esta ficha: únicamente la clasificación del ticket.**
+>
+> Qué es el fenómeno y por qué se produce: [Matrícula manual](/prado/conceptos-y-reglas/matricula-manual.md).
+> Qué se le escribe a la persona usuaria: [respuestas tipo](/respuestas-tipo/index.md).
+
 
 ## Definición
 
@@ -113,22 +125,22 @@ Un saludo.
 
 ## Conceptos relacionados
 
-- [Grupo SG —Sin Grupo—](../conceptos-y-reglas/grupo-sg.md)
-- [Plan de Ordenación Docente —POD—](../conceptos-y-reglas/plan-ordenacion-docente.md)
-- [Altas automáticas desde bases de datos oficiales](../conceptos-y-reglas/altas-automaticas.md)
-- [Plazos de sincronización y actualización](../conceptos-y-reglas/plazos-sincronizacion.md)
-- [Transferencia de tickets en IRIS](../conceptos-y-reglas/transferencia-tickets-iris.md)
+- [Grupo SG —Sin Grupo—](/prado/conceptos-y-reglas/grupo-sg.md)
+- [Plan de Ordenación Docente —POD—](/prado/conceptos-y-reglas/plan-ordenacion-docente.md)
+- [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
+- [Transferencia de tickets en IRIS](/prado/conceptos-y-reglas/transferencia-tickets-iris.md)
 
 ## Procedimientos relacionados
 
-- [El docente no ve una asignatura o un grupo](../procedimientos/docente-no-ve-asignatura.md)
-- [Alta manual de un docente con créditos prácticos](../procedimientos/alta-manual-docente-creditos-practicos.md)
-- [Alta manual de un docente con autorización de Ordenación Académica](../procedimientos/alta-manual-autorizacion-ordenacion-academica.md)
+- [El docente no ve una asignatura o un grupo](/prado/procedimientos/docente-no-ve-asignatura.md)
+- [Alta manual de un docente con créditos prácticos](/prado/procedimientos/alta-manual-docente-creditos-practicos.md)
+- [Alta manual de un docente con autorización de Ordenación Académica](/prado/procedimientos/alta-manual-autorizacion-ordenacion-academica.md)
 
 ## Categorías relacionadas
 
-- [Ordenación docente](ordenacion-docente.md)
-- [Matrícula](../iris/matricula.md)
-- [Acceso](acceso.md)
-- [Baja de usuario](baja-usuario.md)
-- [Usuario/rol duplicado](usuario-rol-duplicado.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
+- [Matrícula](/prado/iris/matricula.md)
+- [Acceso](/prado/iris/acceso.md)
+- [Baja de usuario](/prado/iris/baja-usuario.md)
+- [Usuario/rol duplicado](/prado/iris/usuario-rol-duplicado.md)

@@ -5,8 +5,11 @@ description: Concepto que explica la utilidad de Oficina Virtual utilizada para 
 service: PRADO
 audience: personal-cau
 status: draft
-owner: por-definir
+owner: FOL
 language: es
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-09-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -58,7 +61,7 @@ Cuando aparecen dos centros, el estudiante debe contactar con ambos para aclarar
 
 La base interna indica que la información mostrada en esta consulta se actualiza a partir de los datos grabados por las secretarías.
 
-Para comprobar si una incidencia administrativa ha sido retirada, la información de Oficina Virtual se considera más inmediata que determinados atributos consultables a través del [Proveedor de identidad —IdP—](proveedor-identidad-idp.md).
+Para comprobar si una incidencia administrativa ha sido retirada, la información de Oficina Virtual se considera más inmediata que determinados atributos consultables a través del [Proveedor de identidad —IdP—](/prado/conceptos-y-reglas/proveedor-identidad-idp.md).
 
 Debe distinguirse entre:
 
@@ -71,14 +74,14 @@ Debe distinguirse entre:
 ### Información recibida por el IdP
 
 - puede tardar más en actualizar determinados atributos;
-- la documentación interna utiliza como referencia un plazo de hasta 24 horas;
-- técnicamente, el refresco puede producirse una vez por la mañana y otra por la tarde.
+- el plazo aplicable y la frecuencia de refresco se consultan en
+  [Parámetros operativos de PRADO](/prado/parametros-operativos.md).
 
 ## Limitación en Posgrado
 
 La base de conocimiento advierte que esta consulta funciona adecuadamente para Grado, pero no debe utilizarse como única referencia para comprobar la matrícula de Posgrado.
 
-En incidencias de Posgrado, la matrícula debe revisarse mediante las [vistas de bases de datos](vistas-bases-datos.md).
+En incidencias de Posgrado, la matrícula debe revisarse mediante las [vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md).
 
 ## Comprobaciones del CAU
 
@@ -180,21 +183,21 @@ Un saludo.
 
 ## Conceptos relacionados
 
-- [Proveedor de identidad —IdP—](proveedor-identidad-idp.md)
-- [Vistas de bases de datos](vistas-bases-datos.md)
-- [Altas automáticas desde bases de datos oficiales](altas-automaticas.md)
-- [Plazos de sincronización y actualización](plazos-sincronizacion.md)
-- [Incidencia administrativa](incidencia-administrativa.md)
-- [Matrícula manual](../conceptos-y-reglas/matricula-manual.md)
+- [Proveedor de identidad —IdP—](/prado/conceptos-y-reglas/proveedor-identidad-idp.md)
+- [Vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md)
+- [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
+- [Incidencia administrativa](/prado/conceptos-y-reglas/incidencia-administrativa.md)
+- [Matrícula manual](/prado/conceptos-y-reglas/matricula-manual.md)
 
 ## Procedimientos relacionados
 
-- [Comprobación del estado de acceso](../procedimientos/comprobacion-estado-acceso.md)
-- [Problemas de acceso o verificación en dos pasos](../procedimientos/problemas-acceso-verificacion-dos-pasos.md)
-- [El alumnado está matriculado, pero no puede ver el curso](../procedimientos/alumnado-matriculado-no-ve-curso.md)
+- [Comprobación del estado de acceso](/prado/procedimientos/comprobacion-estado-acceso.md)
+- [Problemas de acceso o verificación en dos pasos](/prado/procedimientos/problemas-acceso-verificacion-dos-pasos.md)
+- [El alumnado está matriculado, pero no puede ver el curso](/prado/procedimientos/alumnado-matriculado-no-ve-curso.md)
 
 ## Categorías de IRIS relacionadas
 
-- [Acceso](../iris/acceso.md)
-- [Incidencia administrativa](../iris/incidencia-administrativa.md)
-- [Matrícula](../iris/matricula.md)
+- [Acceso](/prado/iris/acceso.md)
+- [Incidencia administrativa](/prado/iris/incidencia-administrativa.md)
+- [Matrícula](/prado/iris/matricula.md)

@@ -1,0 +1,7 @@
+# Normaliza los finales de línea. Evita corrupciones al editar desde Windows.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.pdf binary
+*.docx binary
+*.xlsx binary

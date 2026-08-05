@@ -5,8 +5,11 @@ description: Regla para interpretar los retrasos entre la modificación de los d
 service: PRADO
 audience: personal-cau
 status: draft
-owner: por-definir
+owner: FOL
 language: es
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-09-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -28,6 +31,10 @@ Entre el registro de una modificación y su aparición en la plataforma intervie
 ## Criterio de trabajo
 
 Como criterio general de atención, debe esperarse **al menos 24 horas** desde que la modificación se haya registrado correctamente en el sistema de origen.
+
+> **Fuente del valor.** El plazo autorizado y su fecha de verificación están en
+> [Parámetros operativos de PRADO](/prado/parametros-operativos.md). Si el plazo cambia,
+> debe modificarse allí y después revisarse este documento.
 
 Este plazo se aplica, entre otros casos, a:
 
@@ -85,7 +92,7 @@ El transcurso del plazo no justifica por sí solo un alta manual.
 
 Las actuaciones manuales deben reservarse para situaciones excepcionales, como:
 
-- profesorado con créditos prácticos que figura como [grupo SG —Sin Grupo—](grupo-sg.md);
+- profesorado con créditos prácticos que figura como [grupo SG —Sin Grupo—](/prado/conceptos-y-reglas/grupo-sg.md);
 - autorización expresa de Ordenación Académica;
 - otras excepciones recogidas en los procedimientos internos.
 
@@ -93,10 +100,10 @@ Las actuaciones manuales deben reservarse para situaciones excepcionales, como:
 
 La categoría debe elegirse según el dato o proceso afectado:
 
-- [Ordenación docente](../iris/ordenacion-docente.md): altas o cambios relacionados con la asignación oficial del profesorado.
-- [Matrícula](../iris/matricula.md): altas o cambios relacionados con la matrícula oficial del alumnado.
-- [Baja de usuario](../iris/baja-usuario.md): bajas registradas que todavía no se han aplicado.
-- [Acceso](../iris/acceso.md): el alta consta, pero la persona no puede autenticarse.
+- [Ordenación docente](/prado/iris/ordenacion-docente.md): altas o cambios relacionados con la asignación oficial del profesorado.
+- [Matrícula](/prado/iris/matricula.md): altas o cambios relacionados con la matrícula oficial del alumnado.
+- [Baja de usuario](/prado/iris/baja-usuario.md): bajas registradas que todavía no se han aplicado.
+- [Acceso](/prado/iris/acceso.md): el alta consta, pero la persona no puede autenticarse.
 - `Sin resolver`: la causa no puede determinarse después de las comprobaciones.
 
 ## Plantilla de respuesta
@@ -115,12 +122,12 @@ Un saludo.
 
 ## Conceptos relacionados
 
-- [Altas automáticas desde bases de datos oficiales](altas-automaticas.md)
-- [Plan de Ordenación Docente —POD—](plan-ordenacion-docente.md)
-- [Grupo SG —Sin Grupo—](grupo-sg.md)
-- [Bajas automáticas y calendario de ejecución](bajas-automaticas.md)
+- [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md)
+- [Plan de Ordenación Docente —POD—](/prado/conceptos-y-reglas/plan-ordenacion-docente.md)
+- [Grupo SG —Sin Grupo—](/prado/conceptos-y-reglas/grupo-sg.md)
+- [Bajas automáticas y calendario de ejecución](/prado/conceptos-y-reglas/bajas-automaticas.md)
 
 ## Procedimientos relacionados
 
-- [El docente no ve una asignatura o un grupo](../procedimientos/docente-no-ve-asignatura.md)
-- [El alumnado está matriculado, pero no puede ver el curso](../procedimientos/alumnado-matriculado-no-ve-curso.md)
+- [El docente no ve una asignatura o un grupo](/prado/procedimientos/docente-no-ve-asignatura.md)
+- [El alumnado está matriculado, pero no puede ver el curso](/prado/procedimientos/alumnado-matriculado-no-ve-curso.md)

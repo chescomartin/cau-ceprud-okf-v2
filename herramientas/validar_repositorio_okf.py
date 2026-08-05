@@ -65,8 +65,12 @@ def normalise_link_target(raw_target: str) -> str | None:
     return unquote(target).replace("\\", "/")
 
 
-def resolve_local_target(source: Path, target: str) -> Path:
-    candidate = (source.parent / target).resolve()
+def resolve_local_target(source: Path, target: str, root: Path | None = None) -> Path:
+    # §5.1 de OKF: los enlaces que empiezan por '/' son relativos a la raíz del bundle.
+    if target.startswith("/") and root is not None:
+        candidate = (root / target.lstrip("/")).resolve()
+    else:
+        candidate = (source.parent / target).resolve()
 
     if candidate.is_dir():
         return candidate / "index.md"
@@ -109,14 +113,18 @@ def main() -> int:
             if frontmatter is None:
                 errors.append("El index.md raíz no contiene frontmatter YAML.")
             elif not re.search(
-                r"(?m)^[ \t]*okf_version[ \t]*:[ \t]*['\"]?0\.2['\"]?[ \t]*$",
+                r"(?m)^[ \t]*okf_version[ \t]*:[ \t]*['\"]?0\.1['\"]?[ \t]*$",
                 frontmatter,
             ):
                 errors.append(
-                    'El index.md raíz no declara exactamente okf_version: "0.2".'
+                    'El index.md raíz no declara exactamente okf_version: "0.1".'
                 )
 
-    markdown_files = sorted(root.rglob("*.md"))
+    def _excluida(path: Path) -> bool:
+        # Excluye materiales auxiliares: rutas que empiezan por '.' o por '_'.
+        return any(p.startswith((".", "_")) for p in path.relative_to(root).parts)
+
+    markdown_files = sorted(p for p in root.rglob("*.md") if not _excluida(p))
 
     for path in markdown_files:
         try:
@@ -138,7 +146,7 @@ def main() -> int:
             if target is None:
                 continue
 
-            resolved = resolve_local_target(path, target)
+            resolved = resolve_local_target(path, target, root)
 
             try:
                 resolved.relative_to(root)

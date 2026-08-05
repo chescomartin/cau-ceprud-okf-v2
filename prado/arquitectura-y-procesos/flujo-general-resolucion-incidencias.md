@@ -1,10 +1,15 @@
 ---
-type: KnowledgeDocument
+type: Procedure
 title: Flujo general de resolución de incidencias de PRADO
 description: Secuencia operativa para identificar, comprobar, clasificar, resolver o transferir incidencias de PRADO.
 service: PRADO
 status: draft
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -34,7 +39,7 @@ El flujo pretende que el personal técnico pueda:
 6. transferirlo únicamente cuando no pueda resolverse desde el CEPRUD;
 7. dejar constancia de las comprobaciones realizadas.
 
-# Fase 1: identificar el contexto
+## Fase 1: identificar el contexto
 
 ## 1. Plataforma
 
@@ -75,7 +80,7 @@ Registrar:
 
 Consultar:
 
-- [Usuarios y roles](../usuarios-y-roles/index.md)
+- [Usuarios y roles](/prado/usuarios-y-roles/index.md)
 
 ## 4. Espacio afectado
 
@@ -90,10 +95,10 @@ Identificar:
 
 Consultar:
 
-- [Espacios docentes](../espacios-docentes/index.md)
-- [Código de asignatura](../conceptos-y-reglas/codigo-asignatura.md)
+- [Tipos de espacios docentes de PRADO](/prado/espacios-docentes/index.md)
+- [Código de asignatura](/prado/conceptos-y-reglas/codigo-asignatura.md)
 
-# Fase 2: concretar la incidencia
+## Fase 2: concretar la incidencia
 
 ## 5. Describir el comportamiento
 
@@ -124,18 +129,18 @@ Elegir el tema de ayuda que describa mejor la causa o el ámbito principal.
 
 Consultar:
 
-- [Categorías de IRIS](../iris/index.md)
+- [Categorías de IRIS](/prado/iris/index.md)
 
 Debe prestarse especial atención a distinciones como:
 
-- [Acceso](../iris/acceso.md) frente a [Incidencia administrativa](../iris/incidencia-administrativa.md);
-- [Matrícula](../iris/matricula.md) frente a [Ordenación docente](../iris/ordenacion-docente.md);
-- [Gestión manual](../iris/gestion-manual.md) frente a altas procedentes de fuentes oficiales;
-- [Visibilidad](../iris/visibilidad.md) frente a ausencia real de participación.
+- [Acceso](/prado/iris/acceso.md) frente a [Incidencia administrativa](/prado/iris/incidencia-administrativa.md);
+- [Matrícula](/prado/iris/matricula.md) frente a [Ordenación docente](/prado/iris/ordenacion-docente.md);
+- [Gestión manual](/prado/iris/gestion-manual.md) frente a altas procedentes de fuentes oficiales;
+- [Visibilidad](/prado/iris/visibilidad.md) frente a ausencia real de participación.
 
 IRIS solo permite seleccionar un tema de ayuda, por lo que debe elegirse el que mejor represente el problema principal.
 
-# Fase 3: consultar la fuente adecuada
+## Fase 3: consultar la fuente adecuada
 
 ## 7. Incidencias del alumnado
 
@@ -194,8 +199,8 @@ Comprobar:
 
 Consultar:
 
-- [Comprobación del estado de acceso](../procedimientos/comprobacion-estado-acceso.md)
-- [Problemas de acceso con verificación en dos pasos](../procedimientos/problemas-acceso-verificacion-dos-pasos.md)
+- [Comprobación del estado de acceso](/prado/procedimientos/comprobacion-estado-acceso.md)
+- [Problemas de acceso o verificación en dos pasos](/prado/procedimientos/problemas-acceso-verificacion-dos-pasos.md)
 
 ## 10. Incidencias de espacios docentes
 
@@ -211,9 +216,9 @@ Comprobar:
 
 Consultar:
 
-- [Espacios docentes](../espacios-docentes/index.md)
+- [Tipos de espacios docentes de PRADO](/prado/espacios-docentes/index.md)
 
-# Fase 4: interpretar los datos
+## Fase 4: interpretar los datos
 
 ## 11. Comparar la fuente oficial con PRADO
 
@@ -237,13 +242,13 @@ Antes de realizar una modificación manual, comprobar:
 
 Consultar:
 
-- [Plazos de sincronización y actualización](../conceptos-y-reglas/plazos-sincronizacion.md)
-- [Altas automáticas](../conceptos-y-reglas/altas-automaticas.md)
-- [Bajas automáticas](../conceptos-y-reglas/bajas-automaticas.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
+- [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md)
+- [Bajas automáticas y calendario de ejecución](/prado/conceptos-y-reglas/bajas-automaticas.md)
 
 No debe corregirse manualmente una situación que todavía está dentro de su plazo normal de actualización, salvo que exista un procedimiento específico que lo autorice.
 
-# Fase 5: decidir la actuación
+## Fase 5: decidir la actuación
 
 ## 13. Resolver desde el CEPRUD
 
@@ -255,7 +260,7 @@ Procede resolver cuando:
 
 Consultar:
 
-- [Procedimientos](../procedimientos/index.md)
+- [Procedimientos](/prado/procedimientos/index.md)
 
 ## 14. Informar y esperar
 
@@ -298,8 +303,8 @@ Antes de actuar, registrar:
 
 Consultar:
 
-- [Gestión manual](../iris/gestion-manual.md)
-- [Matrícula manual](../conceptos-y-reglas/matricula-manual.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
+- [Matrícula manual](/prado/conceptos-y-reglas/matricula-manual.md)
 
 ## 17. Transferir el ticket
 
@@ -315,7 +320,7 @@ En Ordenación docente, la documentación interna limita la transferencia a los 
 
 Consultar:
 
-- [Transferencia de tickets en IRIS](../conceptos-y-reglas/transferencia-tickets-iris.md)
+- [Transferencia de tickets en IRIS](/prado/conceptos-y-reglas/transferencia-tickets-iris.md)
 
 ## Advertencia sobre la transferencia
 
@@ -327,7 +332,7 @@ Una vez transferido el ticket:
 
 Por esta razón, la transferencia no debe emplearse como sustituto de las comprobaciones técnicas previas.
 
-# Fase 6: documentar el resultado
+## Fase 6: documentar el resultado
 
 ## 18. Registrar las comprobaciones
 
@@ -374,7 +379,7 @@ Transferir únicamente cuando:
 - tiene competencia sobre el dato o la actuación;
 - y se han documentado las comprobaciones previas.
 
-# Resumen del flujo
+## Resumen del flujo
 
 ```text
 Identificar plataforma, curso, persona y espacio

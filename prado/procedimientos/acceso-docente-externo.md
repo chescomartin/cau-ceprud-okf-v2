@@ -5,9 +5,12 @@ description: Procedimiento para atender incidencias de acceso a PRADO de persona
 service: PRADO
 audience: personal-cau
 status: draft
-owner: por-definir
+owner: FOL
 usual_ticket_category: Acceso
 language: es
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -112,7 +115,7 @@ La persona no puede autenticarse ni entrar en PRADO.
 
 Categoría habitual:
 
-- [Acceso](../iris/acceso.md).
+- [Acceso](/prado/iris/acceso.md).
 
 #### Problema de participación
 
@@ -144,10 +147,10 @@ En este caso debe comprobarse:
 
 1. confirmar que utiliza la cuenta externa correcta;
 2. solicitar el mensaje de error;
-3. comprobar la información disponible en el [Proveedor de identidad —IdP—](../conceptos-y-reglas/proveedor-identidad-idp.md);
-4. aplicar [Comprobación del estado de acceso](comprobacion-estado-acceso.md);
-5. revisar la [verificación en dos pasos](problemas-acceso-verificacion-dos-pasos.md) cuando el error corresponda al 2FA;
-6. clasificar como [Acceso](../iris/acceso.md).
+3. comprobar la información disponible en el [Proveedor de identidad —IdP—](/prado/conceptos-y-reglas/proveedor-identidad-idp.md);
+4. aplicar [Comprobación del estado de acceso](/prado/procedimientos/comprobacion-estado-acceso.md);
+5. revisar la [verificación en dos pasos](/prado/procedimientos/problemas-acceso-verificacion-dos-pasos.md) cuando el error corresponda al 2FA;
+6. clasificar como [Acceso](/prado/iris/acceso.md).
 
 ### Caso 4. Puede entrar, pero no ve la asignatura
 
@@ -236,19 +239,19 @@ Un saludo.
 
 ## Categorías de IRIS relacionadas
 
-- [Acceso](../iris/acceso.md)
-- [Ordenación docente](../iris/ordenacion-docente.md)
-- [Gestión manual](../iris/gestion-manual.md)
-- Sin resolver
+- [Acceso](/prado/iris/acceso.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
+- [Sin resolver](/prado/iris/sin-resolver.md)
 
 ## Conceptos relacionados
 
-- [Proveedor de identidad —IdP—](../conceptos-y-reglas/proveedor-identidad-idp.md)
-- [Vistas de bases de datos](../conceptos-y-reglas/vistas-bases-datos.md)
+- [Proveedor de identidad —IdP—](/prado/conceptos-y-reglas/proveedor-identidad-idp.md)
+- [Vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md)
 
 ## Procedimientos relacionados
 
-- [Comprobación del estado de acceso](comprobacion-estado-acceso.md)
-- [Problemas de acceso o verificación en dos pasos](problemas-acceso-verificacion-dos-pasos.md)
-- [El docente no ve una asignatura o un grupo](docente-no-ve-asignatura.md)
-- [Docente externo](../usuarios-y-roles/docente-externo.md)
+- [Comprobación del estado de acceso](/prado/procedimientos/comprobacion-estado-acceso.md)
+- [Problemas de acceso o verificación en dos pasos](/prado/procedimientos/problemas-acceso-verificacion-dos-pasos.md)
+- [El docente no ve una asignatura o un grupo](/prado/procedimientos/docente-no-ve-asignatura.md)
+- [Docente externo](/prado/usuarios-y-roles/docente-externo.md)

@@ -1,207 +1,145 @@
 ---
 type: Rule
 title: Incidencia administrativa
-description: Regla para identificar y tratar los bloqueos administrativos que impiden al alumnado acceder a PRADO.
+description: Qué es un bloqueo administrativo del expediente, por qué impide el acceso a PRADO y cómo se comprueba.
 service: PRADO
 audience: personal-cau
 status: draft
-owner: por-definir
+owner: FOL
 language: es
-last_reviewed: 2026-08-03
+confidentiality: uso-interno
+timestamp: 2026-08-05T00:00:00Z
+review_date: 2026-09-05
+last_reviewed: 2026-08-05
+synonyms:
+  - expediente bloqueado
+  - bloqueo administrativo
+  - no puedo entrar por un problema de matrícula
 tags:
   - prado
   - incidencia-administrativa
   - acceso
   - alumnado
   - oficina-virtual
-  - idp
 ---
 
 # Incidencia administrativa
 
+> **Alcance de este documento.** Aquí se explica **qué es** una incidencia administrativa,
+> **por qué** impide el acceso y **cómo se comprueba**.
+>
+> - Para **clasificar el ticket**: [IRIS: Incidencia administrativa](/prado/iris/incidencia-administrativa.md).
+> - Para **responder a la persona usuaria**: [respuestas tipo](/respuestas-tipo/index.md) RT-001 a RT-003.
+
 ## Definición
 
-Existe una incidencia administrativa cuando el expediente de un estudiante está bloqueado por una causa gestionada desde la secretaría del centro.
-
-La documentación interna señala que esta situación suele estar relacionada con problemas de pago de matrícula, aunque la causa concreta debe confirmarse en cada caso.
+Existe una incidencia administrativa cuando el expediente de un estudiante está bloqueado
+por una causa gestionada desde la **secretaría del centro**.
 
 Mientras el bloqueo permanece activo, el alumnado puede no poder acceder a PRADO.
 
-## Cómo comprobarla
+La documentación interna señala que esta situación suele estar relacionada con problemas
+de pago de matrícula, **aunque la causa concreta debe confirmarse en cada caso** y no debe
+comunicarse como un hecho sin haberla verificado.
 
-La comprobación principal debe realizarse mediante la:
+## Por qué impide el acceso
 
-- [Consulta de Estado para Acceso a PRADO en Oficina Virtual](consulta-estado-acceso-prado.md).
+PRADO no consulta directamente el expediente. Recibe la situación administrativa como un
+**atributo** a través del [proveedor de identidad —IdP—](/prado/conceptos-y-reglas/proveedor-identidad-idp.md). Si
+ese atributo indica que existe una incidencia, la plataforma deniega el acceso.
 
-Esta consulta permite revisar:
+De ahí se derivan las dos características que explican casi todas las consultas:
+
+1. **El CEPRUD no puede retirar el bloqueo.** Solo puede hacerlo la secretaría competente,
+   en el sistema de origen.
+2. **La retirada no surte efecto de forma inmediata.** El atributo tarda en actualizarse y
+   PRADO puede conservar temporalmente el valor anterior en caché.
+
+## Cómo se comprueba
+
+La comprobación principal se realiza mediante la
+[Consulta de Estado para Acceso a PRADO en Oficina Virtual](/prado/conceptos-y-reglas/consulta-estado-acceso-prado.md),
+que permite revisar:
 
 - si existe una incidencia administrativa;
 - el centro o centros responsables;
 - la situación registrada por la secretaría;
 - si el expediente ya ha sido desbloqueado.
 
-## Diferencia entre Oficina Virtual e IdP
+### Comprobaciones del CAU
+
+1. Confirmar la identidad y el correo institucional.
+2. Comprobar la plataforma afectada.
+3. Revisar la Consulta de Estado para Acceso a PRADO.
+4. Comprobar si aparece una incidencia administrativa.
+5. Identificar el centro o centros responsables.
+6. Verificar si la secretaría ya ha desbloqueado el expediente.
+7. Comparar la información con la recibida del IdP.
+8. Comprobar si existe un retraso de actualización o caché.
+9. Aplicar el plazo correspondiente antes de escalar.
+
+## Desfase entre sistemas
 
 La información no se actualiza al mismo tiempo en todos los sistemas.
 
-### Oficina Virtual
+| Sistema | Comportamiento |
+|---|---|
+| **Oficina Virtual** | Refleja lo grabado por las secretarías. Puede mostrar de forma inmediata que la incidencia ha sido retirada. Permite identificar el centro. |
+| **Proveedor de identidad —IdP—** | El atributo puede tardar en actualizarse. |
+| **PRADO** | Puede conservar temporalmente en caché el último valor recibido del IdP. |
 
-- refleja la información grabada por las secretarías;
-- puede mostrar de forma inmediata que la incidencia ha sido retirada;
-- permite identificar el centro al que debe dirigirse el estudiante.
+El plazo aplicable y la frecuencia de refresco se consultan en
+[Parámetros operativos de PRADO](/prado/parametros-operativos.md).
 
-### Proveedor de identidad —IdP—
+**Consecuencia práctica:** puede ocurrir que Oficina Virtual muestre el expediente
+desbloqueado mientras PRADO todavía conserva el estado anterior. No es un fallo.
 
-El atributo de incidencia administrativa recibido mediante el [Proveedor de identidad —IdP—](proveedor-identidad-idp.md) puede tardar en actualizarse.
+### Cuando el bloqueo persiste tras el plazo
 
-Como referencia operativa interna:
-
-- se informa de un plazo de hasta 24 horas;
-- el refresco puede realizarse una vez por la mañana y otra por la tarde.
-
-Por tanto, puede ocurrir que Oficina Virtual muestre el expediente desbloqueado mientras PRADO todavía conserva temporalmente el estado anterior.
-
-## Caché de acceso
-
-PRADO puede conservar temporalmente en caché la información recibida del IdP.
-
-Cuando la incidencia ya ha sido retirada en Oficina Virtual, pero el acceso sigue bloqueado, puede ser necesario revisar internamente:
+Si la incidencia ya se retiró en Oficina Virtual y, transcurrido el plazo, el acceso sigue
+bloqueado, debe revisarse internamente:
 
 - cuándo se actualizó el atributo;
 - el último estado recibido por la plataforma;
 - el último control realizado por PRADO;
 - si ya ha transcurrido el plazo de actualización.
 
-Las herramientas técnicas internas y sus direcciones no deben incluirse en las respuestas a las personas usuarias.
+> **Restricción.** Las herramientas técnicas internas y sus direcciones **no deben
+> incluirse en las respuestas a las personas usuarias**.
 
-## Comprobaciones del CAU
+## Caso particular: Posgrado
 
-Ante una posible incidencia administrativa:
+En Posgrado no debe basarse la conclusión únicamente en Oficina Virtual. Es necesario
+comprobar además la matrícula mediante las
+[vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md) y contrastar la información del IdP y de
+PRADO antes de determinar la causa.
 
-1. confirmar la identidad y el correo institucional;
-2. comprobar la plataforma afectada;
-3. revisar la Consulta de Estado para Acceso a PRADO;
-4. comprobar si aparece una incidencia administrativa;
-5. identificar el centro o centros responsables;
-6. verificar si la secretaría ya ha desbloqueado el expediente;
-7. comparar la información con el IdP;
-8. comprobar si existe un retraso de actualización o caché;
-9. aplicar el plazo correspondiente antes de escalar.
+## Caso particular: dos centros responsables
 
-## Árbol de decisión
+Cuando la consulta muestra dos centros —situación habitual en dobles grados y en cambios
+de centro— y no puede determinarse cuál es el competente, el estudiante debe dirigirse a
+ambos y el ticket se mantiene pendiente hasta que se aclare.
 
-### Caso 1. La incidencia administrativa sigue activa
+## Qué NO cubre esta regla
 
-1. informar de que el acceso está bloqueado por una causa administrativa;
-2. indicar el centro responsable;
-3. remitir al estudiante a la secretaría correspondiente;
-4. no intentar resolver el bloqueo desde PRADO;
-5. clasificar el ticket como `Incidencia administrativa`.
-
-### Caso 2. La incidencia ya no aparece en Oficina Virtual
-
-1. comprobar cuándo fue retirada;
-2. tener en cuenta el retraso del IdP y la caché de PRADO;
-3. esperar el plazo de actualización aplicable;
-4. pedir al estudiante que pruebe de nuevo;
-5. revisar o escalar si el problema continúa después del plazo.
-
-### Caso 3. Aparecen dos centros responsables
-
-1. informar al estudiante de los dos centros;
-2. indicar que debe contactar con ambos;
-3. mantener el ticket pendiente hasta que se aclare la situación administrativa.
-
-### Caso 4. No existe incidencia administrativa
-
-1. descartar esta causa;
-2. comprobar matrícula, autenticación y participación;
-3. aplicar el procedimiento específico;
-4. reclasificar el ticket según la causa comprobada.
-
-### Caso 5. La consulta afecta a Posgrado
-
-1. no basar la conclusión únicamente en Oficina Virtual;
-2. comprobar la matrícula mediante las [vistas de bases de datos](vistas-bases-datos.md);
-3. revisar la información del IdP y de PRADO;
-4. clasificar según el resultado.
-
-## Diferencia con otras categorías
-
-### Incidencia administrativa
-
-Existe un bloqueo del expediente gestionado por la secretaría.
-
-### Acceso
-
-La situación administrativa es correcta, pero la persona no puede autenticarse o entrar en la plataforma.
-
-### Matrícula
-
-La persona no consta oficialmente en una asignatura.
-
-### Sin resolver
-
-No se ha podido determinar la causa después de completar las comprobaciones.
-
-## Plantillas de respuesta
-
-### Plantilla 1. Incidencia administrativa activa
-
-Estimada/o [nombre]:
-
-Hemos comprobado que existe una incidencia administrativa asociada a su expediente que está impidiendo el acceso a PRADO.
-
-Debe contactar con la secretaría del centro que aparece en el apartado **«Consulta de Estado para Acceso a PRADO»** de su Oficina Virtual.
-
-Desde PRADO no podemos modificar ni retirar este bloqueo administrativo.
-
-Un saludo.
-
----
-
-### Plantilla 2. La incidencia ya se ha retirado
-
-Estimada/o [nombre]:
-
-En la Oficina Virtual ya no aparece activa la incidencia administrativa.
-
-No obstante, la actualización de esta información en los sistemas de acceso a PRADO puede demorarse. Le recomendamos que vuelva a probar el acceso después de transcurridas hasta 24 horas desde que la secretaría regularizó su expediente.
-
-Si después de ese plazo el problema continúa, responda a este ticket para que podamos revisarlo nuevamente.
-
-Un saludo.
-
----
-
-### Plantilla 3. Aparecen dos centros
-
-Estimada/o [nombre]:
-
-En la Consulta de Estado para Acceso a PRADO aparecen dos centros relacionados con su situación administrativa.
-
-Debe contactar con las secretarías de ambos centros para que puedan determinar cuál debe regularizar el expediente.
-
-Una vez resuelta la incidencia, la actualización del acceso a PRADO puede no ser inmediata.
-
-Un saludo.
+| Situación | Documento aplicable |
+|---|---|
+| La situación administrativa es correcta pero la persona no puede autenticarse | [IRIS: Acceso](/prado/iris/acceso.md) |
+| La persona no consta oficialmente matriculada | [IRIS: Matrícula](/prado/iris/matricula.md) |
+| Entra en PRADO pero no ve una asignatura | [El alumnado está matriculado, pero no puede ver el curso](/prado/procedimientos/alumnado-matriculado-no-ve-curso.md) |
+| No se determina la causa tras las comprobaciones | [IRIS: Sin resolver](/prado/iris/sin-resolver.md) |
 
 ## Conceptos relacionados
 
-- [Consulta de Estado para Acceso a PRADO en Oficina Virtual](consulta-estado-acceso-prado.md)
-- [Proveedor de identidad —IdP—](proveedor-identidad-idp.md)
-- [Vistas de bases de datos](vistas-bases-datos.md)
-- [Plazos de sincronización y actualización](plazos-sincronizacion.md)
+- [Consulta de Estado para Acceso a PRADO en Oficina Virtual](/prado/conceptos-y-reglas/consulta-estado-acceso-prado.md)
+- [Proveedor de identidad —IdP—](/prado/conceptos-y-reglas/proveedor-identidad-idp.md)
+- [Oficina Virtual](/prado/conceptos-y-reglas/oficina-virtual.md)
+- [Vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
+- [Parámetros operativos de PRADO](/prado/parametros-operativos.md)
 
 ## Procedimientos relacionados
 
-- Comprobación del estado de acceso
-- [Problemas de acceso o verificación en dos pasos](../procedimientos/problemas-acceso-verificacion-dos-pasos.md)
-- El alumnado está matriculado, pero no puede ver el curso
-
-## Categorías de IRIS relacionadas
-
-- Incidencia administrativa
-- Acceso
-- Matrícula
-- Sin resolver
+- [Comprobación del estado de acceso](/prado/procedimientos/comprobacion-estado-acceso.md)
+- [Problemas de acceso o verificación en dos pasos](/prado/procedimientos/problemas-acceso-verificacion-dos-pasos.md)
+- [El alumnado está matriculado, pero no puede ver el curso](/prado/procedimientos/alumnado-matriculado-no-ve-curso.md)

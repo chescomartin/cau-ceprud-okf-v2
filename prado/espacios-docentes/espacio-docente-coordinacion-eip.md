@@ -1,10 +1,16 @@
 ---
-type: KnowledgeDocument
+type: SpaceType
 title: Espacio Docente de Coordinación EIP —EDEIP—
 description: Definición y reglas de composición y uso del Espacio Docente de Coordinación de la Escuela Internacional de Posgrado en PRADO.
+abbreviation: EDEIP
 service: PRADO
 status: draft
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -127,13 +133,13 @@ Anotar:
 
 ## Conceptos relacionados
 
-- [Altas automáticas desde bases de datos oficiales](../conceptos-y-reglas/altas-automaticas.md)
-- [Plazos de sincronización y actualización](../conceptos-y-reglas/plazos-sincronizacion.md)
-- [Vistas de bases de datos](../conceptos-y-reglas/vistas-bases-datos.md)
-- [Espacio Docente del Profesorado —EDProf—](espacio-docente-profesorado.md)
+- [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
+- [Vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md)
+- [Espacio Docente del Profesorado —EDProf—](/prado/espacios-docentes/espacio-docente-profesorado.md)
 
 ## Categorías de IRIS relacionadas
 
-- [Espacios docentes](../iris/espacios-docentes.md)
-- [Gestión manual](../iris/gestion-manual.md)
-- [Usuario o rol duplicado](../iris/usuario-rol-duplicado.md)
+- [Espacios docentes](/prado/iris/espacios-docentes.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
+- [Usuario/rol duplicado](/prado/iris/usuario-rol-duplicado.md)

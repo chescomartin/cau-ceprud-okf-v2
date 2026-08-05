@@ -6,8 +6,11 @@ description: Concepto utilizado para identificar al profesorado cuya asignación
 service: PRADO
 audience: personal-cau
 status: draft
-owner: chesco
+owner: FOL
 language: es
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -80,17 +83,17 @@ Cuando la incidencia consiste en que una persona figura como `SG` y se realiza o
 
 Cuando el problema real es que la asignación oficial es incorrecta o incompleta, debe utilizarse:
 
-- [Ordenación docente](../iris/ordenacion-docente.md).
+- [Ordenación docente](/prado/iris/ordenacion-docente.md).
 
 ## Conceptos relacionados
 
-- [Plan de Ordenación Docente —POD—](plan-ordenacion-docente.md)
-- Altas automáticas desde bases de datos oficiales
-- Matrícula manual
-- Plazos de sincronización y actualización
+- [Plan de Ordenación Docente —POD—](/prado/conceptos-y-reglas/plan-ordenacion-docente.md)
+- [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md)
+- [Matrícula manual](/prado/conceptos-y-reglas/matricula-manual.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
 
 ## Procedimientos relacionados
 
-- [El docente no ve una asignatura o un grupo](../procedimientos/docente-no-ve-asignatura.md)
-- [Alta manual de un docente con créditos prácticos](../procedimientos/alta-manual-docente-creditos-practicos.md)
+- [El docente no ve una asignatura o un grupo](/prado/procedimientos/docente-no-ve-asignatura.md)
+- [Alta manual de un docente con créditos prácticos](/prado/procedimientos/alta-manual-docente-creditos-practicos.md)
 - Docente que figura como SG y necesita asociarse a un grupo

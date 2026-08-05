@@ -4,8 +4,12 @@ title: Participación suspendida
 description: Estado de una participación en PRADO cuando la persona deja de llegar desde las bases de datos oficiales.
 service: PRADO
 status: draft
-owner: por-definir
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -14,7 +18,6 @@ tags:
   - suspendido
   - bajas-automaticas
   - matricula
-  - asignacion-docente
 ---
 
 # Participación suspendida
@@ -79,8 +82,8 @@ Ante una consulta sobre una participación suspendida, comprobar:
 4. si la persona aparece como suspendida en Participantes;
 5. si consta actualmente en la matrícula o asignación oficial;
 6. si ha habido una modificación reciente;
-7. las [vistas de bases de datos](../conceptos-y-reglas/vistas-bases-datos.md);
-8. los [plazos de sincronización y actualización](../conceptos-y-reglas/plazos-sincronizacion.md);
+7. las [vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md);
+8. los [plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md);
 9. si la suspensión afecta solo a un espacio o a varios;
 10. si existe una participación activa duplicada en otro grupo o espacio.
 
@@ -94,7 +97,7 @@ Ante una consulta sobre una participación suspendida, comprobar:
 4. clasificar según la causa:
    - `Baja de usuario`;
    - `Matrícula`;
-   - [Ordenación docente](../iris/ordenacion-docente.md).
+   - [Ordenación docente](/prado/iris/ordenacion-docente.md).
 
 ### Caso 2. La persona sigue constando oficialmente
 
@@ -112,10 +115,10 @@ Ante una consulta sobre una participación suspendida, comprobar:
 
 ### Caso 4. El docente ha perdido la asignación
 
-1. revisar el [Plan de Ordenación Docente —POD—](../conceptos-y-reglas/plan-ordenacion-docente.md);
+1. revisar el [Plan de Ordenación Docente —POD—](/prado/conceptos-y-reglas/plan-ordenacion-docente.md);
 2. comprobar si la baja o modificación es correcta;
 3. no realizar un alta manual ordinaria;
-4. aplicar [El docente no ve una asignatura o un grupo](../procedimientos/docente-no-ve-asignatura.md).
+4. aplicar [El docente no ve una asignatura o un grupo](/prado/procedimientos/docente-no-ve-asignatura.md).
 
 ### Caso 5. La participación puede eliminarse
 
@@ -184,23 +187,23 @@ Un saludo.
 
 ## Categorías de IRIS relacionadas
 
-- [Baja de usuario](../iris/baja-usuario.md)
-- [Matrícula](../iris/matricula.md)
-- [Ordenación docente](../iris/ordenacion-docente.md)
-- [Gestión manual](../iris/gestion-manual.md)
-- Sin resolver
+- [Baja de usuario](/prado/iris/baja-usuario.md)
+- [Matrícula](/prado/iris/matricula.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
+- [Sin resolver](/prado/iris/sin-resolver.md)
 
 ## Conceptos relacionados
 
-- [Altas automáticas desde bases de datos oficiales](../conceptos-y-reglas/altas-automaticas.md)
-- [Bajas automáticas y calendario de ejecución](../conceptos-y-reglas/bajas-automaticas.md)
-- [Vistas de bases de datos](../conceptos-y-reglas/vistas-bases-datos.md)
-- [Plazos de sincronización y actualización](../conceptos-y-reglas/plazos-sincronizacion.md)
-- [Plan de Ordenación Docente —POD—](../conceptos-y-reglas/plan-ordenacion-docente.md)
-- [Participación no activa](participacion-no-activa.md)
+- [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md)
+- [Bajas automáticas y calendario de ejecución](/prado/conceptos-y-reglas/bajas-automaticas.md)
+- [Vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
+- [Plan de Ordenación Docente —POD—](/prado/conceptos-y-reglas/plan-ordenacion-docente.md)
+- [Participación no activa](/prado/usuarios-y-roles/participacion-no-activa.md)
 
 ## Procedimientos relacionados
 
-- [El docente no ve una asignatura o un grupo](../procedimientos/docente-no-ve-asignatura.md)
-- [Comprobación del estado de acceso](../procedimientos/comprobacion-estado-acceso.md)
-- [El alumnado está matriculado, pero no puede ver el curso](../procedimientos/alumnado-matriculado-no-ve-curso.md)
+- [El docente no ve una asignatura o un grupo](/prado/procedimientos/docente-no-ve-asignatura.md)
+- [Comprobación del estado de acceso](/prado/procedimientos/comprobacion-estado-acceso.md)
+- [El alumnado está matriculado, pero no puede ver el curso](/prado/procedimientos/alumnado-matriculado-no-ve-curso.md)

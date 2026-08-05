@@ -4,8 +4,12 @@ title: Matrícula manual
 description: Regla sobre la incorporación manual de participantes a espacios de PRADO al margen de las bases de datos oficiales.
 service: PRADO
 status: draft
-owner: por-definir
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -44,7 +48,7 @@ Las altas deben producirse preferentemente mediante los automatismos alimentados
 
 Una matrícula manual puede provocar:
 
-- que la persona quede marcada posteriormente como [participación no activa](../usuarios-y-roles/participacion-no-activa.md);
+- que la persona quede marcada posteriormente como [participación no activa](/prado/usuarios-y-roles/participacion-no-activa.md);
 - pérdida de acceso al espacio;
 - falta de notificaciones;
 - discrepancias entre PRADO y la matrícula oficial;
@@ -83,7 +87,7 @@ No debe simularse la unificación mediante matrículas manuales.
 
 Debe aplicarse:
 
-- [Tramitación de una asimilación docente](../procedimientos/tramitacion-asimilacion-docente.md).
+- [Tramitación de una asimilación docente](/prado/procedimientos/tramitacion-asimilacion-docente.md).
 
 ### Cambio de grupo reciente
 
@@ -91,13 +95,13 @@ Debe comprobarse la matrícula oficial y esperar la actualización automática.
 
 ### Docente de teoría ausente del POD
 
-Debe corregirse la asignación en el [Plan de Ordenación Docente —POD—](plan-ordenacion-docente.md).
+Debe corregirse la asignación en el [Plan de Ordenación Docente —POD—](/prado/conceptos-y-reglas/plan-ordenacion-docente.md).
 
 ### Docente con créditos prácticos y grupo SG
 
 Puede requerir una actuación manual excepcional según el procedimiento:
 
-- [Alta manual de un docente con créditos prácticos](../procedimientos/alta-manual-docente-creditos-practicos.md).
+- [Alta manual de un docente con créditos prácticos](/prado/procedimientos/alta-manual-docente-creditos-practicos.md).
 
 ## Comprobaciones del CAU
 
@@ -108,8 +112,8 @@ Antes de realizar o recomendar cualquier alta manual, comprobar:
 3. el espacio docente;
 4. el rol solicitado;
 5. la matrícula o asignación oficial;
-6. las [vistas de bases de datos](vistas-bases-datos.md);
-7. los [plazos de sincronización y actualización](plazos-sincronizacion.md);
+6. las [vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md);
+7. los [plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md);
 8. si existe una asimilación;
 9. si la persona ya aparece con otra participación;
 10. si existe autorización expresa para la actuación manual.
@@ -160,26 +164,26 @@ Un saludo.
 
 ## Categorías de IRIS relacionadas
 
-- [Gestión manual](../iris/gestion-manual.md)
-- [Matrícula](../iris/matricula.md)
-- [Ordenación docente](../iris/ordenacion-docente.md)
-- [Asimilaciones docentes](../iris/asimilaciones-docentes.md)
-- Sin resolver
+- [Gestión manual](/prado/iris/gestion-manual.md)
+- [Matrícula](/prado/iris/matricula.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
+- [Asimilaciones docentes](/prado/iris/asimilaciones-docentes.md)
+- [Sin resolver](/prado/iris/sin-resolver.md)
 
 ## Conceptos relacionados
 
-- [Altas automáticas desde bases de datos oficiales](altas-automaticas.md)
-- [Vistas de bases de datos](vistas-bases-datos.md)
-- [Plazos de sincronización y actualización](plazos-sincronizacion.md)
-- [Asimilación docente](asimilacion-docente.md)
-- [Grupo SG —Sin Grupo—](grupo-sg.md)
-- [Participación no activa](../usuarios-y-roles/participacion-no-activa.md)
-- [Participación suspendida](../usuarios-y-roles/participacion-suspendida.md)
+- [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md)
+- [Vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
+- [Asimilación docente](/prado/conceptos-y-reglas/asimilacion-docente.md)
+- [Grupo SG —Sin Grupo—](/prado/conceptos-y-reglas/grupo-sg.md)
+- [Participación no activa](/prado/usuarios-y-roles/participacion-no-activa.md)
+- [Participación suspendida](/prado/usuarios-y-roles/participacion-suspendida.md)
 
 ## Procedimientos relacionados
 
-- [Alta manual de un docente con créditos prácticos](../procedimientos/alta-manual-docente-creditos-practicos.md)
-- [Alta manual de un docente con autorización de Ordenación Académica](../procedimientos/alta-manual-autorizacion-ordenacion-academica.md)
-- [Tramitación de una asimilación docente](../procedimientos/tramitacion-asimilacion-docente.md)
-- [El docente no ve una asignatura o un grupo](../procedimientos/docente-no-ve-asignatura.md)
-- [El alumnado está matriculado, pero no puede ver el curso](../procedimientos/alumnado-matriculado-no-ve-curso.md)
+- [Alta manual de un docente con créditos prácticos](/prado/procedimientos/alta-manual-docente-creditos-practicos.md)
+- [Alta manual de un docente con autorización de Ordenación Académica](/prado/procedimientos/alta-manual-autorizacion-ordenacion-academica.md)
+- [Tramitación de una asimilación docente](/prado/procedimientos/tramitacion-asimilacion-docente.md)
+- [El docente no ve una asignatura o un grupo](/prado/procedimientos/docente-no-ve-asignatura.md)
+- [El alumnado está matriculado, pero no puede ver el curso](/prado/procedimientos/alumnado-matriculado-no-ve-curso.md)

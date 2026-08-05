@@ -1,10 +1,15 @@
 ---
-type: KnowledgeDocument
+type: UserType
 title: Usuario manual
 description: Definición y características documentadas de las cuentas de usuario creadas manualmente en PRADO.
 service: PRADO
 status: draft
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -59,7 +64,7 @@ La matrícula manual consiste en incorporar a una persona a un espacio docente a
 
 Consultar:
 
-- [Matrícula manual](../conceptos-y-reglas/matricula-manual.md)
+- [Matrícula manual](/prado/conceptos-y-reglas/matricula-manual.md)
 
 ### Usuario institucional con alta manual en un curso
 
@@ -96,14 +101,14 @@ Anotar:
 
 ## Conceptos relacionados
 
-- [Proveedor de identidad —IdP—](../conceptos-y-reglas/proveedor-identidad-idp.md)
-- [Matrícula manual](../conceptos-y-reglas/matricula-manual.md)
-- [Altas automáticas desde bases de datos oficiales](../conceptos-y-reglas/altas-automaticas.md)
+- [Proveedor de identidad —IdP—](/prado/conceptos-y-reglas/proveedor-identidad-idp.md)
+- [Matrícula manual](/prado/conceptos-y-reglas/matricula-manual.md)
+- [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md)
 
 ## Categorías de IRIS relacionadas
 
-- [Gestión manual](../iris/gestion-manual.md)
-- [Acceso](../iris/acceso.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
+- [Acceso](/prado/iris/acceso.md)
 
 ## Alcance de esta ficha
 

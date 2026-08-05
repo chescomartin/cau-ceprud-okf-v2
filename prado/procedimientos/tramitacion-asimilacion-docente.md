@@ -5,9 +5,12 @@ description: Procedimiento para comprobar y encauzar solicitudes de unificación
 service: PRADO
 audience: personal-cau
 status: draft
-owner: chesco
+owner: FOL
 usual_ticket_category: Asimilaciones docentes
 language: es
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -123,7 +126,7 @@ Las matrículas manuales no sustituyen una asimilación oficial y pueden provoca
 ### Caso 2. La asimilación está registrada, pero todavía no se refleja
 
 1. comprobar la fecha del registro;
-2. aplicar los [plazos de sincronización y actualización](../conceptos-y-reglas/plazos-sincronizacion.md);
+2. aplicar los [plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md);
 3. esperar a que actúen los automatismos;
 4. revisar nuevamente el caso después del plazo;
 5. escalar la incidencia si la información oficial es correcta y no se procesa.
@@ -251,20 +254,20 @@ Un saludo.
 
 ## Conceptos relacionados
 
-- [Asimilación docente](../conceptos-y-reglas/asimilacion-docente.md)
-- [Plan de Ordenación Docente —POD—](../conceptos-y-reglas/plan-ordenacion-docente.md)
-- [Altas automáticas desde bases de datos oficiales](../conceptos-y-reglas/altas-automaticas.md)
-- [Plazos de sincronización y actualización](../conceptos-y-reglas/plazos-sincronizacion.md)
-- [Código de asignatura](../conceptos-y-reglas/codigo-asignatura.md)
-- Matrícula manual
+- [Asimilación docente](/prado/conceptos-y-reglas/asimilacion-docente.md)
+- [Plan de Ordenación Docente —POD—](/prado/conceptos-y-reglas/plan-ordenacion-docente.md)
+- [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
+- [Código de asignatura](/prado/conceptos-y-reglas/codigo-asignatura.md)
+- [Matrícula manual](/prado/conceptos-y-reglas/matricula-manual.md)
 
 ## Categorías de IRIS relacionadas
 
-- [Asimilaciones docentes](../iris/asimilaciones-docentes.md)
-- [Ordenación docente](../iris/ordenacion-docente.md)
-- [Gestión manual](../iris/gestion-manual.md)
+- [Asimilaciones docentes](/prado/iris/asimilaciones-docentes.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
 
 ## Procedimientos relacionados
 
-- [El docente no ve una asignatura o un grupo](docente-no-ve-asignatura.md)
-- El alumnado está matriculado, pero no puede ver el curso
+- [El docente no ve una asignatura o un grupo](/prado/procedimientos/docente-no-ve-asignatura.md)
+- [El alumnado está matriculado, pero no puede ver el curso](/prado/procedimientos/alumnado-matriculado-no-ve-curso.md)

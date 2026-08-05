@@ -1,10 +1,16 @@
 ---
-type: KnowledgeDocument
+type: SpaceType
 title: Espacio Docente Común —EDC—
 description: Definición y reglas de composición del Espacio Docente Común de una asignatura en PRADO.
+abbreviation: EDC
 service: PRADO
 status: draft
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -62,8 +68,8 @@ pueden aparecer en el espacio con la participación en estado `Suspendida` hasta
 
 Consultar:
 
-- [Participación suspendida](../usuarios-y-roles/participacion-suspendida.md)
-- [Bajas automáticas y calendario de ejecución](../conceptos-y-reglas/bajas-automaticas.md)
+- [Participación suspendida](/prado/usuarios-y-roles/participacion-suspendida.md)
+- [Bajas automáticas y calendario de ejecución](/prado/conceptos-y-reglas/bajas-automaticas.md)
 
 ## Participaciones no activas
 
@@ -73,8 +79,8 @@ Esta situación se produce porque la participación manual no está respaldada p
 
 Consultar:
 
-- [Participación no activa](../usuarios-y-roles/participacion-no-activa.md)
-- [Matrícula manual](../conceptos-y-reglas/matricula-manual.md)
+- [Participación no activa](/prado/usuarios-y-roles/participacion-no-activa.md)
+- [Matrícula manual](/prado/conceptos-y-reglas/matricula-manual.md)
 
 ## Código del espacio
 
@@ -82,7 +88,7 @@ El espacio utiliza como referencia el código oficial de la asignatura.
 
 Consultar:
 
-- [Código de asignatura](../conceptos-y-reglas/codigo-asignatura.md)
+- [Código de asignatura](/prado/conceptos-y-reglas/codigo-asignatura.md)
 
 ## Comprobaciones habituales
 
@@ -109,7 +115,7 @@ Comprobar:
 
 Clasificación habitual:
 
-- [Ordenación docente](../iris/ordenacion-docente.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
 
 ### Un docente de prácticas aparece como SG
 
@@ -117,8 +123,8 @@ El grupo `SG` significa que la persona tiene asignación docente, pero no un gru
 
 Consultar:
 
-- [Grupo SG —Sin Grupo—](../conceptos-y-reglas/grupo-sg.md)
-- [Alta manual de un docente con créditos prácticos](../procedimientos/alta-manual-docente-creditos-practicos.md)
+- [Grupo SG —Sin Grupo—](/prado/conceptos-y-reglas/grupo-sg.md)
+- [Alta manual de un docente con créditos prácticos](/prado/procedimientos/alta-manual-docente-creditos-practicos.md)
 
 ### Un estudiante matriculado no aparece
 
@@ -126,8 +132,8 @@ Comprobar la matrícula oficial y los plazos de actualización.
 
 Consultar:
 
-- [Matrícula](../iris/matricula.md)
-- [El alumnado está matriculado, pero no puede ver el curso](../procedimientos/alumnado-matriculado-no-ve-curso.md)
+- [Matrícula](/prado/iris/matricula.md)
+- [El alumnado está matriculado, pero no puede ver el curso](/prado/procedimientos/alumnado-matriculado-no-ve-curso.md)
 
 ### Aparecen estudiantes de otra titulación
 
@@ -135,20 +141,20 @@ Puede deberse a una asimilación oficial entre asignaturas con el mismo nombre y
 
 Consultar:
 
-- [Asimilación docente](../conceptos-y-reglas/asimilacion-docente.md)
-- [Asimilaciones docentes](../iris/asimilaciones-docentes.md)
+- [Asimilación docente](/prado/conceptos-y-reglas/asimilacion-docente.md)
+- [Asimilaciones docentes](/prado/iris/asimilaciones-docentes.md)
 
 ## Conceptos relacionados
 
-- [Plan de Ordenación Docente —POD—](../conceptos-y-reglas/plan-ordenacion-docente.md)
-- [Altas automáticas desde bases de datos oficiales](../conceptos-y-reglas/altas-automaticas.md)
-- [Plazos de sincronización y actualización](../conceptos-y-reglas/plazos-sincronizacion.md)
-- [Vistas de bases de datos](../conceptos-y-reglas/vistas-bases-datos.md)
+- [Plan de Ordenación Docente —POD—](/prado/conceptos-y-reglas/plan-ordenacion-docente.md)
+- [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
+- [Vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md)
 
 ## Categorías de IRIS relacionadas
 
-- [Ordenación docente](../iris/ordenacion-docente.md)
-- [Matrícula](../iris/matricula.md)
-- [Baja de usuario](../iris/baja-usuario.md)
-- [Gestión manual](../iris/gestion-manual.md)
-- [Visibilidad](../iris/visibilidad.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
+- [Matrícula](/prado/iris/matricula.md)
+- [Baja de usuario](/prado/iris/baja-usuario.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
+- [Visibilidad](/prado/iris/visibilidad.md)

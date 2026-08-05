@@ -1,10 +1,16 @@
 ---
-type: KnowledgeDocument
+type: SpaceType
 title: Espacio Docente de Pruebas Personal —EDPP—
 description: Definición y reglas de creación y uso del Espacio Docente de Pruebas Personal en PRADO.
+abbreviation: EDPP
 service: PRADO
 status: draft
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -70,7 +76,7 @@ No debe utilizarse para impartir docencia oficial.
 
 Cuando un docente necesita un espacio separado para una asignatura real, debe solicitar a su departamento un:
 
-- [Espacio Docente Individual —EDI—](espacio-docente-individual.md)
+- [Espacio Docente Individual —EDI—](/prado/espacios-docentes/espacio-docente-individual.md)
 
 ## Código del espacio
 
@@ -133,14 +139,14 @@ Cuando se cree manualmente, anotar:
 
 ## Conceptos relacionados
 
-- [Proveedor de identidad —IdP—](../conceptos-y-reglas/proveedor-identidad-idp.md)
-- [Plan de Ordenación Docente —POD—](../conceptos-y-reglas/plan-ordenacion-docente.md)
-- [Altas automáticas desde bases de datos oficiales](../conceptos-y-reglas/altas-automaticas.md)
-- [Plazos de sincronización y actualización](../conceptos-y-reglas/plazos-sincronizacion.md)
+- [Proveedor de identidad —IdP—](/prado/conceptos-y-reglas/proveedor-identidad-idp.md)
+- [Plan de Ordenación Docente —POD—](/prado/conceptos-y-reglas/plan-ordenacion-docente.md)
+- [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
 
 ## Categorías de IRIS relacionadas
 
-- [Espacios docentes](../iris/espacios-docentes.md)
-- [Gestión manual](../iris/gestion-manual.md)
-- [Ordenación docente](../iris/ordenacion-docente.md)
-- [Acceso](../iris/acceso.md)
+- [Espacios docentes](/prado/iris/espacios-docentes.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
+- [Acceso](/prado/iris/acceso.md)

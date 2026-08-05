@@ -4,8 +4,12 @@ title: Participación no activa
 description: Estado de una participación creada manualmente cuando la persona no consta en las bases de datos oficiales de matrícula.
 service: PRADO
 status: draft
-owner: por-definir
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -68,8 +72,8 @@ Ante una consulta sobre una participación no activa, comprobar:
 5. si la persona consta en la matrícula oficial;
 6. si existe una asimilación oficial;
 7. si la matrícula corresponde a otro grupo;
-8. las [vistas de bases de datos](../conceptos-y-reglas/vistas-bases-datos.md);
-9. los [plazos de sincronización y actualización](../conceptos-y-reglas/plazos-sincronizacion.md);
+8. las [vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md);
+9. los [plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md);
 10. si existe otra participación activa en el espacio correcto.
 
 ## Árbol de decisión
@@ -79,7 +83,7 @@ Ante una consulta sobre una participación no activa, comprobar:
 1. no reactivar manualmente la participación;
 2. informar de que debe aclarar su situación con la secretaría del centro;
 3. evitar una nueva matrícula manual;
-4. clasificar como `Matrícula` o [Gestión manual](../iris/gestion-manual.md), según la causa del ticket.
+4. clasificar como `Matrícula` o [Gestión manual](/prado/iris/gestion-manual.md), según la causa del ticket.
 
 ### Caso 2. La matrícula oficial se ha registrado recientemente
 
@@ -98,9 +102,9 @@ Ante una consulta sobre una participación no activa, comprobar:
 
 ### Caso 4. Se pretendía reproducir una asimilación
 
-1. comprobar si existe una [asimilación docente](../conceptos-y-reglas/asimilacion-docente.md) registrada oficialmente;
+1. comprobar si existe una [asimilación docente](/prado/conceptos-y-reglas/asimilacion-docente.md) registrada oficialmente;
 2. no utilizar matrículas manuales para sustituirla;
-3. aplicar [Tramitación de una asimilación docente](../procedimientos/tramitacion-asimilacion-docente.md);
+3. aplicar [Tramitación de una asimilación docente](/prado/procedimientos/tramitacion-asimilacion-docente.md);
 4. eliminar la participación manual cuando corresponda.
 
 ### Caso 5. La participación puede eliminarse
@@ -172,22 +176,22 @@ Un saludo.
 
 ## Categorías de IRIS relacionadas
 
-- [Matrícula](../iris/matricula.md)
-- [Gestión manual](../iris/gestion-manual.md)
-- [Asimilaciones docentes](../iris/asimilaciones-docentes.md)
-- Sin resolver
+- [Matrícula](/prado/iris/matricula.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
+- [Asimilaciones docentes](/prado/iris/asimilaciones-docentes.md)
+- [Sin resolver](/prado/iris/sin-resolver.md)
 
 ## Conceptos relacionados
 
-- [Matrícula manual](../conceptos-y-reglas/matricula-manual.md)
-- [Altas automáticas desde bases de datos oficiales](../conceptos-y-reglas/altas-automaticas.md)
-- [Vistas de bases de datos](../conceptos-y-reglas/vistas-bases-datos.md)
-- [Plazos de sincronización y actualización](../conceptos-y-reglas/plazos-sincronizacion.md)
-- [Asimilación docente](../conceptos-y-reglas/asimilacion-docente.md)
-- [Participación suspendida](participacion-suspendida.md)
+- [Matrícula manual](/prado/conceptos-y-reglas/matricula-manual.md)
+- [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md)
+- [Vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
+- [Asimilación docente](/prado/conceptos-y-reglas/asimilacion-docente.md)
+- [Participación suspendida](/prado/usuarios-y-roles/participacion-suspendida.md)
 
 ## Procedimientos relacionados
 
-- [Tramitación de una asimilación docente](../procedimientos/tramitacion-asimilacion-docente.md)
-- [Comprobación del estado de acceso](../procedimientos/comprobacion-estado-acceso.md)
-- [El alumnado está matriculado, pero no puede ver el curso](../procedimientos/alumnado-matriculado-no-ve-curso.md)
+- [Tramitación de una asimilación docente](/prado/procedimientos/tramitacion-asimilacion-docente.md)
+- [Comprobación del estado de acceso](/prado/procedimientos/comprobacion-estado-acceso.md)
+- [El alumnado está matriculado, pero no puede ver el curso](/prado/procedimientos/alumnado-matriculado-no-ve-curso.md)

@@ -1,13 +1,16 @@
 ---
 type: Concept
-title: Plan de Ordenación Docente
+title: Plan de Ordenación Docente —POD—
 abbreviation: POD
 description: Concepto que define la fuente oficial de la asignación docente de asignaturas, créditos y grupos utilizada por PRADO.
 service: PRADO
 audience: personal-cau
 status: draft
-owner: por-definir
+owner: FOL
 language: es
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -75,16 +78,16 @@ Estas actuaciones deben quedar justificadas y registradas por escrito en el tick
 
 ## Conceptos relacionados
 
-- [Grupo SG —Sin Grupo—](grupo-sg.md)
-- [Altas automáticas desde bases de datos oficiales](altas-automaticas.md)
-- [Plazos de sincronización y actualización](plazos-sincronizacion.md)
-- [Matrícula manual](matricula-manual.md)
+- [Grupo SG —Sin Grupo—](/prado/conceptos-y-reglas/grupo-sg.md)
+- [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
+- [Matrícula manual](/prado/conceptos-y-reglas/matricula-manual.md)
 
 ## Procedimientos relacionados
 
-- [El docente no ve una asignatura o un grupo](../procedimientos/docente-no-ve-asignatura.md)
+- [El docente no ve una asignatura o un grupo](/prado/procedimientos/docente-no-ve-asignatura.md)
 
 ## Categorías de IRIS relacionadas
 
-- [Ordenación docente](../iris/ordenacion-docente.md)
-- Gestión manual
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)

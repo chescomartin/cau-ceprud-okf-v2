@@ -5,8 +5,11 @@ description: Concepto que explica la estructura básica de los códigos utilizad
 service: PRADO
 audience: personal-cau
 status: draft
-owner: por-definir
+owner: FOL
 language: es
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -131,11 +134,11 @@ No debe resolverse una incidencia utilizando únicamente el nombre visible de la
 
 ## Conceptos relacionados
 
-- [Asimilación docente](asimilacion-docente.md)
-- [Plan de Ordenación Docente —POD—](plan-ordenacion-docente.md)
-- [Altas automáticas desde bases de datos oficiales](altas-automaticas.md)
+- [Asimilación docente](/prado/conceptos-y-reglas/asimilacion-docente.md)
+- [Plan de Ordenación Docente —POD—](/prado/conceptos-y-reglas/plan-ordenacion-docente.md)
+- [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md)
 
 ## Procedimientos relacionados
 
-- [Tramitación de una asimilación docente](../procedimientos/tramitacion-asimilacion-docente.md)
-- [El docente no ve una asignatura o un grupo](../procedimientos/docente-no-ve-asignatura.md)
+- [Tramitación de una asimilación docente](/prado/procedimientos/tramitacion-asimilacion-docente.md)
+- [El docente no ve una asignatura o un grupo](/prado/procedimientos/docente-no-ve-asignatura.md)

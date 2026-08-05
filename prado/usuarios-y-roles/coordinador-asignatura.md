@@ -1,10 +1,15 @@
 ---
-type: KnowledgeDocument
+type: UserType
 title: Coordinador o coordinadora de asignatura
 description: Definición y cautelas para interpretar la figura de coordinación de una asignatura en PRADO.
 service: PRADO
 status: draft
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -30,7 +35,7 @@ Sin embargo, esta condición:
 
 No debe confundirse con:
 
-- [Coordinador o coordinadora de titulación](coordinador-titulacion.md)
+- [Coordinador o coordinadora de titulación](/prado/usuarios-y-roles/coordinador-titulacion.md)
 
 La coordinación de titulación sí procede de información oficial institucional y puede incorporarse automáticamente a determinados espacios de gestión.
 
@@ -72,8 +77,8 @@ Si no aparece, la mera afirmación de que coordina la asignatura no justifica el
 
 Consultar:
 
-- [Docente no ve una asignatura](../procedimientos/docente-no-ve-asignatura.md)
-- [Alta manual con autorización de Ordenación Académica](../procedimientos/alta-manual-autorizacion-ordenacion-academica.md)
+- [Docente no ve una asignatura](/prado/procedimientos/docente-no-ve-asignatura.md)
+- [Alta manual con autorización de Ordenación Académica](/prado/procedimientos/alta-manual-autorizacion-ordenacion-academica.md)
 
 ### Solicita incorporar a otro docente
 
@@ -86,8 +91,8 @@ Comprobar:
 
 Clasificación habitual:
 
-- [Ordenación docente](../iris/ordenacion-docente.md)
-- [Gestión manual](../iris/gestion-manual.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
 
 ### Solicita cambios en un espacio docente
 
@@ -116,13 +121,13 @@ Anotar:
 
 ## Conceptos relacionados
 
-- [Plan de Ordenación Docente —POD—](../conceptos-y-reglas/plan-ordenacion-docente.md)
-- [Vistas de bases de datos](../conceptos-y-reglas/vistas-bases-datos.md)
-- [Grupo SG —Sin Grupo—](../conceptos-y-reglas/grupo-sg.md)
-- [Matrícula manual](../conceptos-y-reglas/matricula-manual.md)
+- [Plan de Ordenación Docente —POD—](/prado/conceptos-y-reglas/plan-ordenacion-docente.md)
+- [Vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md)
+- [Grupo SG —Sin Grupo—](/prado/conceptos-y-reglas/grupo-sg.md)
+- [Matrícula manual](/prado/conceptos-y-reglas/matricula-manual.md)
 
 ## Categorías de IRIS relacionadas
 
-- [Ordenación docente](../iris/ordenacion-docente.md)
-- [Gestión manual](../iris/gestion-manual.md)
-- [Espacios docentes](../iris/espacios-docentes.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
+- [Espacios docentes](/prado/iris/espacios-docentes.md)

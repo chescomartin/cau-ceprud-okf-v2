@@ -5,9 +5,12 @@ description: Procedimiento para atender solicitudes de creación de espacios del
 service: PRADO
 audience: personal-cau
 status: draft
-owner: chesco
+owner: FOL
 usual_ticket_category: Espacios docentes
 language: es
+confidentiality: uso-interno
+timestamp: 2026-08-04T12:09:27Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-04
 tags:
   - prado
@@ -172,8 +175,8 @@ Anotar:
 
 ## Documentación relacionada
 
-- [Espacio Docente del Alumnado](../espacios-docentes/espacio-docente-alumnado.md)
-- [Espacio Docente de TFG y TFM](../espacios-docentes/espacio-docente-tfg-tfm.md)
-- [Altas automáticas](../conceptos-y-reglas/altas-automaticas.md)
-- [Plazos de sincronización](../conceptos-y-reglas/plazos-sincronizacion.md)
-- [Categoría IRIS: Espacios docentes](../iris/espacios-docentes.md)
+- [Espacio Docente del Alumnado](/prado/espacios-docentes/espacio-docente-alumnado.md)
+- [Espacio Docente de TFG y TFM](/prado/espacios-docentes/espacio-docente-tfg-tfm.md)
+- [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md)
+- [Plazos de sincronización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
+- [IRIS: Espacios docentes](/prado/iris/espacios-docentes.md)

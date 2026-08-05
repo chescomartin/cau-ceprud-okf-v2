@@ -1,10 +1,15 @@
 ---
-type: KnowledgeDocument
+type: SpaceType
 title: Espacio Docente Solo Examen
 description: Definición y reglas de composición y funcionamiento de los espacios docentes Solo Examen en PRADO.
 service: PRADO
 status: draft
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -55,7 +60,7 @@ Puede ocurrir que una persona docente solicite unificar este espacio con otra as
 
 En ese caso debe registrarse una:
 
-- [Asimilación docente](../conceptos-y-reglas/asimilacion-docente.md)
+- [Asimilación docente](/prado/conceptos-y-reglas/asimilacion-docente.md)
 
 La asimilación debe ser oficial y tener en cuenta que:
 
@@ -91,7 +96,7 @@ Comprobar:
 
 Clasificación habitual:
 
-- [Matrícula](../iris/matricula.md)
+- [Matrícula](/prado/iris/matricula.md)
 
 ### No aparece la persona responsable de actas
 
@@ -103,7 +108,7 @@ Comprobar:
 
 Clasificación habitual:
 
-- [Ordenación docente](../iris/ordenacion-docente.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
 
 ### Se solicita crear un espacio grupal
 
@@ -122,7 +127,7 @@ Comprobar:
 
 Clasificación habitual:
 
-- [Asimilaciones docentes](../iris/asimilaciones-docentes.md)
+- [Asimilaciones docentes](/prado/iris/asimilaciones-docentes.md)
 
 ## Información que debe registrarse
 
@@ -144,15 +149,15 @@ Anotar:
 
 ## Conceptos relacionados
 
-- [Grupo SG —Sin Grupo—](../conceptos-y-reglas/grupo-sg.md)
-- [Plan de Ordenación Docente —POD—](../conceptos-y-reglas/plan-ordenacion-docente.md)
-- [Asimilación docente](../conceptos-y-reglas/asimilacion-docente.md)
-- [Altas automáticas desde bases de datos oficiales](../conceptos-y-reglas/altas-automaticas.md)
-- [Vistas de bases de datos](../conceptos-y-reglas/vistas-bases-datos.md)
+- [Grupo SG —Sin Grupo—](/prado/conceptos-y-reglas/grupo-sg.md)
+- [Plan de Ordenación Docente —POD—](/prado/conceptos-y-reglas/plan-ordenacion-docente.md)
+- [Asimilación docente](/prado/conceptos-y-reglas/asimilacion-docente.md)
+- [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md)
+- [Vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md)
 
 ## Categorías de IRIS relacionadas
 
-- [Espacios docentes](../iris/espacios-docentes.md)
-- [Matrícula](../iris/matricula.md)
-- [Ordenación docente](../iris/ordenacion-docente.md)
-- [Asimilaciones docentes](../iris/asimilaciones-docentes.md)
+- [Espacios docentes](/prado/iris/espacios-docentes.md)
+- [Matrícula](/prado/iris/matricula.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
+- [Asimilaciones docentes](/prado/iris/asimilaciones-docentes.md)

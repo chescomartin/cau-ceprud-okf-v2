@@ -1,10 +1,15 @@
 ---
-type: KnowledgeDocument
+type: Concept
 title: Oficina Virtual
 description: Uso documentado de Oficina Virtual para comprobar el estado de acceso y matrícula del alumnado en PRADO.
 service: PRADO
 status: draft
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-09-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -43,10 +48,8 @@ La retirada de una incidencia administrativa puede comprobarse en Oficina Virtua
 
 La documentación interna indica que el atributo de incidencia administrativa del IdP no se actualiza inmediatamente.
 
-Aunque se comunica un plazo de 24 horas, la actualización se realiza normalmente:
-
-- una vez por la mañana;
-- y otra por la tarde.
+El plazo que se comunica a la persona usuaria y la frecuencia real de actualización se
+consultan en [Parámetros operativos de PRADO](/prado/parametros-operativos.md).
 
 Esta frecuencia pretende reducir problemas durante los periodos de exámenes.
 
@@ -62,26 +65,26 @@ No debe utilizarse como fuente principal para comprobar la matrícula de:
 
 En Posgrado debe consultarse:
 
-- [Vistas de bases de datos](vistas-bases-datos.md)
+- [Vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md)
 
 ## Procedimiento relacionado
 
-- [Comprobación del estado de acceso](../procedimientos/comprobacion-estado-acceso.md)
+- [Comprobación del estado de acceso](/prado/procedimientos/comprobacion-estado-acceso.md)
 
 ## Conceptos relacionados
 
-- [Consulta de Estado para Acceso a PRADO en Oficina Virtual](consulta-estado-acceso-prado.md)
-- [PRADO Grado](prado-grado.md)
-- [PRADO Posgrado](prado-posgrado.md)
-- [Proveedor de identidad —IdP—](proveedor-identidad-idp.md)
-- [Incidencia administrativa](incidencia-administrativa.md)
-- [Plazos de sincronización y actualización](plazos-sincronizacion.md)
+- [Consulta de Estado para Acceso a PRADO en Oficina Virtual](/prado/conceptos-y-reglas/consulta-estado-acceso-prado.md)
+- [PRADO Grado](/prado/conceptos-y-reglas/prado-grado.md)
+- [PRADO Posgrado](/prado/conceptos-y-reglas/prado-posgrado.md)
+- [Proveedor de identidad —IdP—](/prado/conceptos-y-reglas/proveedor-identidad-idp.md)
+- [Incidencia administrativa](/prado/conceptos-y-reglas/incidencia-administrativa.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
 
 ## Categorías de IRIS relacionadas
 
-- [Acceso](../iris/acceso.md)
-- [Matrícula](../iris/matricula.md)
-- [Incidencia administrativa](../iris/incidencia-administrativa.md)
+- [Acceso](/prado/iris/acceso.md)
+- [Matrícula](/prado/iris/matricula.md)
+- [Incidencia administrativa](/prado/iris/incidencia-administrativa.md)
 
 ## Alcance de esta ficha
 

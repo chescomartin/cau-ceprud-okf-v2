@@ -5,9 +5,12 @@ description: Procedimiento para atender consultas de profesorado al que no le ap
 service: PRADO
 audience: personal-cau
 status: draft
-owner: chesco
+owner: FOL
 usual_ticket_category: Ordenación docente
 language: es
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -63,7 +66,7 @@ Antes de realizar las comprobaciones, obtener los siguientes datos:
   - teoría;
   - prácticas;
   - ambas.
-- Indicación de si el docente aparece con el [grupo SG —Sin Grupo—](../conceptos-y-reglas/grupo-sg.md).
+- Indicación de si el docente aparece con el [grupo SG —Sin Grupo—](/prado/conceptos-y-reglas/grupo-sg.md).
 - Fecha aproximada en la que el departamento modificó o registró la asignación docente.
 - Relación de las asignaturas y grupos que sí aparecen actualmente en PRADO.
 
@@ -101,7 +104,7 @@ Revisar:
 
 ### 3. Consultar la asignación docente oficial
 
-Comprobar en las [vistas de bases de datos](../conceptos-y-reglas/vistas-bases-datos.md) disponibles si constan:
+Comprobar en las [vistas de bases de datos](/prado/conceptos-y-reglas/vistas-bases-datos.md) disponibles si constan:
 
 - la asignatura;
 - el grupo;
@@ -109,7 +112,7 @@ Comprobar en las [vistas de bases de datos](../conceptos-y-reglas/vistas-bases-d
 - el tipo de docencia;
 - la fecha de la última modificación disponible.
 
-La asignación docente oficial procede del [Plan de Ordenación Docente —POD—](../conceptos-y-reglas/plan-ordenacion-docente.md) y es gestionada en origen por las unidades responsables de los departamentos.
+La asignación docente oficial procede del [Plan de Ordenación Docente —POD—](/prado/conceptos-y-reglas/plan-ordenacion-docente.md) y es gestionada en origen por las unidades responsables de los departamentos.
 
 ### 4. Comparar la información oficial con PRADO
 
@@ -125,7 +128,7 @@ Distinguir entre estas situaciones:
 
 Si la asignación se modificó recientemente, tener en cuenta que la sincronización con PRADO no es inmediata.
 
-Como criterio de trabajo provisional, aplicar los [plazos de sincronización y actualización](../conceptos-y-reglas/plazos-sincronizacion.md) y esperar al menos 24 horas desde que el cambio se haya registrado correctamente en la base de datos de origen.
+Como criterio de trabajo provisional, aplicar los [plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md) y esperar al menos 24 horas desde que el cambio se haya registrado correctamente en la base de datos de origen.
 
 ### 6. Determinar si se trata de una excepción
 
@@ -209,7 +212,7 @@ Si el problema consiste en que continúa viendo docencia antigua:
 
 Estimada/o [nombre]:
 
-La plataforma PRADO funciona mediante [altas automáticas desde las bases de datos oficiales](../conceptos-y-reglas/altas-automaticas.md) de la Universidad de Granada, tanto para la matriculación del alumnado como para la asignación docente.
+La plataforma PRADO funciona mediante [altas automáticas desde las bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md) de la Universidad de Granada, tanto para la matriculación del alumnado como para la asignación docente.
 
 Por este motivo, cuando se produce algún error u omisión en las asignaturas o grupos asignados, normalmente no se trata de una incidencia propia de PRADO, sino de la información registrada en origen.
 
@@ -275,6 +278,6 @@ Cuando dispongamos de estos datos podremos comprobar la información registrada 
 
 Un saludo.
 
-## Conceptos relacionados 
+## Conceptos relacionados
 
-- [Transferencia de tickets en IRIS](../conceptos-y-reglas/transferencia-tickets-iris.md)
+- [Transferencia de tickets en IRIS](/prado/conceptos-y-reglas/transferencia-tickets-iris.md)

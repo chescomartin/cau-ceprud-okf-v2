@@ -1,13 +1,19 @@
 ---
 type: TicketCategory
-title: Ordenación docente
+title: "IRIS: Ordenación docente"
 description: Tema de ayuda para incidencias relacionadas con la docencia registrada en las bases de datos oficiales.
+regla_aplicable: /prado/conceptos-y-reglas/plan-ordenacion-docente.md
 service: PRADO
 platforms:
   - PRADO Grado
   - PRADO Posgrado
 status: draft
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - iris
@@ -16,7 +22,13 @@ tags:
   - asignacion-docente
 ---
 
-# Ordenación docente
+# IRIS: Ordenación docente
+
+> **Alcance de esta ficha: únicamente la clasificación del ticket.**
+>
+> Qué es el fenómeno y por qué se produce: [Plan de Ordenación Docente —POD—](/prado/conceptos-y-reglas/plan-ordenacion-docente.md).
+> Qué se le escribe a la persona usuaria: [respuestas tipo](/respuestas-tipo/index.md).
+
 
 ## Definición
 
@@ -56,11 +68,11 @@ No utilizar `Ordenación docente` cuando:
 
 ## Categorías relacionadas
 
-- [Matrícula](matricula.md): incidencias relacionadas con la matrícula oficial del alumnado.
-- [Gestión manual](gestion-manual.md): altas excepcionales realizadas al margen de los automatismos.
-- [Visibilidad](visibilidad.md): el espacio existe, pero se encuentra oculto.
-- [Baja de usuario](baja-usuario.md): una asignatura o participación continúa apareciendo después de una baja.
-- [Acceso](acceso.md): problemas de autenticación o entrada en la plataforma.
+- [Matrícula](/prado/iris/matricula.md): incidencias relacionadas con la matrícula oficial del alumnado.
+- [Gestión manual](/prado/iris/gestion-manual.md): altas excepcionales realizadas al margen de los automatismos.
+- [Visibilidad](/prado/iris/visibilidad.md): el espacio existe, pero se encuentra oculto.
+- [Baja de usuario](/prado/iris/baja-usuario.md): una asignatura o participación continúa apareciendo después de una baja.
+- [Acceso](/prado/iris/acceso.md): problemas de autenticación o entrada en la plataforma.
 
 ## Pregunta de control
 
@@ -73,8 +85,8 @@ Antes de clasificar el ticket, comprobar:
 
 ## Procedimientos relacionados
 
-- [El docente no ve una asignatura o un grupo](../procedimientos/docente-no-ve-asignatura.md)
+- [El docente no ve una asignatura o un grupo](/prado/procedimientos/docente-no-ve-asignatura.md)
 
 ## Conceptos relacionados
 
-- [Transferencia de tickets en IRIS](../conceptos-y-reglas/transferencia-tickets-iris.md)
+- [Transferencia de tickets en IRIS](/prado/conceptos-y-reglas/transferencia-tickets-iris.md)

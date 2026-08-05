@@ -1,10 +1,16 @@
 ---
-type: KnowledgeDocument
+type: SpaceType
 title: Espacio Docente Individual —EDI—
 description: Definición y reglas de creación y composición del Espacio Docente Individual de una asignatura en PRADO.
+abbreviation: EDI
 service: PRADO
 status: draft
+owner: FOL
 language: es
+audience: personal-cau
+confidentiality: uso-interno
+timestamp: 2026-08-03T23:42:04Z
+review_date: 2026-11-05
 last_reviewed: 2026-08-03
 tags:
   - prado
@@ -96,9 +102,9 @@ En ese caso:
 
 Consultar:
 
-- [Grupo SG —Sin Grupo—](../conceptos-y-reglas/grupo-sg.md)
-- [Matrícula manual](../conceptos-y-reglas/matricula-manual.md)
-- [Alta manual de un docente con créditos prácticos](../procedimientos/alta-manual-docente-creditos-practicos.md)
+- [Grupo SG —Sin Grupo—](/prado/conceptos-y-reglas/grupo-sg.md)
+- [Matrícula manual](/prado/conceptos-y-reglas/matricula-manual.md)
+- [Alta manual de un docente con créditos prácticos](/prado/procedimientos/alta-manual-docente-creditos-practicos.md)
 
 ## Código del espacio
 
@@ -109,7 +115,7 @@ El código del EDI contiene:
 
 Consultar:
 
-- [Código de asignatura](../conceptos-y-reglas/codigo-asignatura.md)
+- [Código de asignatura](/prado/conceptos-y-reglas/codigo-asignatura.md)
 
 ## Comprobaciones antes de crear o revisar un EDI
 
@@ -157,7 +163,7 @@ Comprobar:
 
 Clasificación habitual:
 
-- [Gestión manual](../iris/gestion-manual.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
 
 ### Se solicita un EDI para prácticas, TFG o TFM
 
@@ -167,19 +173,19 @@ Cuando sea un espacio de gestión, no procede crear un EDI.
 
 Consultar:
 
-- [Espacios docentes](../iris/espacios-docentes.md)
+- [Espacios docentes](/prado/iris/espacios-docentes.md)
 
 ## Conceptos relacionados
 
-- [Plan de Ordenación Docente —POD—](../conceptos-y-reglas/plan-ordenacion-docente.md)
-- [Altas automáticas desde bases de datos oficiales](../conceptos-y-reglas/altas-automaticas.md)
-- [Plazos de sincronización y actualización](../conceptos-y-reglas/plazos-sincronizacion.md)
-- [Matrícula manual](../conceptos-y-reglas/matricula-manual.md)
+- [Plan de Ordenación Docente —POD—](/prado/conceptos-y-reglas/plan-ordenacion-docente.md)
+- [Altas automáticas desde bases de datos oficiales](/prado/conceptos-y-reglas/altas-automaticas.md)
+- [Plazos de sincronización y actualización](/prado/conceptos-y-reglas/plazos-sincronizacion.md)
+- [Matrícula manual](/prado/conceptos-y-reglas/matricula-manual.md)
 
 ## Categorías de IRIS relacionadas
 
-- [Espacios docentes](../iris/espacios-docentes.md)
-- [Ordenación docente](../iris/ordenacion-docente.md)
-- [Matrícula](../iris/matricula.md)
-- [Gestión manual](../iris/gestion-manual.md)
-- [Visibilidad](../iris/visibilidad.md)
+- [Espacios docentes](/prado/iris/espacios-docentes.md)
+- [Ordenación docente](/prado/iris/ordenacion-docente.md)
+- [Matrícula](/prado/iris/matricula.md)
+- [Gestión manual](/prado/iris/gestion-manual.md)
+- [Visibilidad](/prado/iris/visibilidad.md)
